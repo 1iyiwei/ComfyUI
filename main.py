@@ -144,7 +144,7 @@ def prompt_worker(q, server):
                 last_gc_collect = current_time
                 need_gc = False
 
-async def run(server, address='', prefix='', port=8188, verbose=True, call_on_start=None):
+async def run(server, address='', port=8188, prefix='', verbose=True, call_on_start=None):
     await asyncio.gather(server.start(address, port, prefix, verbose, call_on_start), server.publish_loop())
 
 
