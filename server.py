@@ -627,10 +627,13 @@ class PromptServer():
             msg = await self.messages.get()
             await self.send(*msg)
 
-    async def start(self, address, port, verbose=True, call_on_start=None):
-        self.main_app.add_subapp("/comfyUI/", self.app)
-        #runner = web.AppRunner(self.app, access_log=None)
-        runner = web.AppRunner(self.main_app, access_log=None)
+    async def start(self, address, port, prefix="", verbose=True, call_on_start=None):
+        if not prefix:
+            runner = web.AppRunner(self.app, access_log=None)
+        else:
+            self.main_app.add_subapp(prefix, self.app)
+            runner = web.AppRunner(self.main_app, access_log=None)
+            
         await runner.setup()
         site = web.TCPSite(runner, address, port)
         await site.start()
