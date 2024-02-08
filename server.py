@@ -85,6 +85,7 @@ class PromptServer():
             middlewares.append(create_cors_middleware(args.enable_cors_header))
 
         max_upload_size = round(args.max_upload_size * 1024 * 1024)
+        self.main_app = web.Application(client_max_size=max_upload_size)
         self.app = web.Application(client_max_size=max_upload_size, middlewares=middlewares)
         self.sockets = dict()
         self.web_root = os.path.join(os.path.dirname(
@@ -626,8 +627,13 @@ class PromptServer():
             msg = await self.messages.get()
             await self.send(*msg)
 
-    async def start(self, address, port, verbose=True, call_on_start=None):
-        runner = web.AppRunner(self.app, access_log=None)
+    async def start(self, address, port, prefix="", verbose=True, call_on_start=None):
+        if not prefix:
+            runner = web.AppRunner(self.app, access_log=None)
+        else:
+            self.main_app.add_subapp(prefix, self.app)
+            runner = web.AppRunner(self.main_app, access_log=None)
+            
         await runner.setup()
         site = web.TCPSite(runner, address, port)
         await site.start()

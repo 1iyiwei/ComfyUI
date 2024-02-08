@@ -144,8 +144,8 @@ def prompt_worker(q, server):
                 last_gc_collect = current_time
                 need_gc = False
 
-async def run(server, address='', port=8188, verbose=True, call_on_start=None):
-    await asyncio.gather(server.start(address, port, verbose, call_on_start), server.publish_loop())
+async def run(server, address='', port=8188, prefix='', verbose=True, call_on_start=None):
+    await asyncio.gather(server.start(address, port, prefix, verbose, call_on_start), server.publish_loop())
 
 
 def hijack_progress(server):
@@ -243,7 +243,7 @@ if __name__ == "__main__":
         call_on_start = startup_server
 
     try:
-        loop.run_until_complete(run(server, address=args.listen, port=args.port, verbose=not args.dont_print_server, call_on_start=call_on_start))
+        loop.run_until_complete(run(server, address=args.listen, port=args.port, prefix=args.prefix, verbose=not args.dont_print_server, call_on_start=call_on_start))
     except KeyboardInterrupt:
         print("\nStopped server")
 
