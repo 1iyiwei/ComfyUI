@@ -9,8 +9,10 @@ import argparse
 def queue_prompt(server_url, prompt_workflow):
     p = {"prompt": prompt_workflow}
     data = json.dumps(p).encode('utf-8')
-    req = request.Request(urljoin(server_url, "prompt"), data=data)
-    request.urlopen(req)
+    request_url = urljoin(server_url, "prompt")
+    req = request.Request(request_url, data=data)
+    response = request.urlopen(req)
+    print(response.read().decode('utf-8'))
 
 def main(server_url, input_file):
     prompt_workflow = json.load(open(input_file, 'r', encoding='utf-8'))
