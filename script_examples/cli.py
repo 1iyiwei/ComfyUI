@@ -12,11 +12,12 @@ def queue_prompt(server_url, prompt_workflow):
     request_url = urljoin(server_url, "prompt")
     req = request.Request(request_url, data=data)
     response = request.urlopen(req)
-    print(response.read().decode('utf-8'))
+    return response.read().decode('utf-8')
 
 def main(server_url, input_file):
     prompt_workflow = json.load(open(input_file, 'r', encoding='utf-8'))
-    queue_prompt(server_url, prompt_workflow)
+    response = queue_prompt(server_url, prompt_workflow)
+    print(response)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
