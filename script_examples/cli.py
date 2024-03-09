@@ -10,9 +10,10 @@ import uuid
 import websocket
 from PIL import Image
 import io
+import sys
 
-def queue_prompt(server_url, prompt_workflow):
-    p = {"prompt": prompt_workflow}
+def queue_prompt(server_url, client_id, prompt_workflow):
+    p = {"prompt": prompt_workflow, "client_id": client_id}
     data = json.dumps(p).encode('utf-8')
     request_url = urljoin(server_url, "prompt")
     req = urllib.request.Request(request_url, data=data)
@@ -30,8 +31,8 @@ def get_history(server_url, prompt_id):
     with urllib.request.urlopen("{}/history/{}".format(server_url, prompt_id)) as response:
         return json.loads(response.read())
 
-def get_images(server_url, ws, prompt):
-    prompt_id = queue_prompt(server_url, prompt)['prompt_id']
+def get_images(server_url, client_id, ws, prompt):
+    prompt_id = queue_prompt(server_url, client_id, prompt)['prompt_id']
     output_images = {}
     while True:
         out = ws.recv()
@@ -42,6 +43,8 @@ def get_images(server_url, ws, prompt):
                 if data['node'] is None and data['prompt_id'] == prompt_id:
                     break #Execution is done
         else:
+            sys.stdout.write('.')
+            sys.stdout.flush()
             continue #previews are binary data
 
     history = get_history(server_url, prompt_id)[prompt_id]
@@ -57,18 +60,19 @@ def get_images(server_url, ws, prompt):
 
     return output_images
 
-def main_prompt(server_url, input_file):
+def main_prompt(server_url, client_id, input_file):
     prompt_workflow = json.load(open(input_file, 'r', encoding='utf-8'))
-    response = queue_prompt(server_url, prompt_workflow)
+    response = queue_prompt(server_url, client_id, prompt_workflow)
     print(response)
 
-def main_image(server_url, input_file):
+def main_image(server_url, client_id, input_file):
     prompt_workflow = json.load(open(input_file, 'r', encoding='utf-8'))
-    client_id = str(uuid.uuid4())
     server_address = server_url.split('//')[1]
     ws = websocket.WebSocket()
-    ws.connect("ws://{}/ws?clientId={}".format(server_address, client_id))
-    images = get_images(server_url, ws, prompt_workflow)
+    ws_address = "ws://{}/ws?clientId={}".format(server_address, client_id)
+    # print(ws_address)
+    ws.connect(ws_address)
+    images = get_images(server_url, client_id, ws, prompt_workflow)
 
     for node_id in images:
         for image_data in images[node_id]:
@@ -81,4 +85,6 @@ if __name__ == '__main__':
     parser.add_argument("--input_file", help="input json file")
     args = parser.parse_args()
 
-    main_prompt(args.server_url, args.input_file)
+    client_id = str(uuid.uuid4())
+    main_prompt(args.server_url, client_id, args.input_file)
+    # main_image(args.server_url, client_id, args.input_file)
