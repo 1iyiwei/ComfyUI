@@ -11,3 +11,7 @@ scipy
 tqdm
 psutil
 kornia>=0.7.1
+opencv-python
+numba
+omegaconf
+piexif
