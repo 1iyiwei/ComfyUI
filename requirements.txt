@@ -16,3 +16,4 @@ numba
 omegaconf
 piexif
 insightface
+diffusers
