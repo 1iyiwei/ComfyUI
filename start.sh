@@ -1,6 +1,7 @@
 #!/bin/bash
 
 sudo apt install -y tmux
+sudo apt install ffmpeg
 session_name=comfyUI
 tmux kill-session -t ${session_name}
 conda init bash

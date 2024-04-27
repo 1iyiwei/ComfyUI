@@ -6,6 +6,7 @@ transformers>=4.25.1
 safetensors>=0.3.0
 aiohttp
 pyyaml
+pynvml
 Pillow
 scipy
 tqdm
@@ -17,3 +18,4 @@ omegaconf
 piexif
 insightface
 diffusers
+deepdiff
