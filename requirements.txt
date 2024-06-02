@@ -19,3 +19,4 @@ piexif
 insightface
 diffusers
 deepdiff
+numexpr
