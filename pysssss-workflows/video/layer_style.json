@@ -1,6 +1,6 @@
 {
   "last_node_id": 338,
-  "last_link_id": 523,
+  "last_link_id": 525,
   "nodes": [
     {
       "id": 63,
@@ -14,7 +14,7 @@
         "1": 280
       },
       "flags": {},
-      "order": 117,
+      "order": 115,
       "mode": 4,
       "inputs": [
         {
@@ -83,7 +83,7 @@
         "1": 280
       },
       "flags": {},
-      "order": 129,
+      "order": 127,
       "mode": 4,
       "inputs": [
         {
@@ -152,7 +152,7 @@
         "1": 250
       },
       "flags": {},
-      "order": 102,
+      "order": 100,
       "mode": 4,
       "inputs": [
         {
@@ -181,7 +181,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 75,
+      "order": 73,
       "mode": 4,
       "inputs": [
         {
@@ -223,7 +223,7 @@
         "1": 250
       },
       "flags": {},
-      "order": 103,
+      "order": 101,
       "mode": 4,
       "inputs": [
         {
@@ -252,7 +252,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 76,
+      "order": 74,
       "mode": 4,
       "inputs": [
         {
@@ -294,7 +294,7 @@
         "1": 250
       },
       "flags": {},
-      "order": 104,
+      "order": 102,
       "mode": 4,
       "inputs": [
         {
@@ -323,7 +323,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 77,
+      "order": 75,
       "mode": 4,
       "inputs": [
         {
@@ -365,7 +365,7 @@
         "1": 200
       },
       "flags": {},
-      "order": 55,
+      "order": 54,
       "mode": 4,
       "inputs": [
         {
@@ -421,7 +421,7 @@
         "1": 200
       },
       "flags": {},
-      "order": 53,
+      "order": 52,
       "mode": 4,
       "inputs": [
         {
@@ -477,7 +477,7 @@
         "1": 200
       },
       "flags": {},
-      "order": 54,
+      "order": 53,
       "mode": 4,
       "inputs": [
         {
@@ -652,7 +652,7 @@
         "1": 80
       },
       "flags": {},
-      "order": 47,
+      "order": 46,
       "mode": 4,
       "inputs": [
         {
@@ -707,7 +707,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 67,
+      "order": 65,
       "mode": 4,
       "inputs": [
         {
@@ -806,7 +806,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 96,
+      "order": 94,
       "mode": 4,
       "inputs": [
         {
@@ -955,7 +955,7 @@
         "1": 590
       },
       "flags": {},
-      "order": 166,
+      "order": 164,
       "mode": 4,
       "inputs": [
         {
@@ -980,7 +980,7 @@
         "1": 870
       },
       "flags": {},
-      "order": 169,
+      "order": 167,
       "mode": 4,
       "inputs": [
         {
@@ -1189,7 +1189,7 @@
         "1": 280
       },
       "flags": {},
-      "order": 98,
+      "order": 96,
       "mode": 4,
       "inputs": [
         {
@@ -1258,7 +1258,7 @@
         "1": 160
       },
       "flags": {},
-      "order": 48,
+      "order": 47,
       "mode": 4,
       "inputs": [
         {
@@ -1296,7 +1296,7 @@
         "1": 262
       },
       "flags": {},
-      "order": 162,
+      "order": 160,
       "mode": 4,
       "inputs": [
         {
@@ -1355,7 +1355,7 @@
         "1": 50
       },
       "flags": {},
-      "order": 158,
+      "order": 156,
       "mode": 4,
       "inputs": [
         {
@@ -1396,7 +1396,7 @@
         "1": 50
       },
       "flags": {},
-      "order": 164,
+      "order": 162,
       "mode": 4,
       "inputs": [
         {
@@ -1438,7 +1438,7 @@
         "1": 590
       },
       "flags": {},
-      "order": 157,
+      "order": 155,
       "mode": 4,
       "inputs": [
         {
@@ -1504,7 +1504,7 @@
         "1": 700
       },
       "flags": {},
-      "order": 68,
+      "order": 66,
       "mode": 4,
       "inputs": [
         {
@@ -1529,7 +1529,7 @@
         "1": 82
       },
       "flags": {},
-      "order": 50,
+      "order": 49,
       "mode": 4,
       "inputs": [
         {
@@ -1572,7 +1572,7 @@
         "1": 60
       },
       "flags": {},
-      "order": 69,
+      "order": 67,
       "mode": 4,
       "inputs": [
         {
@@ -1612,7 +1612,7 @@
         "1": 250
       },
       "flags": {},
-      "order": 97,
+      "order": 95,
       "mode": 4,
       "inputs": [
         {
@@ -1637,7 +1637,7 @@
         "1": 60
       },
       "flags": {},
-      "order": 70,
+      "order": 68,
       "mode": 4,
       "inputs": [
         {
@@ -1677,7 +1677,7 @@
         "1": 250
       },
       "flags": {},
-      "order": 99,
+      "order": 97,
       "mode": 4,
       "inputs": [
         {
@@ -1702,7 +1702,7 @@
         "1": 60
       },
       "flags": {},
-      "order": 71,
+      "order": 69,
       "mode": 4,
       "inputs": [
         {
@@ -1742,7 +1742,7 @@
         "1": 250
       },
       "flags": {},
-      "order": 100,
+      "order": 98,
       "mode": 4,
       "inputs": [
         {
@@ -1849,7 +1849,7 @@
         "1": 50
       },
       "flags": {},
-      "order": 152,
+      "order": 150,
       "mode": 4,
       "inputs": [
         {
@@ -1890,7 +1890,7 @@
         "1": 262
       },
       "flags": {},
-      "order": 147,
+      "order": 145,
       "mode": 4,
       "inputs": [
         {
@@ -1949,7 +1949,7 @@
         "1": 50
       },
       "flags": {},
-      "order": 167,
+      "order": 165,
       "mode": 4,
       "inputs": [
         {
@@ -2022,7 +2022,7 @@
         "1": 214
       },
       "flags": {},
-      "order": 52,
+      "order": 51,
       "mode": 4,
       "inputs": [
         {
@@ -2098,7 +2098,7 @@
         "1": 214
       },
       "flags": {},
-      "order": 51,
+      "order": 50,
       "mode": 4,
       "inputs": [
         {
@@ -2364,7 +2364,7 @@
         "1": 110
       },
       "flags": {},
-      "order": 72,
+      "order": 70,
       "mode": 4,
       "inputs": [
         {
@@ -2420,7 +2420,7 @@
         "1": 110
       },
       "flags": {},
-      "order": 73,
+      "order": 71,
       "mode": 4,
       "inputs": [
         {
@@ -2476,7 +2476,7 @@
         "1": 110
       },
       "flags": {},
-      "order": 74,
+      "order": 72,
       "mode": 4,
       "inputs": [
         {
@@ -2532,7 +2532,7 @@
         "1": 162
       },
       "flags": {},
-      "order": 101,
+      "order": 99,
       "mode": 4,
       "inputs": [
         {
@@ -2760,7 +2760,7 @@
         26
       ],
       "flags": {},
-      "order": 56,
+      "order": 55,
       "mode": 0,
       "inputs": [
         {
@@ -2796,7 +2796,7 @@
         26
       ],
       "flags": {},
-      "order": 116,
+      "order": 114,
       "mode": 0,
       "inputs": [
         {
@@ -2996,7 +2996,7 @@
         "1": 60
       },
       "flags": {},
-      "order": 62,
+      "order": 61,
       "mode": 0,
       "inputs": [
         {
@@ -3042,7 +3042,7 @@
         "1": 290
       },
       "flags": {},
-      "order": 137,
+      "order": 135,
       "mode": 0,
       "inputs": [
         {
@@ -3118,7 +3118,7 @@
         26
       ],
       "flags": {},
-      "order": 93,
+      "order": 91,
       "mode": 0,
       "inputs": [
         {
@@ -3156,7 +3156,7 @@
         "1": 60
       },
       "flags": {},
-      "order": 61,
+      "order": 60,
       "mode": 4,
       "inputs": [
         {
@@ -3196,7 +3196,7 @@
         26
       ],
       "flags": {},
-      "order": 64,
+      "order": 63,
       "mode": 0,
       "inputs": [
         {
@@ -3233,7 +3233,7 @@
         "1": 246
       },
       "flags": {},
-      "order": 57,
+      "order": 56,
       "mode": 4,
       "inputs": [
         {
@@ -3316,7 +3316,7 @@
         26
       ],
       "flags": {},
-      "order": 92,
+      "order": 90,
       "mode": 0,
       "inputs": [
         {
@@ -3352,7 +3352,7 @@
         26
       ],
       "flags": {},
-      "order": 110,
+      "order": 108,
       "mode": 0,
       "inputs": [
         {
@@ -3388,7 +3388,7 @@
         "1": 280
       },
       "flags": {},
-      "order": 138,
+      "order": 136,
       "mode": 0,
       "inputs": [
         {
@@ -3415,7 +3415,7 @@
         "1": 260
       },
       "flags": {},
-      "order": 134,
+      "order": 132,
       "mode": 0,
       "inputs": [
         {
@@ -3442,7 +3442,7 @@
         26
       ],
       "flags": {},
-      "order": 128,
+      "order": 126,
       "mode": 0,
       "inputs": [
         {
@@ -3481,7 +3481,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 125,
+      "order": 123,
       "mode": 0,
       "inputs": [
         {
@@ -3526,7 +3526,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 151,
+      "order": 149,
       "mode": 4,
       "inputs": [
         {
@@ -3622,7 +3622,7 @@
         26
       ],
       "flags": {},
-      "order": 109,
+      "order": 107,
       "mode": 0,
       "inputs": [
         {
@@ -3658,7 +3658,7 @@
         "1": 70
       },
       "flags": {},
-      "order": 146,
+      "order": 144,
       "mode": 4,
       "inputs": [
         {
@@ -3705,7 +3705,7 @@
         26
       ],
       "flags": {},
-      "order": 108,
+      "order": 106,
       "mode": 0,
       "inputs": [
         {
@@ -3739,7 +3739,7 @@
         "1": 50
       },
       "flags": {},
-      "order": 172,
+      "order": 170,
       "mode": 0,
       "inputs": [
         {
@@ -3783,7 +3783,7 @@
         "1": 250
       },
       "flags": {},
-      "order": 183,
+      "order": 181,
       "mode": 0,
       "inputs": [
         {
@@ -3808,7 +3808,7 @@
         26
       ],
       "flags": {},
-      "order": 180,
+      "order": 178,
       "mode": 4,
       "inputs": [
         {
@@ -3845,7 +3845,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 148,
+      "order": 146,
       "mode": 0,
       "inputs": [
         {
@@ -3903,7 +3903,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 118,
+      "order": 116,
       "mode": 0,
       "inputs": [
         {
@@ -3955,7 +3955,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 142,
+      "order": 140,
       "mode": 0,
       "inputs": [
         {
@@ -3982,7 +3982,7 @@
         "1": 120
       },
       "flags": {},
-      "order": 107,
+      "order": 105,
       "mode": 0,
       "inputs": [
         {
@@ -4040,7 +4040,7 @@
         "1": 110
       },
       "flags": {},
-      "order": 60,
+      "order": 59,
       "mode": 0,
       "inputs": [
         {
@@ -4139,7 +4139,7 @@
         26
       ],
       "flags": {},
-      "order": 83,
+      "order": 81,
       "mode": 0,
       "inputs": [
         {
@@ -4175,7 +4175,7 @@
         604
       ],
       "flags": {},
-      "order": 130,
+      "order": 128,
       "mode": 4,
       "inputs": [
         {
@@ -4288,7 +4288,7 @@
         50
       ],
       "flags": {},
-      "order": 143,
+      "order": 141,
       "mode": 0,
       "inputs": [
         {
@@ -4340,7 +4340,7 @@
         50
       ],
       "flags": {},
-      "order": 139,
+      "order": 137,
       "mode": 0,
       "inputs": [
         {
@@ -4384,7 +4384,7 @@
         "1": 50
       },
       "flags": {},
-      "order": 177,
+      "order": 175,
       "mode": 0,
       "inputs": [
         {
@@ -4425,7 +4425,7 @@
         "1": 60
       },
       "flags": {},
-      "order": 174,
+      "order": 172,
       "mode": 0,
       "inputs": [
         {
@@ -4464,7 +4464,7 @@
         "1": 250
       },
       "flags": {},
-      "order": 175,
+      "order": 173,
       "mode": 0,
       "inputs": [
         {
@@ -4489,7 +4489,7 @@
         "1": 170
       },
       "flags": {},
-      "order": 153,
+      "order": 151,
       "mode": 0,
       "inputs": [
         {
@@ -4551,7 +4551,7 @@
         "1": 290
       },
       "flags": {},
-      "order": 133,
+      "order": 131,
       "mode": 0,
       "inputs": [
         {
@@ -4627,7 +4627,7 @@
         "1": 100
       },
       "flags": {},
-      "order": 182,
+      "order": 180,
       "mode": 0,
       "inputs": [
         {
@@ -4666,7 +4666,7 @@
         "1": 50
       },
       "flags": {},
-      "order": 185,
+      "order": 183,
       "mode": 4,
       "inputs": [
         {
@@ -4708,7 +4708,7 @@
         "1": 250
       },
       "flags": {},
-      "order": 106,
+      "order": 104,
       "mode": 4,
       "inputs": [
         {
@@ -4735,7 +4735,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 59,
+      "order": 58,
       "mode": 4,
       "inputs": [
         {
@@ -4785,7 +4785,7 @@
         60
       ],
       "flags": {},
-      "order": 136,
+      "order": 134,
       "mode": 0,
       "inputs": [
         {
@@ -4841,7 +4841,7 @@
         60
       ],
       "flags": {},
-      "order": 140,
+      "order": 138,
       "mode": 0,
       "inputs": [
         {
@@ -4889,7 +4889,7 @@
         "1": 80
       },
       "flags": {},
-      "order": 122,
+      "order": 120,
       "mode": 0,
       "inputs": [
         {
@@ -4942,7 +4942,7 @@
         "1": 180
       },
       "flags": {},
-      "order": 49,
+      "order": 48,
       "mode": 4,
       "inputs": [
         {
@@ -5055,7 +5055,7 @@
         "1": 160
       },
       "flags": {},
-      "order": 85,
+      "order": 83,
       "mode": 0,
       "inputs": [
         {
@@ -5090,12 +5090,12 @@
         -340,
         -2530
       ],
-      "size": [
-        460,
-        110
-      ],
+      "size": {
+        "0": 460,
+        "1": 110
+      },
       "flags": {},
-      "order": 95,
+      "order": 93,
       "mode": 0,
       "inputs": [
         {
@@ -5109,7 +5109,7 @@
         {
           "name": "width",
           "type": "INT",
-          "link": 522,
+          "link": 524,
           "widget": {
             "name": "width"
           }
@@ -5117,7 +5117,7 @@
         {
           "name": "height",
           "type": "INT",
-          "link": 523,
+          "link": 525,
           "widget": {
             "name": "height"
           }
@@ -5154,7 +5154,7 @@
         "1": 90
       },
       "flags": {},
-      "order": 91,
+      "order": 89,
       "mode": 0,
       "inputs": [
         {
@@ -5196,7 +5196,7 @@
       "flags": {
         "pinned": false
       },
-      "order": 58,
+      "order": 57,
       "mode": 0,
       "inputs": [
         {
@@ -5250,7 +5250,7 @@
         "1": 80
       },
       "flags": {},
-      "order": 80,
+      "order": 78,
       "mode": 0,
       "inputs": [
         {
@@ -5335,7 +5335,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 79,
+      "order": 77,
       "mode": 0,
       "inputs": [
         {
@@ -5373,6 +5373,7 @@
         ],
         "intricate photo of a high fashion jellyfish in bloom, very colorful, small bubble details, mechanical circuits, ancient organic hieroglyphic, breathing, cinematic, 35mm film, color-graded, macro lens, DOF, extremely detailed, 8k, art by artgerm and greg rutkowski and alphonse mucha",
         "intricate photo of a high fashion jellyfish in bloom, very colorful, small bubble details, mechanical circuits, ancient organic hieroglyphic, breathing, cinematic, 35mm film, color-graded, macro lens, DOF, extremely detailed, 8k, art by artgerm and greg rutkowski and alphonse mucha",
+        "intricate photo of a high fashion jellyfish in bloom, very colorful, small bubble details, mechanical circuits, ancient organic hieroglyphic, breathing, cinematic, 35mm film, color-graded, macro lens, DOF, extremely detailed, 8k, art by artgerm and greg rutkowski and alphonse mucha",
         "beautiful photograph, bubbling splashing paint, fluid, reflections, color graded, beautiful colors. 35mm film, DOF, extremely detailed. 4k trending on artstation. octane render"
       ],
       "color": "#222",
@@ -5390,7 +5391,7 @@
         "1": 120
       },
       "flags": {},
-      "order": 87,
+      "order": 85,
       "mode": 0,
       "inputs": [
         {
@@ -5430,7 +5431,7 @@
         "1": 260
       },
       "flags": {},
-      "order": 141,
+      "order": 139,
       "mode": 0,
       "inputs": [
         {
@@ -5506,7 +5507,7 @@
         "1": 130
       },
       "flags": {},
-      "order": 81,
+      "order": 79,
       "mode": 4,
       "inputs": [
         {
@@ -5588,7 +5589,7 @@
         600
       ],
       "flags": {},
-      "order": 173,
+      "order": 171,
       "mode": 0,
       "inputs": [
         {
@@ -5641,7 +5642,7 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "AD_00002.mp4",
+            "filename": "AD_00003.mp4",
             "subfolder": "2024-06-06/previews",
             "type": "output",
             "format": "video/h264-mp4"
@@ -5663,7 +5664,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 156,
+      "order": 154,
       "mode": 0,
       "inputs": [
         {
@@ -5764,7 +5765,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 124,
+      "order": 122,
       "mode": 0,
       "inputs": [
         {
@@ -5809,7 +5810,7 @@
         "1": 80
       },
       "flags": {},
-      "order": 121,
+      "order": 119,
       "mode": 4,
       "inputs": [
         {
@@ -5907,7 +5908,7 @@
         50
       ],
       "flags": {},
-      "order": 135,
+      "order": 133,
       "mode": 0,
       "inputs": [
         {
@@ -5955,7 +5956,7 @@
         26
       ],
       "flags": {},
-      "order": 119,
+      "order": 117,
       "mode": 0,
       "inputs": [
         {
@@ -5991,7 +5992,7 @@
         26
       ],
       "flags": {},
-      "order": 120,
+      "order": 118,
       "mode": 0,
       "inputs": [
         {
@@ -6027,7 +6028,7 @@
         26
       ],
       "flags": {},
-      "order": 78,
+      "order": 76,
       "mode": 0,
       "inputs": [
         {
@@ -6067,7 +6068,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 149,
+      "order": 147,
       "mode": 0,
       "inputs": [
         {
@@ -6127,7 +6128,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 150,
+      "order": 148,
       "mode": 0,
       "inputs": [
         {
@@ -6185,7 +6186,7 @@
         26
       ],
       "flags": {},
-      "order": 155,
+      "order": 153,
       "mode": 0,
       "inputs": [
         {
@@ -6221,7 +6222,7 @@
         26
       ],
       "flags": {},
-      "order": 154,
+      "order": 152,
       "mode": 0,
       "inputs": [
         {
@@ -6257,7 +6258,7 @@
         26
       ],
       "flags": {},
-      "order": 159,
+      "order": 157,
       "mode": 0,
       "inputs": [
         {
@@ -6293,7 +6294,7 @@
         26
       ],
       "flags": {},
-      "order": 160,
+      "order": 158,
       "mode": 0,
       "inputs": [
         {
@@ -6329,7 +6330,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 161,
+      "order": 159,
       "mode": 0,
       "inputs": [
         {
@@ -6428,7 +6429,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 165,
+      "order": 163,
       "mode": 4,
       "inputs": [
         {
@@ -6575,7 +6576,7 @@
         26
       ],
       "flags": {},
-      "order": 111,
+      "order": 109,
       "mode": 0,
       "inputs": [
         {
@@ -6617,7 +6618,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 163,
+      "order": 161,
       "mode": 4,
       "inputs": [
         {
@@ -6718,7 +6719,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 126,
+      "order": 124,
       "mode": 0,
       "inputs": [
         {
@@ -6815,7 +6816,7 @@
         26
       ],
       "flags": {},
-      "order": 105,
+      "order": 103,
       "mode": 0,
       "inputs": [
         {
@@ -6841,43 +6842,6 @@
       }
     },
     {
-      "id": 132,
-      "type": "LoadImage",
-      "pos": [
-        -1710,
-        -770
-      ],
-      "size": {
-        "0": 320,
-        "1": 310
-      },
-      "flags": {},
-      "order": 33,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": null,
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LoadImage"
-      },
-      "widgets_values": [
-        "photoshop_logo_00061.png",
-        "image"
-      ]
-    },
-    {
       "id": 325,
       "type": "ACN_AdvancedControlNetApply",
       "pos": [
@@ -6889,7 +6853,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 168,
+      "order": 166,
       "mode": 4,
       "inputs": [
         {
@@ -6988,7 +6952,7 @@
         "1": 314
       },
       "flags": {},
-      "order": 34,
+      "order": 33,
       "mode": 4,
       "outputs": [
         {
@@ -7024,7 +6988,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 170,
+      "order": 168,
       "mode": 0,
       "inputs": [
         {
@@ -7131,7 +7095,7 @@
         60
       ],
       "flags": {},
-      "order": 144,
+      "order": 142,
       "mode": 0,
       "inputs": [
         {
@@ -7182,7 +7146,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 35,
+      "order": 34,
       "mode": 4,
       "inputs": [
         {
@@ -7218,7 +7182,7 @@
         "1": 60
       },
       "flags": {},
-      "order": 36,
+      "order": 35,
       "mode": 0,
       "inputs": [
         {
@@ -7260,7 +7224,7 @@
         "1": 110
       },
       "flags": {},
-      "order": 89,
+      "order": 87,
       "mode": 0,
       "inputs": [
         {
@@ -7300,7 +7264,7 @@
         "1": 160
       },
       "flags": {},
-      "order": 84,
+      "order": 82,
       "mode": 0,
       "inputs": [
         {
@@ -7340,7 +7304,7 @@
         "1": 310
       },
       "flags": {},
-      "order": 178,
+      "order": 176,
       "mode": 0,
       "inputs": [
         {
@@ -7402,7 +7366,7 @@
         "1": 320
       },
       "flags": {},
-      "order": 171,
+      "order": 169,
       "mode": 0,
       "inputs": [
         {
@@ -7465,7 +7429,7 @@
         604
       ],
       "flags": {},
-      "order": 131,
+      "order": 129,
       "mode": 0,
       "inputs": [
         {
@@ -7509,7 +7473,7 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "AnimateDiff_00014.mp4",
+            "filename": "AnimateDiff_00018.mp4",
             "subfolder": "",
             "type": "temp",
             "format": "video/h264-mp4"
@@ -7529,7 +7493,7 @@
         604
       ],
       "flags": {},
-      "order": 132,
+      "order": 130,
       "mode": 0,
       "inputs": [
         {
@@ -7573,7 +7537,7 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "AnimateDiff_00015.mp4",
+            "filename": "AnimateDiff_00019.mp4",
             "subfolder": "",
             "type": "temp",
             "format": "video/h264-mp4"
@@ -7593,7 +7557,7 @@
         "1": 80
       },
       "flags": {},
-      "order": 123,
+      "order": 121,
       "mode": 0,
       "inputs": [
         {
@@ -7646,7 +7610,7 @@
         "1": 100
       },
       "flags": {},
-      "order": 37,
+      "order": 36,
       "mode": 0,
       "outputs": [
         {
@@ -7691,7 +7655,7 @@
         170
       ],
       "flags": {},
-      "order": 63,
+      "order": 62,
       "mode": 0,
       "inputs": [
         {
@@ -7760,7 +7724,7 @@
         "1": 60
       },
       "flags": {},
-      "order": 38,
+      "order": 37,
       "mode": 0,
       "outputs": [
         {
@@ -7793,7 +7757,7 @@
         "1": 82
       },
       "flags": {},
-      "order": 82,
+      "order": 80,
       "mode": 0,
       "inputs": [
         {
@@ -7835,7 +7799,7 @@
         "1": 313.9999084472656
       },
       "flags": {},
-      "order": 39,
+      "order": 38,
       "mode": 0,
       "outputs": [
         {
@@ -7874,7 +7838,7 @@
         "1": 60
       },
       "flags": {},
-      "order": 40,
+      "order": 39,
       "mode": 0,
       "outputs": [
         {
@@ -7907,7 +7871,7 @@
         "1": 60
       },
       "flags": {},
-      "order": 41,
+      "order": 40,
       "mode": 0,
       "outputs": [
         {
@@ -7940,7 +7904,7 @@
         "1": 314
       },
       "flags": {},
-      "order": 42,
+      "order": 41,
       "mode": 0,
       "outputs": [
         {
@@ -7977,7 +7941,7 @@
         "1": 130
       },
       "flags": {},
-      "order": 113,
+      "order": 111,
       "mode": 0,
       "inputs": [
         {
@@ -8019,7 +7983,7 @@
         "1": 60
       },
       "flags": {},
-      "order": 43,
+      "order": 42,
       "mode": 4,
       "outputs": [
         {
@@ -8040,97 +8004,6 @@
       ]
     },
     {
-      "id": 330,
-      "type": "VHS_VideoInfo",
-      "pos": [
-        -988,
-        -2001
-      ],
-      "size": {
-        "0": 393,
-        "1": 206
-      },
-      "flags": {},
-      "order": 65,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "video_info",
-          "type": "VHS_VIDEOINFO",
-          "link": 505
-        }
-      ],
-      "outputs": [
-        {
-          "name": "source_fps🟨",
-          "type": "FLOAT",
-          "links": [
-            506
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "source_frame_count🟨",
-          "type": "INT",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "source_duration🟨",
-          "type": "FLOAT",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "source_width🟨",
-          "type": "INT",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "source_height🟨",
-          "type": "INT",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "loaded_fps🟦",
-          "type": "FLOAT",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "loaded_frame_count🟦",
-          "type": "INT",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "loaded_duration🟦",
-          "type": "FLOAT",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "loaded_width🟦",
-          "type": "INT",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "loaded_height🟦",
-          "type": "INT",
-          "links": null,
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "VHS_VideoInfo"
-      },
-      "widgets_values": {}
-    },
-    {
       "id": 331,
       "type": "Reroute",
       "pos": [
@@ -8142,7 +8015,7 @@
         26
       ],
       "flags": {},
-      "order": 94,
+      "order": 92,
       "mode": 0,
       "inputs": [
         {
@@ -8181,7 +8054,7 @@
         26
       ],
       "flags": {},
-      "order": 115,
+      "order": 113,
       "mode": 0,
       "inputs": [
         {
@@ -8220,7 +8093,7 @@
         26
       ],
       "flags": {},
-      "order": 145,
+      "order": 143,
       "mode": 0,
       "inputs": [
         {
@@ -8257,7 +8130,7 @@
         "1": 110
       },
       "flags": {},
-      "order": 88,
+      "order": 86,
       "mode": 0,
       "inputs": [
         {
@@ -8297,7 +8170,7 @@
         26
       ],
       "flags": {},
-      "order": 127,
+      "order": 125,
       "mode": 0,
       "inputs": [
         {
@@ -8340,7 +8213,7 @@
         "1": 82
       },
       "flags": {},
-      "order": 176,
+      "order": 174,
       "mode": 0,
       "inputs": [
         {
@@ -8380,7 +8253,7 @@
         600
       ],
       "flags": {},
-      "order": 181,
+      "order": 179,
       "mode": 0,
       "inputs": [
         {
@@ -8433,7 +8306,7 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "AD_00002.mp4",
+            "filename": "AD_00003.mp4",
             "subfolder": "2024-06-06/upscaled",
             "type": "output",
             "format": "video/h264-mp4"
@@ -8455,7 +8328,7 @@
         "1": 100
       },
       "flags": {},
-      "order": 187,
+      "order": 185,
       "mode": 4,
       "inputs": [
         {
@@ -8494,7 +8367,7 @@
         "1": 200
       },
       "flags": {},
-      "order": 188,
+      "order": 186,
       "mode": 4,
       "inputs": [
         {
@@ -8544,7 +8417,7 @@
         600
       ],
       "flags": {},
-      "order": 190,
+      "order": 188,
       "mode": 4,
       "inputs": [
         {
@@ -8618,7 +8491,7 @@
         600
       ],
       "flags": {},
-      "order": 189,
+      "order": 187,
       "mode": 4,
       "inputs": [
         {
@@ -8692,7 +8565,7 @@
         "1": 50
       },
       "flags": {},
-      "order": 179,
+      "order": 177,
       "mode": 0,
       "inputs": [
         {
@@ -8733,12 +8606,12 @@
         4586,
         -1990
       ],
-      "size": [
-        320,
-        130
-      ],
+      "size": {
+        "0": 320,
+        "1": 130
+      },
       "flags": {},
-      "order": 186,
+      "order": 184,
       "mode": 4,
       "inputs": [
         {
@@ -8797,7 +8670,7 @@
         "1": 126
       },
       "flags": {},
-      "order": 184,
+      "order": 182,
       "mode": 0,
       "inputs": [
         {
@@ -8867,7 +8740,7 @@
         "1": 314
       },
       "flags": {},
-      "order": 44,
+      "order": 43,
       "mode": 0,
       "outputs": [
         {
@@ -8906,7 +8779,7 @@
         "1": 314
       },
       "flags": {},
-      "order": 45,
+      "order": 44,
       "mode": 0,
       "outputs": [
         {
@@ -8945,7 +8818,7 @@
         "1": 100
       },
       "flags": {},
-      "order": 90,
+      "order": 88,
       "mode": 0,
       "inputs": [
         {
@@ -8985,7 +8858,7 @@
         "1": 120
       },
       "flags": {},
-      "order": 86,
+      "order": 84,
       "mode": 0,
       "inputs": [
         {
@@ -9025,7 +8898,7 @@
         "1": 130
       },
       "flags": {},
-      "order": 114,
+      "order": 112,
       "mode": 0,
       "inputs": [
         {
@@ -9067,7 +8940,7 @@
         "1": 130
       },
       "flags": {},
-      "order": 112,
+      "order": 110,
       "mode": 0,
       "inputs": [
         {
@@ -9098,114 +8971,35 @@
       ]
     },
     {
-      "id": 329,
-      "type": "VHS_LoadVideo",
-      "pos": [
-        -913,
-        -2737
-      ],
-      "size": [
-        235.1999969482422,
-        491.1999969482422
-      ],
-      "flags": {},
-      "order": 46,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "meta_batch",
-          "type": "VHS_BatchManager",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            504
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "frame_count",
-          "type": "INT",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "audio",
-          "type": "VHS_AUDIO",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "video_info",
-          "type": "VHS_VIDEOINFO",
-          "links": [
-            505,
-            521
-          ],
-          "shape": 3,
-          "slot_index": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "VHS_LoadVideo"
-      },
-      "widgets_values": {
-        "video": "animated_DVA_2_720.mp4",
-        "force_rate": 0,
-        "force_size": "Disabled",
-        "custom_width": 512,
-        "custom_height": 512,
-        "frame_load_cap": 0,
-        "skip_first_frames": 0,
-        "select_every_nth": 1,
-        "choose video to upload": "image",
-        "videopreview": {
-          "hidden": false,
-          "paused": false,
-          "params": {
-            "frame_load_cap": 0,
-            "skip_first_frames": 0,
-            "force_rate": 0,
-            "filename": "animated_DVA_2_720.mp4",
-            "type": "input",
-            "format": "video/mp4",
-            "select_every_nth": 1
-          }
-        }
-      }
-    },
-    {
-      "id": 338,
+      "id": 330,
       "type": "VHS_VideoInfo",
       "pos": [
-        -813,
-        -2452
+        -988,
+        -2001
       ],
-      "size": [
-        262,
-        206
-      ],
+      "size": {
+        "0": 393,
+        "1": 206
+      },
       "flags": {},
-      "order": 66,
+      "order": 64,
       "mode": 0,
       "inputs": [
         {
           "name": "video_info",
           "type": "VHS_VIDEOINFO",
-          "link": 521
+          "link": 505
         }
       ],
       "outputs": [
         {
           "name": "source_fps🟨",
           "type": "FLOAT",
-          "links": null,
-          "shape": 3
+          "links": [
+            506
+          ],
+          "shape": 3,
+          "slot_index": 0
         },
         {
           "name": "source_frame_count🟨",
@@ -9253,7 +9047,7 @@
           "name": "loaded_width🟦",
           "type": "INT",
           "links": [
-            522
+            524
           ],
           "shape": 3,
           "slot_index": 8
@@ -9262,7 +9056,7 @@
           "name": "loaded_height🟦",
           "type": "INT",
           "links": [
-            523
+            525
           ],
           "shape": 3,
           "slot_index": 9
@@ -9272,6 +9066,87 @@
         "Node name for S&R": "VHS_VideoInfo"
       },
       "widgets_values": {}
+    },
+    {
+      "id": 329,
+      "type": "VHS_LoadVideo",
+      "pos": [
+        -913,
+        -2737
+      ],
+      "size": [
+        235.1999969482422,
+        491.1999969482422
+      ],
+      "flags": {},
+      "order": 45,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "meta_batch",
+          "type": "VHS_BatchManager",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            504
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "frame_count",
+          "type": "INT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "audio",
+          "type": "VHS_AUDIO",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "video_info",
+          "type": "VHS_VIDEOINFO",
+          "links": [
+            505
+          ],
+          "shape": 3,
+          "slot_index": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VHS_LoadVideo"
+      },
+      "widgets_values": {
+        "video": "animated_DVA_2_720.mp4",
+        "force_rate": 0,
+        "force_size": "Disabled",
+        "custom_width": 512,
+        "custom_height": 512,
+        "frame_load_cap": 0,
+        "skip_first_frames": 0,
+        "select_every_nth": 1,
+        "choose video to upload": "image",
+        "videopreview": {
+          "hidden": false,
+          "paused": false,
+          "params": {
+            "frame_load_cap": 0,
+            "skip_first_frames": 0,
+            "force_rate": 0,
+            "filename": "animated_DVA_2_720.mp4",
+            "type": "input",
+            "format": "video/mp4",
+            "select_every_nth": 1
+          }
+        }
+      }
     }
   ],
   "links": [
@@ -11204,24 +11079,16 @@
       "INT"
     ],
     [
-      521,
-      329,
-      3,
-      338,
-      0,
-      "VHS_VIDEOINFO"
-    ],
-    [
-      522,
-      338,
+      524,
+      330,
       8,
       129,
       1,
       "INT"
     ],
     [
-      523,
-      338,
+      525,
+      330,
       9,
       129,
       2,
