@@ -1,6 +1,6 @@
 {
-  "last_node_id": 347,
-  "last_link_id": 541,
+  "last_node_id": 356,
+  "last_link_id": 553,
   "nodes": [
     {
       "id": 63,
@@ -83,7 +83,7 @@
         "1": 280
       },
       "flags": {},
-      "order": 132,
+      "order": 134,
       "mode": 4,
       "inputs": [
         {
@@ -955,7 +955,7 @@
         "1": 590
       },
       "flags": {},
-      "order": 170,
+      "order": 176,
       "mode": 4,
       "inputs": [
         {
@@ -980,7 +980,7 @@
         "1": 870
       },
       "flags": {},
-      "order": 173,
+      "order": 179,
       "mode": 4,
       "inputs": [
         {
@@ -1296,7 +1296,7 @@
         "1": 262
       },
       "flags": {},
-      "order": 165,
+      "order": 171,
       "mode": 4,
       "inputs": [
         {
@@ -1355,7 +1355,7 @@
         "1": 50
       },
       "flags": {},
-      "order": 161,
+      "order": 167,
       "mode": 4,
       "inputs": [
         {
@@ -1396,7 +1396,7 @@
         "1": 50
       },
       "flags": {},
-      "order": 168,
+      "order": 174,
       "mode": 4,
       "inputs": [
         {
@@ -1438,7 +1438,7 @@
         "1": 590
       },
       "flags": {},
-      "order": 160,
+      "order": 166,
       "mode": 4,
       "inputs": [
         {
@@ -1849,7 +1849,7 @@
         "1": 50
       },
       "flags": {},
-      "order": 155,
+      "order": 161,
       "mode": 4,
       "inputs": [
         {
@@ -1890,7 +1890,7 @@
         "1": 262
       },
       "flags": {},
-      "order": 150,
+      "order": 155,
       "mode": 4,
       "inputs": [
         {
@@ -1949,7 +1949,7 @@
         "1": 50
       },
       "flags": {},
-      "order": 171,
+      "order": 177,
       "mode": 4,
       "inputs": [
         {
@@ -2796,7 +2796,7 @@
         26
       ],
       "flags": {},
-      "order": 131,
+      "order": 133,
       "mode": 0,
       "inputs": [
         {
@@ -3042,7 +3042,7 @@
         "1": 290
       },
       "flags": {},
-      "order": 140,
+      "order": 143,
       "mode": 0,
       "inputs": [
         {
@@ -3388,40 +3388,13 @@
         "1": 280
       },
       "flags": {},
-      "order": 141,
+      "order": 144,
       "mode": 0,
       "inputs": [
         {
           "name": "mask",
           "type": "MASK",
           "link": 402
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "MaskPreview+"
-      },
-      "color": "#233",
-      "bgcolor": "#355"
-    },
-    {
-      "id": 118,
-      "type": "MaskPreview+",
-      "pos": [
-        1220,
-        -2640
-      ],
-      "size": {
-        "0": 220,
-        "1": 260
-      },
-      "flags": {},
-      "order": 137,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "mask",
-          "type": "MASK",
-          "link": 401
         }
       ],
       "properties": {
@@ -3442,7 +3415,7 @@
         26
       ],
       "flags": {},
-      "order": 149,
+      "order": 154,
       "mode": 0,
       "inputs": [
         {
@@ -3479,7 +3452,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 159,
+      "order": 165,
       "mode": 4,
       "inputs": [
         {
@@ -3611,7 +3584,7 @@
         "1": 70
       },
       "flags": {},
-      "order": 154,
+      "order": 160,
       "mode": 4,
       "inputs": [
         {
@@ -3692,7 +3665,7 @@
         "1": 50
       },
       "flags": {},
-      "order": 176,
+      "order": 182,
       "mode": 0,
       "inputs": [
         {
@@ -3736,7 +3709,7 @@
         "1": 250
       },
       "flags": {},
-      "order": 187,
+      "order": 193,
       "mode": 0,
       "inputs": [
         {
@@ -3761,7 +3734,7 @@
         26
       ],
       "flags": {},
-      "order": 184,
+      "order": 190,
       "mode": 4,
       "inputs": [
         {
@@ -3798,7 +3771,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 151,
+      "order": 157,
       "mode": 0,
       "inputs": [
         {
@@ -3908,7 +3881,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 145,
+      "order": 149,
       "mode": 0,
       "inputs": [
         {
@@ -4128,7 +4101,7 @@
         604
       ],
       "flags": {},
-      "order": 133,
+      "order": 135,
       "mode": 4,
       "inputs": [
         {
@@ -4241,7 +4214,7 @@
         50
       ],
       "flags": {},
-      "order": 146,
+      "order": 150,
       "mode": 0,
       "inputs": [
         {
@@ -4293,7 +4266,7 @@
         50
       ],
       "flags": {},
-      "order": 142,
+      "order": 145,
       "mode": 0,
       "inputs": [
         {
@@ -4337,7 +4310,7 @@
         "1": 50
       },
       "flags": {},
-      "order": 181,
+      "order": 187,
       "mode": 0,
       "inputs": [
         {
@@ -4378,7 +4351,7 @@
         "1": 60
       },
       "flags": {},
-      "order": 178,
+      "order": 184,
       "mode": 0,
       "inputs": [
         {
@@ -4417,7 +4390,7 @@
         "1": 250
       },
       "flags": {},
-      "order": 179,
+      "order": 185,
       "mode": 0,
       "inputs": [
         {
@@ -4442,7 +4415,7 @@
         "1": 170
       },
       "flags": {},
-      "order": 156,
+      "order": 162,
       "mode": 0,
       "inputs": [
         {
@@ -4504,7 +4477,7 @@
         "1": 290
       },
       "flags": {},
-      "order": 136,
+      "order": 138,
       "mode": 0,
       "inputs": [
         {
@@ -4580,7 +4553,7 @@
         "1": 100
       },
       "flags": {},
-      "order": 186,
+      "order": 192,
       "mode": 0,
       "inputs": [
         {
@@ -4619,7 +4592,7 @@
         "1": 50
       },
       "flags": {},
-      "order": 189,
+      "order": 195,
       "mode": 4,
       "inputs": [
         {
@@ -4738,7 +4711,7 @@
         60
       ],
       "flags": {},
-      "order": 139,
+      "order": 141,
       "mode": 0,
       "inputs": [
         {
@@ -4794,7 +4767,7 @@
         60
       ],
       "flags": {},
-      "order": 143,
+      "order": 146,
       "mode": 0,
       "inputs": [
         {
@@ -5157,7 +5130,7 @@
       ],
       "size": {
         "0": 290,
-        "1": 546
+        "1": 596
       },
       "flags": {},
       "order": 79,
@@ -5196,6 +5169,7 @@
         [
           "intricate photo of a high fashion jellyfish in bloom, very colorful, small bubble details, mechanical circuits, ancient organic hieroglyphic, breathing, cinematic, 35mm film, color-graded, macro lens, DOF, extremely detailed, 8k, art by artgerm and greg rutkowski and alphonse mucha"
         ],
+        "intricate photo of a high fashion jellyfish in bloom, very colorful, small bubble details, mechanical circuits, ancient organic hieroglyphic, breathing, cinematic, 35mm film, color-graded, macro lens, DOF, extremely detailed, 8k, art by artgerm and greg rutkowski and alphonse mucha",
         "intricate photo of a high fashion jellyfish in bloom, very colorful, small bubble details, mechanical circuits, ancient organic hieroglyphic, breathing, cinematic, 35mm film, color-graded, macro lens, DOF, extremely detailed, 8k, art by artgerm and greg rutkowski and alphonse mucha",
         "intricate photo of a high fashion jellyfish in bloom, very colorful, small bubble details, mechanical circuits, ancient organic hieroglyphic, breathing, cinematic, 35mm film, color-graded, macro lens, DOF, extremely detailed, 8k, art by artgerm and greg rutkowski and alphonse mucha",
         "intricate photo of a high fashion jellyfish in bloom, very colorful, small bubble details, mechanical circuits, ancient organic hieroglyphic, breathing, cinematic, 35mm film, color-graded, macro lens, DOF, extremely detailed, 8k, art by artgerm and greg rutkowski and alphonse mucha",
@@ -5262,7 +5236,7 @@
         "1": 260
       },
       "flags": {},
-      "order": 144,
+      "order": 148,
       "mode": 0,
       "inputs": [
         {
@@ -5420,7 +5394,7 @@
         600
       ],
       "flags": {},
-      "order": 177,
+      "order": 183,
       "mode": 0,
       "inputs": [
         {
@@ -5473,8 +5447,8 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "AD_00003.mp4",
-            "subfolder": "2024-06-07/previews",
+            "filename": "AD_00001.mp4",
+            "subfolder": "2024-06-10/previews",
             "type": "output",
             "format": "video/h264-mp4"
           }
@@ -5495,7 +5469,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 164,
+      "order": 170,
       "mode": 0,
       "inputs": [
         {
@@ -5581,53 +5555,6 @@
         0,
         1
       ]
-    },
-    {
-      "id": 120,
-      "type": "ImpactGaussianBlurMask",
-      "pos": [
-        780,
-        -2460
-      ],
-      "size": {
-        "0": 380,
-        "1": 82
-      },
-      "flags": {
-        "collapsed": false
-      },
-      "order": 127,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "mask",
-          "type": "MASK",
-          "link": 399
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": [
-            222,
-            401,
-            432,
-            444
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "ImpactGaussianBlurMask"
-      },
-      "widgets_values": [
-        5,
-        5
-      ],
-      "color": "#233",
-      "bgcolor": "#355"
     },
     {
       "id": 229,
@@ -5739,7 +5666,7 @@
         50
       ],
       "flags": {},
-      "order": 138,
+      "order": 140,
       "mode": 0,
       "inputs": [
         {
@@ -5899,7 +5826,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 152,
+      "order": 158,
       "mode": 0,
       "inputs": [
         {
@@ -5959,7 +5886,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 153,
+      "order": 159,
       "mode": 0,
       "inputs": [
         {
@@ -6017,7 +5944,7 @@
         26
       ],
       "flags": {},
-      "order": 158,
+      "order": 164,
       "mode": 0,
       "inputs": [
         {
@@ -6053,7 +5980,7 @@
         26
       ],
       "flags": {},
-      "order": 157,
+      "order": 163,
       "mode": 0,
       "inputs": [
         {
@@ -6089,7 +6016,7 @@
         26
       ],
       "flags": {},
-      "order": 162,
+      "order": 168,
       "mode": 0,
       "inputs": [
         {
@@ -6125,7 +6052,7 @@
         26
       ],
       "flags": {},
-      "order": 163,
+      "order": 169,
       "mode": 0,
       "inputs": [
         {
@@ -6161,7 +6088,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 167,
+      "order": 173,
       "mode": 0,
       "inputs": [
         {
@@ -6260,7 +6187,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 169,
+      "order": 175,
       "mode": 4,
       "inputs": [
         {
@@ -6407,7 +6334,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 166,
+      "order": 172,
       "mode": 4,
       "inputs": [
         {
@@ -6594,7 +6521,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 172,
+      "order": 178,
       "mode": 4,
       "inputs": [
         {
@@ -6737,7 +6664,7 @@
         60
       ],
       "flags": {},
-      "order": 147,
+      "order": 151,
       "mode": 0,
       "inputs": [
         {
@@ -6946,7 +6873,7 @@
         "1": 310
       },
       "flags": {},
-      "order": 182,
+      "order": 188,
       "mode": 0,
       "inputs": [
         {
@@ -7008,7 +6935,7 @@
         "1": 320
       },
       "flags": {},
-      "order": 175,
+      "order": 181,
       "mode": 0,
       "inputs": [
         {
@@ -7071,7 +6998,7 @@
         604
       ],
       "flags": {},
-      "order": 134,
+      "order": 136,
       "mode": 0,
       "inputs": [
         {
@@ -7115,7 +7042,7 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "AnimateDiff_00038.mp4",
+            "filename": "AnimateDiff_00042.mp4",
             "subfolder": "",
             "type": "temp",
             "format": "video/h264-mp4"
@@ -7135,7 +7062,7 @@
         604
       ],
       "flags": {},
-      "order": 135,
+      "order": 137,
       "mode": 0,
       "inputs": [
         {
@@ -7179,7 +7106,7 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "AnimateDiff_00039.mp4",
+            "filename": "AnimateDiff_00043.mp4",
             "subfolder": "",
             "type": "temp",
             "format": "video/h264-mp4"
@@ -7528,45 +7455,6 @@
       ]
     },
     {
-      "id": 331,
-      "type": "Reroute",
-      "pos": [
-        649.3808222656207,
-        -1964.4302285156268
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 94,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 506,
-          "widget": {
-            "name": "value"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "FLOAT",
-          "links": [
-            508
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
       "id": 333,
       "type": "Reroute",
       "pos": [
@@ -7617,7 +7505,7 @@
         26
       ],
       "flags": {},
-      "order": 148,
+      "order": 153,
       "mode": 0,
       "inputs": [
         {
@@ -7654,7 +7542,7 @@
         26
       ],
       "flags": {},
-      "order": 130,
+      "order": 132,
       "mode": 0,
       "inputs": [
         {
@@ -7697,7 +7585,7 @@
         600
       ],
       "flags": {},
-      "order": 185,
+      "order": 191,
       "mode": 0,
       "inputs": [
         {
@@ -7750,8 +7638,8 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "AD_00004.mp4",
-            "subfolder": "2024-06-07/upscaled",
+            "filename": "AD_00001.mp4",
+            "subfolder": "2024-06-10/upscaled",
             "type": "output",
             "format": "video/h264-mp4"
           }
@@ -7772,7 +7660,7 @@
         "1": 100
       },
       "flags": {},
-      "order": 191,
+      "order": 197,
       "mode": 4,
       "inputs": [
         {
@@ -7811,7 +7699,7 @@
         "1": 200
       },
       "flags": {},
-      "order": 192,
+      "order": 198,
       "mode": 4,
       "inputs": [
         {
@@ -7861,7 +7749,7 @@
         600
       ],
       "flags": {},
-      "order": 194,
+      "order": 200,
       "mode": 4,
       "inputs": [
         {
@@ -7935,7 +7823,7 @@
         600
       ],
       "flags": {},
-      "order": 193,
+      "order": 199,
       "mode": 4,
       "inputs": [
         {
@@ -8009,7 +7897,7 @@
         "1": 50
       },
       "flags": {},
-      "order": 183,
+      "order": 189,
       "mode": 0,
       "inputs": [
         {
@@ -8055,7 +7943,7 @@
         "1": 130
       },
       "flags": {},
-      "order": 190,
+      "order": 196,
       "mode": 4,
       "inputs": [
         {
@@ -8114,7 +8002,7 @@
         "1": 126
       },
       "flags": {},
-      "order": 188,
+      "order": 194,
       "mode": 0,
       "inputs": [
         {
@@ -8184,7 +8072,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 174,
+      "order": 180,
       "mode": 0,
       "inputs": [
         {
@@ -8438,10 +8326,10 @@
         1490.2988789285725,
         -2163.982829600535
       ],
-      "size": {
-        "0": 320,
-        "1": 313.9999084472656
-      },
+      "size": [
+        320,
+        313.9999198913574
+      ],
       "flags": {},
       "order": 41,
       "mode": 0,
@@ -8630,90 +8518,6 @@
       "bgcolor": "#353"
     },
     {
-      "id": 264,
-      "type": "MaskFromColor+",
-      "pos": [
-        790,
-        -1710
-      ],
-      "size": {
-        "0": 380,
-        "1": 130
-      },
-      "flags": {},
-      "order": 116,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 393
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": [
-            400
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "MaskFromColor+"
-      },
-      "widgets_values": [
-        255,
-        255,
-        255,
-        5
-      ]
-    },
-    {
-      "id": 263,
-      "type": "MaskFromColor+",
-      "pos": [
-        790,
-        -2130
-      ],
-      "size": {
-        "0": 410,
-        "1": 130
-      },
-      "flags": {},
-      "order": 115,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 392
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": [
-            398
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "MaskFromColor+"
-      },
-      "widgets_values": [
-        0,
-        28,
-        53,
-        5
-      ]
-    },
-    {
       "id": 260,
       "type": "MaskFromColor+",
       "pos": [
@@ -8874,105 +8678,6 @@
       ]
     },
     {
-      "id": 330,
-      "type": "VHS_VideoInfo",
-      "pos": [
-        -987,
-        -1629
-      ],
-      "size": {
-        "0": 393,
-        "1": 206
-      },
-      "flags": {},
-      "order": 65,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "video_info",
-          "type": "VHS_VIDEOINFO",
-          "link": 505
-        }
-      ],
-      "outputs": [
-        {
-          "name": "source_fps🟨",
-          "type": "FLOAT",
-          "links": [
-            506
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "source_frame_count🟨",
-          "type": "INT",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "source_duration🟨",
-          "type": "FLOAT",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "source_width🟨",
-          "type": "INT",
-          "links": [
-            531
-          ],
-          "shape": 3,
-          "slot_index": 3
-        },
-        {
-          "name": "source_height🟨",
-          "type": "INT",
-          "links": [
-            532
-          ],
-          "shape": 3,
-          "slot_index": 4
-        },
-        {
-          "name": "loaded_fps🟦",
-          "type": "FLOAT",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "loaded_frame_count🟦",
-          "type": "INT",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "loaded_duration🟦",
-          "type": "FLOAT",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "loaded_width🟦",
-          "type": "INT",
-          "links": [],
-          "shape": 3,
-          "slot_index": 8
-        },
-        {
-          "name": "loaded_height🟦",
-          "type": "INT",
-          "links": [],
-          "shape": 3,
-          "slot_index": 9
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "VHS_VideoInfo"
-      },
-      "widgets_values": {}
-    },
-    {
       "id": 343,
       "type": "MathExpression|pysssss",
       "pos": [
@@ -9074,12 +8779,12 @@
         3760,
         -2190
       ],
-      "size": [
-        320,
-        82
-      ],
+      "size": {
+        "0": 320,
+        "1": 82
+      },
       "flags": {},
-      "order": 180,
+      "order": 186,
       "mode": 0,
       "inputs": [
         {
@@ -9178,10 +8883,10 @@
         -634,
         -2248
       ],
-      "size": [
-        210,
-        122
-      ],
+      "size": {
+        "0": 210,
+        "1": 122
+      },
       "flags": {},
       "order": 45,
       "mode": 0,
@@ -9279,10 +8984,10 @@
         797,
         -2303
       ],
-      "size": [
-        351.8429592285124,
-        113.41295898437374
-      ],
+      "size": {
+        "0": 351.84295654296875,
+        "1": 113.41295623779297
+      },
       "flags": {},
       "order": 46,
       "mode": 0,
@@ -9356,7 +9061,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 129,
+      "order": 130,
       "mode": 0,
       "inputs": [
         {
@@ -9389,6 +9094,624 @@
       ],
       "color": "#233",
       "bgcolor": "#355"
+    },
+    {
+      "id": 118,
+      "type": "MaskPreview+",
+      "pos": [
+        1220,
+        -2640
+      ],
+      "size": {
+        "0": 220,
+        "1": 260
+      },
+      "flags": {},
+      "order": 139,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "mask",
+          "type": "MASK",
+          "link": 401
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "MaskPreview+"
+      },
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 120,
+      "type": "ImpactGaussianBlurMask",
+      "pos": [
+        780,
+        -2460
+      ],
+      "size": {
+        "0": 380,
+        "1": 82
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 127,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "mask",
+          "type": "MASK",
+          "link": 399
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": [
+            222,
+            401,
+            432,
+            444,
+            543
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImpactGaussianBlurMask"
+      },
+      "widgets_values": [
+        5,
+        5
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 330,
+      "type": "VHS_VideoInfo",
+      "pos": [
+        -987,
+        -1629
+      ],
+      "size": {
+        "0": 393,
+        "1": 206
+      },
+      "flags": {},
+      "order": 65,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "video_info",
+          "type": "VHS_VIDEOINFO",
+          "link": 505
+        }
+      ],
+      "outputs": [
+        {
+          "name": "source_fps🟨",
+          "type": "FLOAT",
+          "links": [
+            506
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "source_frame_count🟨",
+          "type": "INT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "source_duration🟨",
+          "type": "FLOAT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "source_width🟨",
+          "type": "INT",
+          "links": [
+            531
+          ],
+          "shape": 3,
+          "slot_index": 3
+        },
+        {
+          "name": "source_height🟨",
+          "type": "INT",
+          "links": [
+            532
+          ],
+          "shape": 3,
+          "slot_index": 4
+        },
+        {
+          "name": "loaded_fps🟦",
+          "type": "FLOAT",
+          "links": [],
+          "shape": 3,
+          "slot_index": 5
+        },
+        {
+          "name": "loaded_frame_count🟦",
+          "type": "INT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "loaded_duration🟦",
+          "type": "FLOAT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "loaded_width🟦",
+          "type": "INT",
+          "links": [],
+          "shape": 3,
+          "slot_index": 8
+        },
+        {
+          "name": "loaded_height🟦",
+          "type": "INT",
+          "links": [],
+          "shape": 3,
+          "slot_index": 9
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VHS_VideoInfo"
+      },
+      "widgets_values": {}
+    },
+    {
+      "id": 349,
+      "type": "Convert Masks to Images",
+      "pos": [
+        1225,
+        -2625
+      ],
+      "size": {
+        "0": 210,
+        "1": 26
+      },
+      "flags": {},
+      "order": 142,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "masks",
+          "type": "MASK",
+          "link": 543
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGES",
+          "type": "IMAGE",
+          "links": [
+            546
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Convert Masks to Images"
+      }
+    },
+    {
+      "id": 263,
+      "type": "MaskFromColor+",
+      "pos": [
+        790,
+        -2130
+      ],
+      "size": {
+        "0": 410,
+        "1": 130
+      },
+      "flags": {},
+      "order": 115,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 392
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": [
+            398,
+            548
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "MaskFromColor+"
+      },
+      "widgets_values": [
+        0,
+        28,
+        53,
+        5
+      ]
+    },
+    {
+      "id": 353,
+      "type": "Convert Masks to Images",
+      "pos": [
+        1232,
+        -2159
+      ],
+      "size": {
+        "0": 210,
+        "1": 26
+      },
+      "flags": {},
+      "order": 129,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "masks",
+          "type": "MASK",
+          "link": 548
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGES",
+          "type": "IMAGE",
+          "links": [
+            549
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Convert Masks to Images"
+      }
+    },
+    {
+      "id": 331,
+      "type": "Reroute",
+      "pos": [
+        638,
+        -1900
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 94,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 506,
+          "widget": {
+            "name": "value"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "FLOAT",
+          "links": [
+            508,
+            547,
+            550,
+            552
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 355,
+      "type": "Convert Masks to Images",
+      "pos": [
+        1219,
+        -1722
+      ],
+      "size": {
+        "0": 210,
+        "1": 26
+      },
+      "flags": {},
+      "order": 131,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "masks",
+          "type": "MASK",
+          "link": 553
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGES",
+          "type": "IMAGE",
+          "links": [
+            551
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Convert Masks to Images"
+      }
+    },
+    {
+      "id": 264,
+      "type": "MaskFromColor+",
+      "pos": [
+        790,
+        -1710
+      ],
+      "size": {
+        "0": 380,
+        "1": 130
+      },
+      "flags": {},
+      "order": 116,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 393
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": [
+            400,
+            553
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "MaskFromColor+"
+      },
+      "widgets_values": [
+        255,
+        255,
+        255,
+        5
+      ]
+    },
+    {
+      "id": 352,
+      "type": "VHS_VideoCombine",
+      "pos": [
+        1205,
+        -2711
+      ],
+      "size": [
+        259.04116432494993,
+        467.04116432494993
+      ],
+      "flags": {},
+      "order": 156,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 546
+        },
+        {
+          "name": "audio",
+          "type": "VHS_AUDIO",
+          "link": null
+        },
+        {
+          "name": "meta_batch",
+          "type": "VHS_BatchManager",
+          "link": null
+        },
+        {
+          "name": "frame_rate",
+          "type": "FLOAT",
+          "link": 547,
+          "widget": {
+            "name": "frame_rate"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Filenames",
+          "type": "VHS_FILENAMES",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VHS_VideoCombine"
+      },
+      "widgets_values": {
+        "frame_rate": 8,
+        "loop_count": 0,
+        "filename_prefix": "AnimateDiff",
+        "format": "image/gif",
+        "pingpong": false,
+        "save_output": true,
+        "videopreview": {
+          "hidden": false,
+          "paused": false,
+          "params": {
+            "filename": "AnimateDiff_00023.gif",
+            "subfolder": "",
+            "type": "output",
+            "format": "image/gif"
+          }
+        }
+      }
+    },
+    {
+      "id": 354,
+      "type": "VHS_VideoCombine",
+      "pos": [
+        1213,
+        -2202
+      ],
+      "size": [
+        259.0411682128906,
+        467.0411682128906
+      ],
+      "flags": {},
+      "order": 147,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 549
+        },
+        {
+          "name": "audio",
+          "type": "VHS_AUDIO",
+          "link": null
+        },
+        {
+          "name": "meta_batch",
+          "type": "VHS_BatchManager",
+          "link": null
+        },
+        {
+          "name": "frame_rate",
+          "type": "FLOAT",
+          "link": 550,
+          "widget": {
+            "name": "frame_rate"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Filenames",
+          "type": "VHS_FILENAMES",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VHS_VideoCombine"
+      },
+      "widgets_values": {
+        "frame_rate": 8,
+        "loop_count": 0,
+        "filename_prefix": "AnimateDiff",
+        "format": "image/gif",
+        "pingpong": false,
+        "save_output": true,
+        "videopreview": {
+          "hidden": false,
+          "paused": false,
+          "params": {
+            "filename": "AnimateDiff_00024.gif",
+            "subfolder": "",
+            "type": "output",
+            "format": "image/gif"
+          }
+        }
+      }
+    },
+    {
+      "id": 356,
+      "type": "VHS_VideoCombine",
+      "pos": [
+        1213,
+        -1683
+      ],
+      "size": [
+        253.6987793880853,
+        461.69879150390625
+      ],
+      "flags": {},
+      "order": 152,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 551
+        },
+        {
+          "name": "audio",
+          "type": "VHS_AUDIO",
+          "link": null
+        },
+        {
+          "name": "meta_batch",
+          "type": "VHS_BatchManager",
+          "link": null
+        },
+        {
+          "name": "frame_rate",
+          "type": "FLOAT",
+          "link": 552,
+          "widget": {
+            "name": "frame_rate"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Filenames",
+          "type": "VHS_FILENAMES",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VHS_VideoCombine"
+      },
+      "widgets_values": {
+        "frame_rate": 8,
+        "loop_count": 0,
+        "filename_prefix": "AnimateDiff",
+        "format": "image/gif",
+        "pingpong": false,
+        "save_output": true,
+        "videopreview": {
+          "hidden": false,
+          "paused": false,
+          "params": {
+            "filename": "AnimateDiff_00025.gif",
+            "subfolder": "",
+            "type": "output",
+            "format": "image/gif"
+          }
+        }
+      }
     }
   ],
   "links": [
@@ -11399,6 +11722,78 @@
       202,
       1,
       "FLOAT"
+    ],
+    [
+      543,
+      120,
+      0,
+      349,
+      0,
+      "MASK"
+    ],
+    [
+      546,
+      349,
+      0,
+      352,
+      0,
+      "IMAGE"
+    ],
+    [
+      547,
+      331,
+      0,
+      352,
+      3,
+      "FLOAT"
+    ],
+    [
+      548,
+      263,
+      0,
+      353,
+      0,
+      "MASK"
+    ],
+    [
+      549,
+      353,
+      0,
+      354,
+      0,
+      "IMAGE"
+    ],
+    [
+      550,
+      331,
+      0,
+      354,
+      3,
+      "FLOAT"
+    ],
+    [
+      551,
+      355,
+      0,
+      356,
+      0,
+      "IMAGE"
+    ],
+    [
+      552,
+      331,
+      0,
+      356,
+      3,
+      "FLOAT"
+    ],
+    [
+      553,
+      264,
+      0,
+      355,
+      0,
+      "MASK"
     ]
   ],
   "groups": [
