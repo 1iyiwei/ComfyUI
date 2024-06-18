@@ -1,6 +1,6 @@
 {
-  "last_node_id": 738,
-  "last_link_id": 1485,
+  "last_node_id": 741,
+  "last_link_id": 1489,
   "nodes": [
     {
       "id": 398,
@@ -16,7 +16,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 97,
+      "order": 93,
       "mode": 0,
       "inputs": [
         {
@@ -113,7 +113,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 161,
+      "order": 164,
       "mode": 0,
       "inputs": [
         {
@@ -251,7 +251,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 81,
+      "order": 80,
       "mode": 0,
       "inputs": [
         {
@@ -292,7 +292,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 87,
+      "order": 84,
       "mode": 0,
       "inputs": [
         {
@@ -332,7 +332,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 93,
+      "order": 89,
       "mode": 0,
       "inputs": [
         {
@@ -402,7 +402,7 @@
         "1": 70
       },
       "flags": {},
-      "order": 156,
+      "order": 159,
       "mode": 0,
       "inputs": [
         {
@@ -446,10 +446,10 @@
       ],
       "size": {
         "0": 284.99383544921875,
-        "1": 150
+        "1": 246
       },
       "flags": {},
-      "order": 76,
+      "order": 75,
       "mode": 0,
       "inputs": [
         {
@@ -482,6 +482,10 @@
         "v3_sd15_sparsectrl_rgb.ckpt",
         true,
         1,
+        1,
+        "nearest_hint",
+        1,
+        1,
         1
       ]
     },
@@ -499,7 +503,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 94,
+      "order": 90,
       "mode": 0,
       "inputs": [
         {
@@ -539,7 +543,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 89,
+      "order": 86,
       "mode": 0,
       "inputs": [
         {
@@ -579,7 +583,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 92,
+      "order": 88,
       "mode": 0,
       "inputs": [
         {
@@ -619,7 +623,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 88,
+      "order": 85,
       "mode": 0,
       "inputs": [
         {
@@ -659,7 +663,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 77,
+      "order": 76,
       "mode": 0,
       "inputs": [
         {
@@ -698,7 +702,7 @@
         "1": 250
       },
       "flags": {},
-      "order": 168,
+      "order": 171,
       "mode": 4,
       "inputs": [
         {
@@ -754,7 +758,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 135,
+      "order": 138,
       "mode": 0,
       "inputs": [
         {
@@ -790,7 +794,7 @@
         "1": 78
       },
       "flags": {},
-      "order": 129,
+      "order": 132,
       "mode": 0,
       "inputs": [
         {
@@ -847,7 +851,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 103,
+      "order": 98,
       "mode": 4,
       "inputs": [
         {
@@ -896,7 +900,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 78,
+      "order": 77,
       "mode": 4,
       "inputs": [
         {
@@ -945,7 +949,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 119,
+      "order": 121,
       "mode": 4,
       "inputs": [
         {
@@ -1006,7 +1010,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 112,
+      "order": 110,
       "mode": 4,
       "inputs": [
         {
@@ -1071,7 +1075,7 @@
         30
       ],
       "flags": {},
-      "order": 102,
+      "order": 97,
       "mode": 0,
       "inputs": [
         {
@@ -1119,7 +1123,7 @@
         "1": 254
       },
       "flags": {},
-      "order": 124,
+      "order": 127,
       "mode": 4,
       "inputs": [
         {
@@ -1226,7 +1230,7 @@
         "1": 106
       },
       "flags": {},
-      "order": 109,
+      "order": 107,
       "mode": 0,
       "inputs": [
         {
@@ -1285,7 +1289,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 167,
+      "order": 170,
       "mode": 4,
       "inputs": [
         {
@@ -1392,7 +1396,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 174,
+      "order": 177,
       "mode": 4,
       "inputs": [
         {
@@ -1499,7 +1503,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 179,
+      "order": 182,
       "mode": 0,
       "inputs": [
         {
@@ -1606,7 +1610,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 181,
+      "order": 184,
       "mode": 0,
       "inputs": [
         {
@@ -1713,7 +1717,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 183,
+      "order": 186,
       "mode": 4,
       "inputs": [
         {
@@ -2105,7 +2109,7 @@
         532
       ],
       "flags": {},
-      "order": 173,
+      "order": 176,
       "mode": 0,
       "inputs": [
         {
@@ -2146,7 +2150,7 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "AnimateDiff_00047.gif",
+            "filename": "AnimateDiff_00109.gif",
             "subfolder": "",
             "type": "output",
             "format": "image/gif"
@@ -2212,7 +2216,7 @@
         "1": 80
       },
       "flags": {},
-      "order": 166,
+      "order": 169,
       "mode": 0,
       "inputs": [
         {
@@ -2265,7 +2269,7 @@
         "1": 80
       },
       "flags": {},
-      "order": 159,
+      "order": 162,
       "mode": 0,
       "inputs": [
         {
@@ -2323,7 +2327,7 @@
         "1": 80
       },
       "flags": {},
-      "order": 150,
+      "order": 153,
       "mode": 4,
       "inputs": [
         {
@@ -2631,7 +2635,7 @@
         30
       ],
       "flags": {},
-      "order": 151,
+      "order": 154,
       "mode": 0,
       "inputs": [
         {
@@ -2715,7 +2719,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 82,
+      "order": 81,
       "mode": 0,
       "inputs": [
         {
@@ -2865,7 +2869,7 @@
         30
       ],
       "flags": {},
-      "order": 157,
+      "order": 160,
       "mode": 0,
       "inputs": [
         {
@@ -2923,7 +2927,7 @@
         30
       ],
       "flags": {},
-      "order": 83,
+      "order": 82,
       "mode": 0,
       "inputs": [
         {
@@ -2976,7 +2980,7 @@
         "1": 58
       },
       "flags": {},
-      "order": 153,
+      "order": 156,
       "mode": 4,
       "inputs": [
         {
@@ -3224,7 +3228,7 @@
         "1": 50
       },
       "flags": {},
-      "order": 162,
+      "order": 165,
       "mode": 4,
       "inputs": [
         {
@@ -3282,7 +3286,7 @@
         30
       ],
       "flags": {},
-      "order": 80,
+      "order": 79,
       "mode": 0,
       "inputs": [
         {
@@ -3338,7 +3342,7 @@
         30
       ],
       "flags": {},
-      "order": 139,
+      "order": 142,
       "mode": 0,
       "inputs": [
         {
@@ -3397,7 +3401,7 @@
         30
       ],
       "flags": {},
-      "order": 143,
+      "order": 146,
       "mode": 0,
       "inputs": [
         {
@@ -3456,7 +3460,7 @@
         30
       ],
       "flags": {},
-      "order": 149,
+      "order": 152,
       "mode": 0,
       "inputs": [
         {
@@ -3515,7 +3519,7 @@
         30
       ],
       "flags": {},
-      "order": 154,
+      "order": 157,
       "mode": 0,
       "inputs": [
         {
@@ -3574,7 +3578,7 @@
         30
       ],
       "flags": {},
-      "order": 160,
+      "order": 163,
       "mode": 0,
       "inputs": [
         {
@@ -3633,7 +3637,7 @@
         30
       ],
       "flags": {},
-      "order": 165,
+      "order": 168,
       "mode": 0,
       "inputs": [
         {
@@ -3692,7 +3696,7 @@
         30
       ],
       "flags": {},
-      "order": 169,
+      "order": 172,
       "mode": 0,
       "inputs": [
         {
@@ -3749,7 +3753,7 @@
         30
       ],
       "flags": {},
-      "order": 148,
+      "order": 151,
       "mode": 0,
       "inputs": [
         {
@@ -3838,7 +3842,7 @@
         "1": 100
       },
       "flags": {},
-      "order": 108,
+      "order": 105,
       "mode": 0,
       "inputs": [
         {
@@ -3878,7 +3882,7 @@
         "1": 106
       },
       "flags": {},
-      "order": 163,
+      "order": 166,
       "mode": 4,
       "inputs": [
         {
@@ -3926,7 +3930,7 @@
         "1": 350
       },
       "flags": {},
-      "order": 170,
+      "order": 173,
       "mode": 0,
       "inputs": [
         {
@@ -4040,7 +4044,7 @@
         "1": 46
       },
       "flags": {},
-      "order": 186,
+      "order": 189,
       "mode": 0,
       "inputs": [
         {
@@ -4084,7 +4088,7 @@
         "1": 82
       },
       "flags": {},
-      "order": 188,
+      "order": 191,
       "mode": 0,
       "inputs": [
         {
@@ -4124,7 +4128,7 @@
         "1": 46
       },
       "flags": {},
-      "order": 190,
+      "order": 193,
       "mode": 0,
       "inputs": [
         {
@@ -4165,7 +4169,7 @@
         26
       ],
       "flags": {},
-      "order": 182,
+      "order": 185,
       "mode": 0,
       "inputs": [
         {
@@ -4203,7 +4207,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 203,
+      "order": 206,
       "mode": 4,
       "inputs": [
         {
@@ -4280,7 +4284,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 207,
+      "order": 210,
       "mode": 4,
       "inputs": [
         {
@@ -4330,7 +4334,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 184,
+      "order": 187,
       "mode": 0,
       "inputs": [
         {
@@ -4436,7 +4440,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 176,
+      "order": 179,
       "mode": 0,
       "inputs": [
         {
@@ -4583,7 +4587,7 @@
         30
       ],
       "flags": {},
-      "order": 191,
+      "order": 194,
       "mode": 0,
       "inputs": [
         {
@@ -4666,7 +4670,7 @@
         26
       ],
       "flags": {},
-      "order": 195,
+      "order": 198,
       "mode": 0,
       "inputs": [
         {
@@ -4703,7 +4707,7 @@
         "1": 46
       },
       "flags": {},
-      "order": 194,
+      "order": 197,
       "mode": 0,
       "inputs": [
         {
@@ -4754,7 +4758,7 @@
         30
       ],
       "flags": {},
-      "order": 199,
+      "order": 202,
       "mode": 0,
       "inputs": [
         {
@@ -4869,7 +4873,7 @@
         "1": 126
       },
       "flags": {},
-      "order": 204,
+      "order": 207,
       "mode": 4,
       "inputs": [
         {
@@ -4918,7 +4922,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 197,
+      "order": 200,
       "mode": 0,
       "inputs": [
         {
@@ -4962,8 +4966,8 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "AD_00002.mp4",
-            "subfolder": "2024-06-01/upscaled",
+            "filename": "AD_00014.mp4",
+            "subfolder": "2024-06-18/upscaled",
             "type": "output",
             "format": "video/h264-mp4"
           }
@@ -4986,7 +4990,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 211,
+      "order": 214,
       "mode": 4,
       "inputs": [
         {
@@ -5095,7 +5099,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 208,
+      "order": 211,
       "mode": 4,
       "inputs": [
         {
@@ -5163,7 +5167,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 187,
+      "order": 190,
       "mode": 0,
       "inputs": [
         {
@@ -5208,8 +5212,8 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "AD_00002.mp4",
-            "subfolder": "2024-06-01/previews",
+            "filename": "AD_00014.mp4",
+            "subfolder": "2024-06-18/previews",
             "type": "output",
             "format": "video/h264-mp4"
           }
@@ -5238,7 +5242,7 @@
         30
       ],
       "flags": {},
-      "order": 209,
+      "order": 212,
       "mode": 0,
       "inputs": [
         {
@@ -5297,7 +5301,7 @@
         30
       ],
       "flags": {},
-      "order": 210,
+      "order": 213,
       "mode": 0,
       "inputs": [
         {
@@ -5357,7 +5361,7 @@
         30
       ],
       "flags": {},
-      "order": 189,
+      "order": 192,
       "mode": 0,
       "inputs": [
         {
@@ -5416,7 +5420,7 @@
         30
       ],
       "flags": {},
-      "order": 196,
+      "order": 199,
       "mode": 0,
       "inputs": [
         {
@@ -5475,7 +5479,7 @@
         30
       ],
       "flags": {},
-      "order": 205,
+      "order": 208,
       "mode": 0,
       "inputs": [
         {
@@ -5528,7 +5532,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 198,
+      "order": 201,
       "mode": 4,
       "inputs": [
         {
@@ -5605,7 +5609,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 202,
+      "order": 205,
       "mode": 4,
       "inputs": [
         {
@@ -5673,7 +5677,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 99,
+      "order": 95,
       "mode": 0,
       "inputs": [
         {
@@ -5713,7 +5717,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 90,
+      "order": 87,
       "mode": 0,
       "inputs": [
         {
@@ -5751,7 +5755,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 98,
+      "order": 94,
       "mode": 0,
       "inputs": [
         {
@@ -5790,7 +5794,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 95,
+      "order": 91,
       "mode": 0,
       "inputs": [
         {
@@ -5891,7 +5895,7 @@
         860
       ],
       "flags": {},
-      "order": 214,
+      "order": 217,
       "mode": 0,
       "inputs": [
         {
@@ -5944,8 +5948,8 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "AD_00008.mp4",
-            "subfolder": "2024-06-01/previews",
+            "filename": "AD_00020.mp4",
+            "subfolder": "2024-06-18/previews",
             "type": "temp",
             "format": "video/h264-mp4"
           }
@@ -5968,7 +5972,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 84,
+      "order": 118,
       "mode": 0,
       "inputs": [
         {
@@ -6038,7 +6042,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 91,
+      "order": 126,
       "mode": 0,
       "inputs": [
         {
@@ -6075,7 +6079,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 180,
+      "order": 183,
       "mode": 0,
       "inputs": [
         {
@@ -6203,7 +6207,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 100,
+      "order": 102,
       "mode": 0,
       "inputs": [
         {
@@ -6274,7 +6278,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 86,
+      "order": 101,
       "mode": 0,
       "inputs": [
         {
@@ -6311,7 +6315,7 @@
         "1": 250
       },
       "flags": {},
-      "order": 127,
+      "order": 130,
       "mode": 4,
       "inputs": [
         {
@@ -6404,7 +6408,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 126,
+      "order": 129,
       "mode": 4,
       "inputs": [
         {
@@ -6442,7 +6446,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 132,
+      "order": 135,
       "mode": 4,
       "inputs": [
         {
@@ -6478,7 +6482,7 @@
         "1": 296
       },
       "flags": {},
-      "order": 110,
+      "order": 108,
       "mode": 0,
       "inputs": [
         {
@@ -6515,8 +6519,6 @@
           "beautiful gradient fabric sphere sitting on wrinkled white fabric floor, woman, cloth wrinkles, white floor, soft shadows, watercolor gradients, fine details, white background, breathing, cinematic, 35mm film, color-graded, macro lens, DOF, extremely detailed, centered symmetrical close-up shot, intricate, elegant, digital painting, artstation, smooth, sharp focus, illustration, artgerm, tomasz alen kopera, peter mohrbacher, donato giancola, joseph christian leyendecker, wlop, boris vallejo"
         ],
         "beautiful gradient fabric sphere sitting on wrinkled white fabric floor, woman, cloth wrinkles, white floor, soft shadows, watercolor gradients, fine details, white background, breathing, cinematic, 35mm film, color-graded, macro lens, DOF, extremely detailed, centered symmetrical close-up shot, intricate, elegant, digital painting, artstation, smooth, sharp focus, illustration, artgerm, tomasz alen kopera, peter mohrbacher, donato giancola, joseph christian leyendecker, wlop, boris vallejo",
-        "beautiful gradient fabric sphere sitting on wrinkled white fabric floor, woman, cloth wrinkles, white floor, soft shadows, watercolor gradients, fine details, white background, breathing, cinematic, 35mm film, color-graded, macro lens, DOF, extremely detailed, centered symmetrical close-up shot, intricate, elegant, digital painting, artstation, smooth, sharp focus, illustration, artgerm, tomasz alen kopera, peter mohrbacher, donato giancola, joseph christian leyendecker, wlop, boris vallejo",
-        "beautiful gradient fabric sphere sitting on wrinkled white fabric floor, woman, cloth wrinkles, white floor, soft shadows, watercolor gradients, fine details, white background, breathing, cinematic, 35mm film, color-graded, macro lens, DOF, extremely detailed, centered symmetrical close-up shot, intricate, elegant, digital painting, artstation, smooth, sharp focus, illustration, artgerm, tomasz alen kopera, peter mohrbacher, donato giancola, joseph christian leyendecker, wlop, boris vallejo",
         "cartoon liquid motion, extremely detailed, unreal engine 5, trending on artstation"
       ],
       "color": "#222",
@@ -6542,7 +6544,7 @@
         "1": 78
       },
       "flags": {},
-      "order": 111,
+      "order": 109,
       "mode": 0,
       "inputs": [
         {
@@ -6594,7 +6596,7 @@
         30
       ],
       "flags": {},
-      "order": 137,
+      "order": 140,
       "mode": 0,
       "inputs": [
         {
@@ -6658,7 +6660,7 @@
         30
       ],
       "flags": {},
-      "order": 136,
+      "order": 139,
       "mode": 0,
       "inputs": [
         {
@@ -6711,7 +6713,7 @@
         "1": 80
       },
       "flags": {},
-      "order": 118,
+      "order": 120,
       "mode": 0,
       "inputs": [
         {
@@ -6756,41 +6758,6 @@
       "bgcolor": "#353"
     },
     {
-      "id": 253,
-      "type": "Cfg Literal",
-      "pos": [
-        870,
-        490
-      ],
-      "size": {
-        "0": 220,
-        "1": 60
-      },
-      "flags": {},
-      "order": 38,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "FLOAT",
-          "type": "FLOAT",
-          "links": [
-            553
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "title": "Frame Rate",
-      "properties": {
-        "Node name for S&R": "Cfg Literal"
-      },
-      "widgets_values": [
-        30
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
       "id": 714,
       "type": "GetNode",
       "pos": [
@@ -6804,7 +6771,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 39,
+      "order": 38,
       "mode": 0,
       "outputs": [
         {
@@ -6823,34 +6790,6 @@
       ]
     },
     {
-      "id": 159,
-      "type": "SaveImage",
-      "pos": [
-        -370,
-        320
-      ],
-      "size": {
-        "0": 720,
-        "1": 730
-      },
-      "flags": {},
-      "order": 145,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 366
-        }
-      ],
-      "properties": {},
-      "widgets_values": [
-        "%date:yyyy-MM-dd%/Reference-Images/AD_%KSampler-Reference.seed%"
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
       "id": 656,
       "type": "KSampler",
       "pos": [
@@ -6862,7 +6801,7 @@
         "1": 300
       },
       "flags": {},
-      "order": 185,
+      "order": 188,
       "mode": 0,
       "inputs": [
         {
@@ -6934,7 +6873,7 @@
         "1": 300
       },
       "flags": {},
-      "order": 192,
+      "order": 195,
       "mode": 0,
       "inputs": [
         {
@@ -7007,7 +6946,7 @@
       "flags": {
         "pinned": false
       },
-      "order": 104,
+      "order": 99,
       "mode": 0,
       "inputs": [
         {
@@ -7050,41 +6989,6 @@
       ]
     },
     {
-      "id": 701,
-      "type": "Int Literal",
-      "pos": [
-        400,
-        300
-      ],
-      "size": {
-        "0": 210,
-        "1": 130
-      },
-      "flags": {},
-      "order": 40,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [
-            1400
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "title": "Frame Load / Batch Size",
-      "properties": {
-        "Node name for S&R": "Int Literal"
-      },
-      "widgets_values": [
-        90
-      ],
-      "color": "#223",
-      "bgcolor": "#335"
-    },
-    {
       "id": 464,
       "type": "Cfg Literal",
       "pos": [
@@ -7096,7 +7000,7 @@
         "1": 60
       },
       "flags": {},
-      "order": 41,
+      "order": 39,
       "mode": 0,
       "outputs": [
         {
@@ -7131,7 +7035,7 @@
         "1": 60
       },
       "flags": {},
-      "order": 42,
+      "order": 40,
       "mode": 0,
       "outputs": [
         {
@@ -7166,7 +7070,7 @@
         860
       ],
       "flags": {},
-      "order": 201,
+      "order": 204,
       "mode": 0,
       "inputs": [
         {
@@ -7219,8 +7123,8 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "AD_00006.mp4",
-            "subfolder": "2024-06-01/previews",
+            "filename": "AD_00018.mp4",
+            "subfolder": "2024-06-18/previews",
             "type": "temp",
             "format": "video/h264-mp4"
           }
@@ -7243,7 +7147,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 43,
+      "order": 41,
       "mode": 0,
       "outputs": [
         {
@@ -7278,7 +7182,7 @@
         "1": 100
       },
       "flags": {},
-      "order": 44,
+      "order": 42,
       "mode": 0,
       "inputs": [
         {
@@ -7320,7 +7224,7 @@
         "1": 130
       },
       "flags": {},
-      "order": 45,
+      "order": 43,
       "mode": 0,
       "outputs": [
         {
@@ -7357,7 +7261,7 @@
         "1": 198
       },
       "flags": {},
-      "order": 172,
+      "order": 175,
       "mode": 4,
       "inputs": [
         {
@@ -7408,7 +7312,7 @@
         "1": 278
       },
       "flags": {},
-      "order": 134,
+      "order": 137,
       "mode": 0,
       "inputs": [
         {
@@ -7468,41 +7372,6 @@
       "bgcolor": "#353"
     },
     {
-      "id": 250,
-      "type": "Cfg Literal",
-      "pos": [
-        630,
-        490
-      ],
-      "size": {
-        "0": 210,
-        "1": 60
-      },
-      "flags": {},
-      "order": 46,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "FLOAT",
-          "type": "FLOAT",
-          "links": [
-            560
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "title": "Frame Rate",
-      "properties": {
-        "Node name for S&R": "Cfg Literal"
-      },
-      "widgets_values": [
-        16
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
       "id": 460,
       "type": "Cfg Literal",
       "pos": [
@@ -7514,7 +7383,7 @@
         "1": 60
       },
       "flags": {},
-      "order": 47,
+      "order": 44,
       "mode": 0,
       "outputs": [
         {
@@ -7549,7 +7418,7 @@
         "1": 60
       },
       "flags": {},
-      "order": 48,
+      "order": 45,
       "mode": 0,
       "outputs": [
         {
@@ -7584,7 +7453,7 @@
         "1": 60
       },
       "flags": {},
-      "order": 49,
+      "order": 46,
       "mode": 0,
       "outputs": [
         {
@@ -7608,31 +7477,6 @@
       "bgcolor": "#593930"
     },
     {
-      "id": 224,
-      "type": "PreviewImage",
-      "pos": [
-        -100,
-        1430
-      ],
-      "size": {
-        "0": 300,
-        "1": 340
-      },
-      "flags": {},
-      "order": 120,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 1094
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "PreviewImage"
-      }
-    },
-    {
       "id": 690,
       "type": "VHS_VideoCombine",
       "pos": [
@@ -7644,7 +7488,7 @@
         860
       ],
       "flags": {},
-      "order": 213,
+      "order": 216,
       "mode": 0,
       "inputs": [
         {
@@ -7697,8 +7541,8 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "AD_00007.mp4",
-            "subfolder": "2024-06-01/previews",
+            "filename": "AD_00019.mp4",
+            "subfolder": "2024-06-18/previews",
             "type": "temp",
             "format": "video/h264-mp4"
           }
@@ -7719,7 +7563,7 @@
         "1": 102
       },
       "flags": {},
-      "order": 50,
+      "order": 47,
       "mode": 0,
       "outputs": [
         {
@@ -7750,118 +7594,6 @@
       "bgcolor": "#353"
     },
     {
-      "id": 48,
-      "type": "KSampler (Efficient)",
-      "pos": [
-        -730,
-        320
-      ],
-      "size": {
-        "0": 330,
-        "1": 740
-      },
-      "flags": {},
-      "order": 141,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 1170
-        },
-        {
-          "name": "positive",
-          "type": "CONDITIONING",
-          "link": 121
-        },
-        {
-          "name": "negative",
-          "type": "CONDITIONING",
-          "link": 122
-        },
-        {
-          "name": "latent_image",
-          "type": "LATENT",
-          "link": 123
-        },
-        {
-          "name": "optional_vae",
-          "type": "VAE",
-          "link": 124
-        },
-        {
-          "name": "script",
-          "type": "SCRIPT",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "CONDITIONING+",
-          "type": "CONDITIONING",
-          "links": [],
-          "shape": 3,
-          "slot_index": 1
-        },
-        {
-          "name": "CONDITIONING-",
-          "type": "CONDITIONING",
-          "links": [],
-          "shape": 3,
-          "slot_index": 2
-        },
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "links": null,
-          "shape": 3,
-          "slot_index": 3
-        },
-        {
-          "name": "VAE",
-          "type": "VAE",
-          "links": [],
-          "shape": 3,
-          "slot_index": 4
-        },
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            366,
-            417,
-            425
-          ],
-          "shape": 3,
-          "slot_index": 5
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "KSampler-Reference"
-      },
-      "widgets_values": [
-        576014014137101,
-        null,
-        8,
-        1,
-        "euler",
-        "sgm_uniform",
-        1,
-        "auto",
-        "true"
-      ],
-      "color": "#232",
-      "bgcolor": "#353",
-      "shape": 1
-    },
-    {
       "id": 194,
       "type": "Reroute (rgthree)",
       "pos": {
@@ -7881,7 +7613,7 @@
         30
       ],
       "flags": {},
-      "order": 128,
+      "order": 131,
       "mode": 0,
       "inputs": [
         {
@@ -7939,7 +7671,7 @@
         "1": 110
       },
       "flags": {},
-      "order": 51,
+      "order": 48,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -7963,45 +7695,6 @@
       "bgcolor": "#353"
     },
     {
-      "id": 408,
-      "type": "PrimitiveNode",
-      "pos": [
-        670,
-        -130
-      ],
-      "size": {
-        "0": 420,
-        "1": 150
-      },
-      "flags": {
-        "pinned": false
-      },
-      "order": 52,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            825
-          ],
-          "slot_index": 0,
-          "widget": {
-            "name": "positive"
-          }
-        }
-      ],
-      "title": "Positive prompt",
-      "properties": {
-        "Run widget replace on values": false
-      },
-      "widgets_values": [
-        "3D rendering, bee dancing, amber and honey, oil, wrinkled cloth, casting soft shadows, 8k, masterpiece, octane"
-      ],
-      "color": "#232",
-      "bgcolor": "#353"
-    },
-    {
       "id": 533,
       "type": "BRIA_RMBG_ModelLoader_Zho",
       "pos": [
@@ -8015,7 +7708,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 53,
+      "order": 49,
       "mode": 4,
       "outputs": [
         {
@@ -8033,67 +7726,6 @@
       }
     },
     {
-      "id": 449,
-      "type": "ImpactSwitch",
-      "pos": [
-        -390,
-        1190
-      ],
-      "size": {
-        "0": 210,
-        "1": 122
-      },
-      "flags": {},
-      "order": 107,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "input1",
-          "type": "IMAGE",
-          "link": 1440
-        },
-        {
-          "name": "input2",
-          "type": "IMAGE",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            1282
-          ],
-          "shape": 3,
-          "label": "IMAGE",
-          "slot_index": 0
-        },
-        {
-          "name": "selected_label",
-          "type": "STRING",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "selected_index",
-          "type": "INT",
-          "links": null,
-          "shape": 3
-        }
-      ],
-      "title": "(1)Video (2)Images",
-      "properties": {
-        "Node name for S&R": "ImpactSwitch"
-      },
-      "widgets_values": [
-        1,
-        true
-      ],
-      "color": "#232",
-      "bgcolor": "#353"
-    },
-    {
       "id": 165,
       "type": "ImageInvert",
       "pos": [
@@ -8105,7 +7737,7 @@
         "1": 30
       },
       "flags": {},
-      "order": 113,
+      "order": 111,
       "mode": 4,
       "inputs": [
         {
@@ -8145,7 +7777,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 121,
+      "order": 123,
       "mode": 4,
       "inputs": [
         {
@@ -8261,7 +7893,7 @@
         "1": 240
       },
       "flags": {},
-      "order": 131,
+      "order": 134,
       "mode": 4,
       "inputs": [
         {
@@ -8324,7 +7956,7 @@
         "1": 170
       },
       "flags": {},
-      "order": 54,
+      "order": 50,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -8367,7 +7999,7 @@
         30
       ],
       "flags": {},
-      "order": 123,
+      "order": 125,
       "mode": 0,
       "inputs": [
         {
@@ -8423,7 +8055,7 @@
         30
       ],
       "flags": {},
-      "order": 79,
+      "order": 78,
       "mode": 0,
       "inputs": [
         {
@@ -8479,7 +8111,7 @@
         30
       ],
       "flags": {},
-      "order": 147,
+      "order": 150,
       "mode": 0,
       "inputs": [
         {
@@ -8516,60 +8148,6 @@
       "bgcolor": "#3f5159"
     },
     {
-      "id": 284,
-      "type": "Fast Bypasser (rgthree)",
-      "pos": {
-        "0": -90,
-        "1": 20,
-        "2": 0,
-        "3": 0,
-        "4": 0,
-        "5": 0,
-        "6": 0,
-        "7": 0,
-        "8": 0,
-        "9": 0
-      },
-      "size": {
-        "0": 360,
-        "1": 78
-      },
-      "flags": {},
-      "order": 96,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "Load AnimateDiff LoRA 🎭🅐🅓",
-          "type": "*",
-          "link": 580,
-          "dir": 3
-        },
-        {
-          "name": "",
-          "type": "*",
-          "link": null,
-          "dir": 3
-        }
-      ],
-      "outputs": [
-        {
-          "name": "OPT_CONNECTION",
-          "type": "*",
-          "links": [
-            581
-          ],
-          "dir": 4,
-          "slot_index": 0
-        }
-      ],
-      "title": "Animation Lora On / Off",
-      "properties": {
-        "toggleRestriction": "default"
-      },
-      "color": "#232",
-      "bgcolor": "#353"
-    },
-    {
       "id": 276,
       "type": "ADE_AnimateDiffLoRALoader",
       "pos": [
@@ -8581,8 +8159,8 @@
         "1": 82
       },
       "flags": {},
-      "order": 55,
-      "mode": 0,
+      "order": 51,
+      "mode": 4,
       "inputs": [
         {
           "name": "prev_motion_lora",
@@ -8624,7 +8202,7 @@
         "1": 490
       },
       "flags": {},
-      "order": 56,
+      "order": 52,
       "mode": 0,
       "title": "Motion Core Instructions",
       "properties": {
@@ -8648,7 +8226,7 @@
         "1": 70
       },
       "flags": {},
-      "order": 57,
+      "order": 53,
       "mode": 0,
       "outputs": [
         {
@@ -8683,7 +8261,7 @@
         "1": 106
       },
       "flags": {},
-      "order": 58,
+      "order": 54,
       "mode": 0,
       "outputs": [
         {
@@ -8722,7 +8300,7 @@
         "1": 100
       },
       "flags": {},
-      "order": 59,
+      "order": 55,
       "mode": 0,
       "outputs": [
         {
@@ -8757,7 +8335,7 @@
         418
       ],
       "flags": {},
-      "order": 138,
+      "order": 141,
       "mode": 4,
       "inputs": [
         {
@@ -8826,7 +8404,7 @@
         418
       ],
       "flags": {},
-      "order": 130,
+      "order": 133,
       "mode": 4,
       "inputs": [
         {
@@ -8895,7 +8473,7 @@
         418
       ],
       "flags": {},
-      "order": 125,
+      "order": 128,
       "mode": 4,
       "inputs": [
         {
@@ -8964,7 +8542,7 @@
         532
       ],
       "flags": {},
-      "order": 155,
+      "order": 158,
       "mode": 4,
       "inputs": [
         {
@@ -9025,7 +8603,7 @@
         532
       ],
       "flags": {},
-      "order": 164,
+      "order": 167,
       "mode": 0,
       "inputs": [
         {
@@ -9066,7 +8644,7 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "AnimateDiff_00049.gif",
+            "filename": "AnimateDiff_00110.gif",
             "subfolder": "",
             "type": "output",
             "format": "image/gif"
@@ -9086,7 +8664,7 @@
         "1": 218
       },
       "flags": {},
-      "order": 178,
+      "order": 181,
       "mode": 4,
       "inputs": [
         {
@@ -9142,7 +8720,7 @@
         "1": 60
       },
       "flags": {},
-      "order": 60,
+      "order": 56,
       "mode": 0,
       "outputs": [
         {
@@ -9177,7 +8755,7 @@
         "1": 60
       },
       "flags": {},
-      "order": 61,
+      "order": 57,
       "mode": 0,
       "outputs": [
         {
@@ -9207,10 +8785,10 @@
       ],
       "size": {
         "0": 350,
-        "1": 1096
+        "1": 1144
       },
       "flags": {},
-      "order": 106,
+      "order": 103,
       "mode": 0,
       "inputs": [
         {
@@ -9325,7 +8903,7 @@
         "AnimateLCM_sd15_t2v_lora.safetensors",
         1,
         0,
-        "3D rendering, bee dancing, amber and honey, oil, wrinkled cloth, casting soft shadows, 8k, masterpiece, octane",
+        "2D, anime, cartoon, fluid, 8k, masterpiece, octane",
         "(low quality, worst quality:1.5) blurry, NSFW, Nudity",
         "none",
         "comfy",
@@ -9349,7 +8927,7 @@
         "1": 58
       },
       "flags": {},
-      "order": 62,
+      "order": 58,
       "mode": 0,
       "outputs": [
         {
@@ -9380,7 +8958,7 @@
         "1": 58
       },
       "flags": {},
-      "order": 63,
+      "order": 59,
       "mode": 0,
       "outputs": [
         {
@@ -9420,7 +8998,7 @@
         30
       ],
       "flags": {},
-      "order": 171,
+      "order": 174,
       "mode": 0,
       "inputs": [
         {
@@ -9471,7 +9049,7 @@
         "1": 246
       },
       "flags": {},
-      "order": 177,
+      "order": 180,
       "mode": 0,
       "inputs": [
         {
@@ -9504,7 +9082,7 @@
         30
       ],
       "flags": {},
-      "order": 122,
+      "order": 124,
       "mode": 0,
       "inputs": [
         {
@@ -9562,7 +9140,7 @@
         30
       ],
       "flags": {},
-      "order": 152,
+      "order": 155,
       "mode": 0,
       "inputs": [
         {
@@ -9610,12 +9188,12 @@
       ],
       "size": {
         "0": 350,
-        "1": 826
+        "1": 874
       },
       "flags": {
         "collapsed": false
       },
-      "order": 105,
+      "order": 100,
       "mode": 0,
       "inputs": [
         {
@@ -9749,7 +9327,7 @@
         "1": 470
       },
       "flags": {},
-      "order": 64,
+      "order": 60,
       "mode": 0,
       "title": "Release notes",
       "properties": {
@@ -9773,7 +9351,7 @@
         "1": 122
       },
       "flags": {},
-      "order": 175,
+      "order": 178,
       "mode": 0,
       "inputs": [
         {
@@ -9847,7 +9425,7 @@
         30
       ],
       "flags": {},
-      "order": 133,
+      "order": 136,
       "mode": 0,
       "inputs": [
         {
@@ -9902,7 +9480,7 @@
         "1": 130
       },
       "flags": {},
-      "order": 200,
+      "order": 203,
       "mode": 0,
       "inputs": [
         {
@@ -9955,41 +9533,6 @@
       "bgcolor": "#653"
     },
     {
-      "id": 716,
-      "type": "Int Literal",
-      "pos": [
-        400,
-        490
-      ],
-      "size": {
-        "0": 210,
-        "1": 60
-      },
-      "flags": {},
-      "order": 65,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [
-            1409
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "title": "Every nth Frame",
-      "properties": {
-        "Node name for S&R": "Int Literal"
-      },
-      "widgets_values": [
-        2
-      ],
-      "color": "#223",
-      "bgcolor": "#335"
-    },
-    {
       "id": 733,
       "type": "PreviewImage",
       "pos": [
@@ -10001,7 +9544,7 @@
         "1": 246
       },
       "flags": {},
-      "order": 158,
+      "order": 161,
       "mode": 0,
       "inputs": [
         {
@@ -10026,7 +9569,7 @@
         "1": 130
       },
       "flags": {},
-      "order": 144,
+      "order": 147,
       "mode": 0,
       "inputs": [
         {
@@ -10091,7 +9634,7 @@
         "1": 246
       },
       "flags": {},
-      "order": 206,
+      "order": 209,
       "mode": 0,
       "inputs": [
         {
@@ -10116,7 +9659,7 @@
         "1": 46
       },
       "flags": {},
-      "order": 140,
+      "order": 143,
       "mode": 0,
       "inputs": [
         {
@@ -10163,7 +9706,7 @@
         "1": 340
       },
       "flags": {},
-      "order": 66,
+      "order": 61,
       "mode": 0,
       "outputs": [
         {
@@ -10207,7 +9750,7 @@
       "flags": {
         "pinned": false
       },
-      "order": 67,
+      "order": 62,
       "mode": 0,
       "outputs": [
         {
@@ -10253,7 +9796,7 @@
         30
       ],
       "flags": {},
-      "order": 101,
+      "order": 96,
       "mode": 0,
       "inputs": [
         {
@@ -10309,7 +9852,7 @@
         30
       ],
       "flags": {},
-      "order": 146,
+      "order": 149,
       "mode": 0,
       "inputs": [
         {
@@ -10348,102 +9891,6 @@
       "bgcolor": "#3f5159"
     },
     {
-      "id": 723,
-      "type": "VHS_LoadVideo",
-      "pos": [
-        -390,
-        1370
-      ],
-      "size": [
-        240,
-        448
-      ],
-      "flags": {},
-      "order": 85,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "meta_batch",
-          "type": "VHS_BatchManager",
-          "link": null
-        },
-        {
-          "name": "frame_load_cap",
-          "type": 0,
-          "link": 1438,
-          "widget": {
-            "name": "frame_load_cap"
-          }
-        },
-        {
-          "name": "select_every_nth",
-          "type": 0,
-          "link": 1439,
-          "widget": {
-            "name": "select_every_nth"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            1440,
-            1441
-          ],
-          "shape": 3
-        },
-        {
-          "name": "frame_count",
-          "type": "INT",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "audio",
-          "type": "VHS_AUDIO",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "video_info",
-          "type": "VHS_VIDEOINFO",
-          "links": null,
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "VHS_LoadVideo"
-      },
-      "widgets_values": {
-        "video": "ObjectLargeLiquidTrail_negate_2x.mp4",
-        "force_rate": 0,
-        "force_size": "Disabled",
-        "custom_width": 512,
-        "custom_height": 512,
-        "frame_load_cap": 0,
-        "skip_first_frames": 0,
-        "select_every_nth": 1,
-        "choose video to upload": "image",
-        "videopreview": {
-          "hidden": false,
-          "paused": false,
-          "params": {
-            "frame_load_cap": 0,
-            "skip_first_frames": 0,
-            "force_rate": 0,
-            "filename": "ObjectLargeLiquidTrail_negate_2x.mp4",
-            "type": "input",
-            "format": "video/mp4",
-            "select_every_nth": 1
-          }
-        }
-      },
-      "color": "#232",
-      "bgcolor": "#353"
-    },
-    {
       "id": 691,
       "type": "Reroute (rgthree)",
       "pos": {
@@ -10463,7 +9910,7 @@
         30
       ],
       "flags": {},
-      "order": 212,
+      "order": 215,
       "mode": 0,
       "inputs": [
         {
@@ -10523,7 +9970,7 @@
         30
       ],
       "flags": {},
-      "order": 142,
+      "order": 145,
       "mode": 0,
       "inputs": [
         {
@@ -10584,7 +10031,7 @@
         "1": 390
       },
       "flags": {},
-      "order": 68,
+      "order": 63,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -10619,7 +10066,7 @@
         860
       ],
       "flags": {},
-      "order": 193,
+      "order": 196,
       "mode": 0,
       "inputs": [
         {
@@ -10672,8 +10119,8 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "AD_00005.mp4",
-            "subfolder": "2024-06-01/previews",
+            "filename": "AD_00017.mp4",
+            "subfolder": "2024-06-18/previews",
             "type": "temp",
             "format": "video/h264-mp4"
           }
@@ -10702,7 +10149,7 @@
         "1": 180
       },
       "flags": {},
-      "order": 69,
+      "order": 64,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -10737,7 +10184,7 @@
         "1": 58
       },
       "flags": {},
-      "order": 70,
+      "order": 65,
       "mode": 0,
       "outputs": [
         {
@@ -10769,7 +10216,7 @@
         "1": 58
       },
       "flags": {},
-      "order": 71,
+      "order": 66,
       "mode": 4,
       "outputs": [
         {
@@ -10803,7 +10250,7 @@
         "1": 58
       },
       "flags": {},
-      "order": 72,
+      "order": 67,
       "mode": 4,
       "outputs": [
         {
@@ -10843,7 +10290,7 @@
         "1": 390
       },
       "flags": {},
-      "order": 73,
+      "order": 68,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -10878,7 +10325,7 @@
         "1": 58
       },
       "flags": {},
-      "order": 74,
+      "order": 69,
       "mode": 0,
       "outputs": [
         {
@@ -10910,7 +10357,7 @@
         "1": 58
       },
       "flags": {},
-      "order": 75,
+      "order": 70,
       "mode": 4,
       "outputs": [
         {
@@ -10928,6 +10375,757 @@
       },
       "widgets_values": [
         "control_v11p_sd15_openpose.pth"
+      ]
+    },
+    {
+      "id": 284,
+      "type": "Fast Bypasser (rgthree)",
+      "pos": {
+        "0": -90,
+        "1": 20,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": {
+        "0": 360,
+        "1": 78
+      },
+      "flags": {},
+      "order": 92,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Load AnimateDiff LoRA 🎭🅐🅓",
+          "type": "*",
+          "link": 580,
+          "dir": 3
+        },
+        {
+          "name": "",
+          "type": "*",
+          "link": null,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": [
+            581
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "title": "Animation Lora On / Off",
+      "properties": {
+        "toggleRestriction": "default"
+      },
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 449,
+      "type": "ImpactSwitch",
+      "pos": [
+        -374,
+        1176
+      ],
+      "size": {
+        "0": 210,
+        "1": 122
+      },
+      "flags": {},
+      "order": 104,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "input1",
+          "type": "IMAGE",
+          "link": 1440
+        },
+        {
+          "name": "input2",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            1282
+          ],
+          "shape": 3,
+          "label": "IMAGE",
+          "slot_index": 0
+        },
+        {
+          "name": "selected_label",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "selected_index",
+          "type": "INT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "title": "(1)Video (2)Images",
+      "properties": {
+        "Node name for S&R": "ImpactSwitch"
+      },
+      "widgets_values": [
+        1,
+        true
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 701,
+      "type": "Int Literal",
+      "pos": [
+        392,
+        310
+      ],
+      "size": {
+        "0": 210,
+        "1": 130
+      },
+      "flags": {},
+      "order": 71,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            1400
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Frame Load / Batch Size",
+      "properties": {
+        "Node name for S&R": "Int Literal"
+      },
+      "widgets_values": [
+        90
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 716,
+      "type": "Int Literal",
+      "pos": [
+        408,
+        486
+      ],
+      "size": {
+        "0": 210,
+        "1": 60
+      },
+      "flags": {},
+      "order": 72,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            1409
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Every nth Frame",
+      "properties": {
+        "Node name for S&R": "Int Literal"
+      },
+      "widgets_values": [
+        1
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 253,
+      "type": "Cfg Literal",
+      "pos": [
+        874,
+        496
+      ],
+      "size": {
+        "0": 220,
+        "1": 60
+      },
+      "flags": {},
+      "order": 112,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "float",
+          "type": "FLOAT",
+          "link": 1487,
+          "widget": {
+            "name": "float"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            553
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Frame Rate",
+      "properties": {
+        "Node name for S&R": "Cfg Literal"
+      },
+      "widgets_values": [
+        30
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 741,
+      "type": "GetNode",
+      "pos": [
+        -103,
+        1783
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {},
+      "order": 73,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "*",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 250,
+      "type": "Cfg Literal",
+      "pos": [
+        630,
+        490
+      ],
+      "size": {
+        "0": 210,
+        "1": 60
+      },
+      "flags": {},
+      "order": 119,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "float",
+          "type": "FLOAT",
+          "link": 1489,
+          "widget": {
+            "name": "float"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            560
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Frame Rate",
+      "properties": {
+        "Node name for S&R": "Cfg Literal"
+      },
+      "widgets_values": [
+        16
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 723,
+      "type": "VHS_LoadVideo",
+      "pos": [
+        -390,
+        1370
+      ],
+      "size": [
+        240,
+        448
+      ],
+      "flags": {},
+      "order": 83,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "meta_batch",
+          "type": "VHS_BatchManager",
+          "link": null
+        },
+        {
+          "name": "frame_load_cap",
+          "type": 0,
+          "link": 1438,
+          "widget": {
+            "name": "frame_load_cap"
+          }
+        },
+        {
+          "name": "select_every_nth",
+          "type": 0,
+          "link": 1439,
+          "widget": {
+            "name": "select_every_nth"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            1440,
+            1441
+          ],
+          "shape": 3
+        },
+        {
+          "name": "frame_count",
+          "type": "INT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "audio",
+          "type": "VHS_AUDIO",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "video_info",
+          "type": "VHS_VIDEOINFO",
+          "links": [
+            1486
+          ],
+          "shape": 3,
+          "slot_index": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VHS_LoadVideo"
+      },
+      "widgets_values": {
+        "video": "pizza-color.mp4",
+        "force_rate": 0,
+        "force_size": "Disabled",
+        "custom_width": 512,
+        "custom_height": 512,
+        "frame_load_cap": 0,
+        "skip_first_frames": 0,
+        "select_every_nth": 1,
+        "choose video to upload": "image",
+        "videopreview": {
+          "hidden": false,
+          "paused": false,
+          "params": {
+            "frame_load_cap": 0,
+            "skip_first_frames": 0,
+            "force_rate": 0,
+            "filename": "pizza-color.mp4",
+            "type": "input",
+            "format": "video/mp4",
+            "select_every_nth": 1
+          }
+        }
+      },
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 48,
+      "type": "KSampler (Efficient)",
+      "pos": [
+        -715,
+        316
+      ],
+      "size": {
+        "0": 330,
+        "1": 740
+      },
+      "flags": {},
+      "order": 144,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 1170
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 121
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 122
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 123
+        },
+        {
+          "name": "optional_vae",
+          "type": "VAE",
+          "link": 124
+        },
+        {
+          "name": "script",
+          "type": "SCRIPT",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "CONDITIONING+",
+          "type": "CONDITIONING",
+          "links": [],
+          "shape": 3,
+          "slot_index": 1
+        },
+        {
+          "name": "CONDITIONING-",
+          "type": "CONDITIONING",
+          "links": [],
+          "shape": 3,
+          "slot_index": 2
+        },
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": null,
+          "shape": 3,
+          "slot_index": 3
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [],
+          "shape": 3,
+          "slot_index": 4
+        },
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            366,
+            417,
+            425
+          ],
+          "shape": 3,
+          "slot_index": 5
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler-Reference"
+      },
+      "widgets_values": [
+        576014014137101,
+        null,
+        8,
+        1,
+        "euler",
+        "sgm_uniform",
+        1,
+        "auto",
+        "true"
+      ],
+      "color": "#232",
+      "bgcolor": "#353",
+      "shape": 1
+    },
+    {
+      "id": 159,
+      "type": "SaveImage",
+      "pos": [
+        -366,
+        313
+      ],
+      "size": {
+        "0": 720,
+        "1": 730
+      },
+      "flags": {},
+      "order": 148,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 366
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        "%date:yyyy-MM-dd%/Reference-Images/AD_%KSampler-Reference.seed%"
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 408,
+      "type": "PrimitiveNode",
+      "pos": [
+        670,
+        -130
+      ],
+      "size": {
+        "0": 420,
+        "1": 150
+      },
+      "flags": {
+        "pinned": false
+      },
+      "order": 74,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            825
+          ],
+          "slot_index": 0,
+          "widget": {
+            "name": "positive"
+          }
+        }
+      ],
+      "title": "Positive prompt",
+      "properties": {
+        "Run widget replace on values": false
+      },
+      "widgets_values": [
+        "2D, anime, cartoon, fluid, 8k, masterpiece, octane"
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 224,
+      "type": "PreviewImage",
+      "pos": [
+        -103,
+        1458
+      ],
+      "size": {
+        "0": 300,
+        "1": 340
+      },
+      "flags": {},
+      "order": 122,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 1094
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 739,
+      "type": "VHS_VideoInfo",
+      "pos": [
+        -89,
+        1392
+      ],
+      "size": {
+        "0": 262,
+        "1": 206
+      },
+      "flags": {},
+      "order": 106,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "video_info",
+          "type": "VHS_VIDEOINFO",
+          "link": 1486
+        }
+      ],
+      "outputs": [
+        {
+          "name": "source_fps🟨",
+          "type": "FLOAT",
+          "links": [
+            1487,
+            1488
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "source_frame_count🟨",
+          "type": "INT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "source_duration🟨",
+          "type": "FLOAT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "source_width🟨",
+          "type": "INT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "source_height🟨",
+          "type": "INT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "loaded_fps🟦",
+          "type": "FLOAT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "loaded_frame_count🟦",
+          "type": "INT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "loaded_duration🟦",
+          "type": "FLOAT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "loaded_width🟦",
+          "type": "INT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "loaded_height🟦",
+          "type": "INT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VHS_VideoInfo"
+      },
+      "widgets_values": {}
+    },
+    {
+      "id": 740,
+      "type": "MathExpression|pysssss",
+      "pos": [
+        124,
+        1639
+      ],
+      "size": [
+        210,
+        116
+      ],
+      "flags": {},
+      "order": 113,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "a",
+          "type": "INT,FLOAT,IMAGE,LATENT",
+          "link": 1488
+        },
+        {
+          "name": "b",
+          "type": "INT,FLOAT,IMAGE,LATENT",
+          "link": null
+        },
+        {
+          "name": "c",
+          "type": "INT,FLOAT,IMAGE,LATENT",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            1489
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Latent fps"
+      },
+      "widgets_values": [
+        "a/2"
       ]
     }
   ],
@@ -12891,6 +13089,38 @@
       630,
       0,
       "*"
+    ],
+    [
+      1486,
+      723,
+      3,
+      739,
+      0,
+      "VHS_VIDEOINFO"
+    ],
+    [
+      1487,
+      739,
+      0,
+      253,
+      0,
+      "FLOAT"
+    ],
+    [
+      1488,
+      739,
+      0,
+      740,
+      0,
+      "INT,FLOAT,IMAGE,LATENT"
+    ],
+    [
+      1489,
+      740,
+      1,
+      250,
+      0,
+      "FLOAT"
     ]
   ],
   "groups": [
