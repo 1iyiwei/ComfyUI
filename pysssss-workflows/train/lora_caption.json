@@ -1,0 +1,238 @@
+{
+  "last_node_id": 6,
+  "last_link_id": 11,
+  "nodes": [
+    {
+      "id": 4,
+      "type": "ShowText|pysssss",
+      "pos": [
+        414,
+        158
+      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 2,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            8
+          ],
+          "shape": 6,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 5,
+      "type": "LoRA Caption Save",
+      "pos": [
+        871,
+        237
+      ],
+      "size": {
+        "0": 315,
+        "1": 130
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "namelist",
+          "type": "STRING",
+          "link": 8,
+          "widget": {
+            "name": "namelist"
+          }
+        },
+        {
+          "name": "path",
+          "type": "STRING",
+          "link": 9,
+          "widget": {
+            "name": "path"
+          }
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 11,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoRA Caption Save"
+      },
+      "widgets_values": [
+        "",
+        "",
+        "",
+        " "
+      ]
+    },
+    {
+      "id": 2,
+      "type": "LoRA Caption Load",
+      "pos": [
+        -13,
+        235
+      ],
+      "size": {
+        "0": 315,
+        "1": 98
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "Name list",
+          "type": "STRING",
+          "links": [
+            2
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "path",
+          "type": "STRING",
+          "links": [
+            9
+          ],
+          "shape": 3,
+          "slot_index": 1
+        },
+        {
+          "name": "Image list",
+          "type": "IMAGE",
+          "links": [
+            10
+          ],
+          "shape": 3,
+          "slot_index": 2
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoRA Caption Load"
+      },
+      "widgets_values": [
+        "/sensei-fs/users/lwei/projects/animagen/BlackMath/02_2D_Line_Drawing_BlackMath_01-ProRes/5_frames"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "WD14Tagger|pysssss",
+      "pos": [
+        412,
+        376
+      ],
+      "size": {
+        "0": 315,
+        "1": 178
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 10
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            11
+          ],
+          "shape": 6,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "WD14Tagger|pysssss"
+      },
+      "widgets_values": [
+        "wd-v1-4-moat-tagger-v2",
+        0.35,
+        0.85,
+        false,
+        false,
+        ""
+      ]
+    }
+  ],
+  "links": [
+    [
+      2,
+      2,
+      0,
+      4,
+      0,
+      "STRING"
+    ],
+    [
+      8,
+      4,
+      0,
+      5,
+      0,
+      "STRING"
+    ],
+    [
+      9,
+      2,
+      1,
+      5,
+      1,
+      "STRING"
+    ],
+    [
+      10,
+      2,
+      2,
+      6,
+      0,
+      "IMAGE"
+    ],
+    [
+      11,
+      6,
+      0,
+      5,
+      2,
+      "STRING"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {},
+  "version": 0.4
+}
