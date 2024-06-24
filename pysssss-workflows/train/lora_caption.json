@@ -1,69 +1,26 @@
 {
-  "last_node_id": 7,
-  "last_link_id": 11,
+  "last_node_id": 20,
+  "last_link_id": 25,
   "nodes": [
-    {
-      "id": 4,
-      "type": "ShowText|pysssss",
-      "pos": [
-        414,
-        158
-      ],
-      "size": {
-        "0": 315,
-        "1": 76
-      },
-      "flags": {},
-      "order": 2,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "text",
-          "type": "STRING",
-          "link": 2,
-          "widget": {
-            "name": "text"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            8
-          ],
-          "shape": 6,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "ShowText|pysssss"
-      },
-      "widgets_values": [
-        "",
-        "frame_128.png\nframe_070.png\nframe_185.png\nframe_243.png\nframe_292.png\nframe_154.png\nframe_182.png\nframe_244.png\nframe_295.png\nframe_153.png\nframe_238.png\nframe_077.png\nframe_005.png\nframe_236.png\nframe_121.png\nframe_079.png\nframe_231.png\nframe_126.png\nframe_002.png\nframe_113.png\nframe_204.png\nframe_278.png\nframe_037.png\nframe_168.png\nframe_030.png\nframe_114.png\nframe_203.png\nframe_166.png\nframe_271.png\nframe_093.png\nframe_042.png\nframe_094.png\nframe_045.png\nframe_161.png\nframe_276.png\nframe_039.png\nframe_054.png\nframe_085.png\nframe_028.png\nframe_267.png\nframe_170.png\nframe_260.png\nframe_177.png\nframe_053.png\nframe_082.png\nframe_021.png\nframe_179.png\nframe_212.png\nframe_105.png\nframe_215.png\nframe_102.png\nframe_026.png\nframe_269.png\nframe_137.png\nframe_220.png\nframe_013.png\nframe_014.png\nframe_068.png\nframe_130.png\nframe_227.png\nframe_284.png\nframe_142.png\nframe_193.png\nframe_255.png\nframe_066.png\nframe_229.png\nframe_061.png\nframe_139.png\nframe_283.png\nframe_145.png\nframe_194.png\nframe_252.png\nframe_095.png\nframe_044.png\nframe_160.png\nframe_277.png\nframe_038.png\nframe_167.png\nframe_270.png\nframe_092.png\nframe_043.png\nframe_169.png\nframe_031.png\nframe_115.png\nframe_202.png\nframe_112.png\nframe_205.png\nframe_279.png\nframe_036.png\nframe_230.png\nframe_127.png\nframe_003.png\nframe_004.png\nframe_237.png\nframe_120.png\nframe_078.png\nframe_183.png\nframe_245.png\nframe_294.png\nframe_152.png\nframe_239.png\nframe_076.png\nframe_129.png\nframe_071.png\nframe_184.png\nframe_242.png\nframe_293.png\nframe_155.png\nframe_060.png\nframe_138.png\nframe_282.png\nframe_144.png\nframe_195.png\nframe_253.png\nframe_285.png\nframe_143.png\nframe_192.png\nframe_254.png\nframe_067.png\nframe_228.png\nframe_015.png\nframe_069.png\nframe_131.png\nframe_226.png\nframe_136.png\nframe_221.png\nframe_012.png\nframe_214.png\nframe_103.png\nframe_027.png\nframe_268.png\nframe_020.png\nframe_178.png\nframe_213.png\nframe_104.png\nframe_261.png\nframe_176.png\nframe_052.png\nframe_083.png\nframe_055.png\nframe_084.png\nframe_029.png\nframe_266.png\nframe_171.png\nframe_018.png\nframe_140.png\nframe_286.png\nframe_257.png\nframe_191.png\nframe_064.png\nframe_063.png\nframe_147.png\nframe_281.png\nframe_250.png\nframe_196.png\nframe_135.png\nframe_222.png\nframe_011.png\nframe_149.png\nframe_198.png\nframe_016.png\nframe_288.png\nframe_259.png\nframe_132.png\nframe_225.png\nframe_023.png\nframe_210.png\nframe_107.png\nframe_058.png\nframe_089.png\nframe_217.png\nframe_100.png\nframe_024.png\nframe_056.png\nframe_087.png\nframe_219.png\nframe_265.png\nframe_172.png\nframe_262.png\nframe_175.png\nframe_051.png\nframe_080.png\nframe_109.png\nframe_164.png\nframe_273.png\nframe_118.png\nframe_091.png\nframe_040.png\nframe_208.png\nframe_096.png\nframe_047.png\nframe_163.png\nframe_274.png\nframe_111.png\nframe_206.png\nframe_098.png\nframe_049.png\nframe_035.png\nframe_032.png\nframe_116.png\nframe_201.png\nframe_248.png\nframe_007.png\nframe_234.png\nframe_123.png\nframe_233.png\nframe_124.png\nframe_189.png\nframe_158.png\nframe_072.png\nframe_241.png\nframe_187.png\nframe_156.png\nframe_290.png\nframe_246.png\nframe_180.png\nframe_151.png\nframe_009.png\nframe_075.png\nframe_263.png\nframe_174.png\nframe_050.png\nframe_081.png\nframe_108.png\nframe_057.png\nframe_086.png\nframe_218.png\nframe_264.png\nframe_173.png\nframe_059.png\nframe_088.png\nframe_216.png\nframe_101.png\nframe_025.png\nframe_022.png\nframe_211.png\nframe_106.png\nframe_017.png\nframe_289.png\nframe_258.png\nframe_133.png\nframe_224.png\nframe_134.png\nframe_223.png\nframe_010.png\nframe_148.png\nframe_199.png\nframe_062.png\nframe_146.png\nframe_280.png\nframe_251.png\nframe_197.png\nframe_019.png\nframe_141.png\nframe_287.png\nframe_256.png\nframe_190.png\nframe_065.png\nframe_247.png\nframe_181.png\nframe_150.png\nframe_008.png\nframe_074.png\nframe_073.png\nframe_240.png\nframe_186.png\nframe_157.png\nframe_291.png\nframe_232.png\nframe_125.png\nframe_188.png\nframe_159.png\nframe_001.png\nframe_249.png\nframe_006.png\nframe_235.png\nframe_122.png\nframe_033.png\nframe_117.png\nframe_200.png\nframe_110.png\nframe_207.png\nframe_099.png\nframe_048.png\nframe_034.png\nframe_209.png\nframe_097.png\nframe_046.png\nframe_162.png\nframe_275.png\nframe_165.png\nframe_272.png\nframe_119.png\nframe_090.png\nframe_041.png"
-      ]
-    },
     {
       "id": 5,
       "type": "LoRA Caption Save",
       "pos": [
-        871,
-        237
+        803,
+        277
       ],
       "size": {
         "0": 315,
         "1": 130
       },
       "flags": {},
-      "order": 4,
+      "order": 10,
       "mode": 0,
       "inputs": [
         {
           "name": "namelist",
           "type": "STRING",
-          "link": 8,
+          "link": 25,
           "widget": {
             "name": "namelist"
           }
@@ -79,7 +36,7 @@
         {
           "name": "text",
           "type": "STRING",
-          "link": 11,
+          "link": 24,
           "widget": {
             "name": "text"
           }
@@ -99,16 +56,26 @@
       "id": 2,
       "type": "LoRA Caption Load",
       "pos": [
-        -13,
-        235
+        -10,
+        240
       ],
       "size": {
         "0": 315,
         "1": 98
       },
       "flags": {},
-      "order": 0,
+      "order": 7,
       "mode": 0,
+      "inputs": [
+        {
+          "name": "path",
+          "type": "STRING",
+          "link": 18,
+          "widget": {
+            "name": "path"
+          }
+        }
+      ],
       "outputs": [
         {
           "name": "Name list",
@@ -132,7 +99,7 @@
           "name": "Image list",
           "type": "IMAGE",
           "links": [
-            10
+            12
           ],
           "shape": 3,
           "slot_index": 2
@@ -146,24 +113,27 @@
       ]
     },
     {
-      "id": 6,
-      "type": "WD14Tagger|pysssss",
+      "id": 10,
+      "type": "StringFunction|pysssss",
       "pos": [
-        412,
-        376
+        -500.479831791243,
+        163.72166398270375
       ],
       "size": {
-        "0": 315,
-        "1": 14920
+        "0": 400,
+        "1": 274
       },
       "flags": {},
-      "order": 3,
+      "order": 5,
       "mode": 0,
       "inputs": [
         {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 10
+          "name": "text_a",
+          "type": "STRING",
+          "link": 17,
+          "widget": {
+            "name": "text_a"
+          }
         }
       ],
       "outputs": [
@@ -171,7 +141,276 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            11
+            18
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Caption subfolder",
+      "properties": {
+        "Node name for S&R": "StringFunction|pysssss"
+      },
+      "widgets_values": [
+        "append",
+        "no",
+        "foo",
+        "5_frames",
+        "",
+        "/sensei-fs/users/lwei/projects/animagen/BlackMath/02_2D_Line_Drawing_BlackMath_01-ProRes_half/5_frames"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "Lora Training in ComfyUI",
+      "pos": [
+        1206.949598333377,
+        160.8747084917037
+      ],
+      "size": {
+        "0": 315,
+        "1": 226
+      },
+      "flags": {},
+      "order": 6,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "data_path",
+          "type": "STRING",
+          "link": 22,
+          "widget": {
+            "name": "data_path"
+          }
+        },
+        {
+          "name": "output_dir",
+          "type": "STRING",
+          "link": 21,
+          "widget": {
+            "name": "output_dir"
+          }
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Lora Training in ComfyUI"
+      },
+      "widgets_values": [
+        "realisticVisionV20_v20.safetensors",
+        "Insert path of image folders",
+        1,
+        10,
+        10,
+        "02_2D_Line_Drawing_BlackMath_01-ProRes",
+        2,
+        "/sensei-fs/users/lwei/trees/comfyUI/models/loras"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "Reroute",
+      "pos": [
+        966,
+        550
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 20,
+          "widget": {
+            "name": "value"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "STRING",
+          "links": [
+            21
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 16,
+      "type": "StringFunction|pysssss",
+      "pos": [
+        -736.4798317912433,
+        490.72166398270394
+      ],
+      "size": {
+        "0": 210,
+        "1": 274
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            20
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Output folder",
+      "properties": {
+        "Node name for S&R": "StringFunction|pysssss"
+      },
+      "widgets_values": [
+        "append",
+        "no",
+        "/sensei-fs/users/lwei/trees/comfyUI/models/loras",
+        "",
+        "",
+        "/sensei-fs/users/lwei/trees/comfyUI/models/loras"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "Note",
+      "pos": [
+        -486.479831791243,
+        495.7216639827041
+      ],
+      "size": {
+        "0": 363.1447448730469,
+        "1": 244.23390197753906
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "Based on https://youtu.be/gt_E-ye2irQ\n\nInstall the following:\n* https://github.com/pythongosssss/ComfyUI-WD14-Tagger\n* https://github.com/LarryJane491/Image-Captioning-in-ComfyUI\n* https://github.com/LarryJane491/Lora-Training-in-Comfy\n\nAnd follow the steps described in https://www.reddit.com/r/comfyui/comments/18xk72n/custom_node_lora_caption_in_comfyui/ \n\nYou might want to turn on only the \"Caption\" group or the \"Train\" group, as the latter depends on the former for captioning."
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 15,
+      "type": "StringFunction|pysssss",
+      "pos": [
+        -743.4798317912433,
+        162.72166398270375
+      ],
+      "size": {
+        "0": 210,
+        "1": 274
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            17,
+            22
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Image folder",
+      "properties": {
+        "Node name for S&R": "StringFunction|pysssss"
+      },
+      "widgets_values": [
+        "append",
+        "no",
+        "/sensei-fs/users/lwei/projects/animagen/BlackMath/02_2D_Line_Drawing_BlackMath_01-ProRes_half/",
+        "",
+        "",
+        "/sensei-fs/users/lwei/projects/animagen/BlackMath/02_2D_Line_Drawing_BlackMath_01-ProRes_half/"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "Fast Groups Bypasser (rgthree)",
+      "pos": {
+        "0": -475,
+        "1": 785,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": {
+        "0": 252,
+        "1": 106
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "matchColors": "",
+        "matchTitle": "",
+        "showNav": true,
+        "sort": "position",
+        "customSortAlphabet": "",
+        "toggleRestriction": "default"
+      }
+    },
+    {
+      "id": 8,
+      "type": "WD14Tagger|pysssss",
+      "pos": [
+        410,
+        380
+      ],
+      "size": {
+        "0": 315,
+        "1": 178
+      },
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 12
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            24
           ],
           "shape": 6,
           "slot_index": 0
@@ -186,326 +425,51 @@
         0.85,
         false,
         false,
-        "",
-        "simple_background, monochrome, comic, no_humans, food_focus, still_life",
-        "solo, simple_background, monochrome, greyscale, no_humans, cat, animal_focus, whiskers",
-        "1girl, solo, short_hair, high_heels, stairs",
-        "1girl, solo, black_hair, standing, pants, chair, dog, hands_in_pockets",
-        "1girl, solo, simple_background, black_hair, standing, pants, chair, dog, hands_in_pockets, afro",
-        "solo, short_hair, simple_background, 1boy, jacket, male_focus, shoes, pants, falling",
-        "solo, smile, open_mouth, shirt, 1boy, male_focus, shoes, pants, arms_up, parody, jumping",
-        "1girl, solo, black_hair, standing, pants, chair, dog, hands_in_pockets",
-        "1girl, solo, black_hair, bow, standing, hair_bow, pants, chair, dog, hands_in_pockets, afro",
-        "solo, simple_background, 1boy, jacket, male_focus, shoes, pants, falling",
-        "1girl, solo, black_hair, hat, standing, pants, chair, dog, hands_in_pockets, red_pants, afro",
-        "1girl, solo, short_hair, monochrome, closed_eyes, lying, wide_shot, surreal",
-        "1girl, solo, looking_at_viewer, short_hair, simple_background, shirt, standing, jacket, monochrome, full_body, pants, hands_in_pockets",
-        "1girl, solo, simple_background, black_hair, hat, standing, pants, chair, dog, hands_in_pockets, red_pants, afro",
-        "solo, simple_background, comic, no_humans",
-        "monochrome, comic, greyscale, cup, falling, coffee",
-        "1girl, solo, short_hair, simple_background, black_hair, hat, standing, pants, chair, hands_on_hips, dog, hands_in_pockets, afro",
-        "simple_background, monochrome, comic, cup, no_humans, umbrella",
-        "1girl, solo, looking_at_viewer, short_hair, simple_background, shirt, standing, jacket, monochrome, full_body, pants, hands_in_pockets",
-        "solo, monochrome, comic, no_humans",
-        "1girl, solo, short_hair, simple_background, black_hair, hat, dress, standing, chair, red_dress, dog, leggings",
-        "1girl, solo, black_hair, standing, pants, chair, dog, hands_in_pockets, afro",
-        "solo, smile, simple_background, 1boy, standing, monochrome, male_focus, pants, arms_up, pen, pencil, afro",
-        "solo, comic, blood",
-        "1girl, solo, short_hair, shirt, long_sleeves, standing, monochrome, pants, signature, arms_up, afro",
-        "solo, monochrome, comic, no_humans",
-        "1girl, solo, short_hair, simple_background, black_hair, hat, dress, standing, chair, red_dress, dog, leggings",
-        "1girl, solo, comic, blood",
-        "1girl, solo, black_hair, standing, pants, coat, chair, dog, hands_in_pockets, afro",
-        "1girl, smile, dress, monochrome, hairband, dog, afro",
-        "1girl, solo, shirt, monochrome, pants, arms_up, bubble, afro",
-        "1girl, smile, dress, monochrome, hairband, dog, afro",
-        "solo, shirt, 1boy, monochrome, male_focus, facial_hair, bubble, pen, pencil, afro",
-        "solo, simple_background, no_humans",
-        "1girl, solo, black_hair, standing, pants, chair, dog, hands_in_pockets, afro",
-        "1girl, solo, shirt, standing, monochrome, pants, arms_up, afro",
-        "1girl, solo, short_hair, simple_background, shirt, black_hair, long_sleeves, monochrome, white_shirt, pants, water",
-        "monochrome, greyscale, book, no_humans, paper",
-        "1girl, solo, simple_background, shirt, long_sleeves, 1boy, monochrome, pants, falling, surreal",
-        "1girl, solo, black_hair, standing, pants, chair, dog, hands_in_pockets, red_pants, afro",
-        "1girl, solo, falling",
-        "1girl, solo, smile, black_hair, standing, pants, coat, chair, dog, hands_in_pockets, afro",
-        "solo, shirt, 1boy, male_focus, shoes, pants, arms_up, parody, jumping",
-        "1girl, solo, short_hair, shirt, black_hair, long_sleeves, monochrome, white_shirt, pants, water",
-        "solo, 1boy, monochrome, male_focus, cup, parody, suit, rabbit, falling, hammer, coffee",
-        "1girl, solo, looking_at_viewer, short_hair, simple_background, shirt, black_hair, standing, monochrome, pants, halo, hands_in_pockets, antennae, surreal",
-        "solo, smile, open_mouth, 1boy, male_focus, shoes, pants, arms_up, parody, jumping",
-        "1girl, solo, short_hair, simple_background, black_hair, long_sleeves, dress, standing, pants, chair, red_dress, red_headwear, red_jacket, hands_on_hips, dog, red_pants, no_mouth",
-        "solo, gloves, monochrome, comic, halo, paper, falling, surreal",
-        "1girl, solo, short_hair, simple_background, black_hair, hat, dress, standing, chair, red_dress, hands_on_hips, dog",
-        "solo, looking_at_viewer, smile, 1boy, monochrome, hairband, parody, afro",
-        "1girl, solo, short_hair, simple_background, shirt, black_hair, standing, monochrome, white_shirt, pants, black_pants, floating, no_nose, wide_shot, surreal, paper_airplane",
-        "1girl, solo, black_hair, standing, pants, coat, chair, dog, hands_in_pockets, afro",
-        "solo, looking_at_viewer, black_hair, 1boy, male_focus, black_eyes, parody, reflection, upside-down, afro",
-        "1girl, solo, short_hair, simple_background, shirt, black_hair, hat, standing, pants, coat, chair, dog, hands_in_pockets, afro",
-        "1girl, solo, short_hair, shirt, standing, jacket, monochrome, pants, signature, hands_in_pockets",
-        "1girl, solo, short_hair, shirt, standing, jacket, monochrome, pants, signature, hands_in_pockets",
-        "solo, monochrome, comic, greyscale, no_humans",
-        "simple_background, no_humans, reflection, spot_color, ripples",
-        "1girl, solo, short_hair, simple_background, black_hair, hat, standing, pants, chair, dog, hands_in_pockets, afro",
-        "1girl, solo, black_hair, standing, pants, chair, dog, hands_in_pockets, afro",
-        "solo, looking_at_viewer, smile, simple_background, black_eyes, no_humans, parody, skeleton",
-        "1girl, solo, short_hair, simple_background, shirt, sitting, standing, profile, chair, cat, desk, limited_palette",
-        "1girl, solo, simple_background, black_hair, standing, pants, chair, dog, hands_in_pockets, afro",
-        "solo, monochrome, greyscale, close-up",
-        "1girl, solo, short_hair, black_hair, hat, standing, pants, chair, dog, hands_in_pockets, afro",
-        "1girl, solo, monochrome, comic, greyscale",
-        "solo, looking_at_viewer, black_hair, 1boy, wings, black_eyes, afro",
-        "1girl, solo, black_hair, standing, pants, chair, dog, hands_in_pockets, afro",
-        "1girl, solo, smile, simple_background, black_hair, limited_palette, surreal",
-        "1girl, solo, short_hair, simple_background, shirt, sitting, standing, profile, chair, cat, desk, limited_palette",
-        "1girl, solo, black_hair, standing, pants, chair, dog, hands_in_pockets, afro",
-        "1girl, solo, smile, monochrome, hairband, dog, afro",
-        "1girl, solo, monochrome, bubble, pen, pencil, afro",
-        "1girl, solo, simple_background",
-        "1girl, solo, black_hair, standing, pants, chair, dog, hands_in_pockets, afro",
-        "solo, smile, simple_background, 1boy, standing, monochrome, male_focus, pants, arms_up, pen, pencil, afro",
-        "solo, comic, blood",
-        "1girl, solo, black_hair, standing, pants, coat, chair, dog, hands_in_pockets, afro",
-        "smile, monochrome, animal, phone, cellphone, smartphone, dog, afro",
-        "1girl, solo, monochrome, bubble, pen, pencil, afro",
-        "1girl, solo, falling",
-        "1girl, solo, shirt, long_sleeves, standing, jacket, monochrome, full_body, pants, signature, arms_up, afro",
-        "monochrome, comic, no_humans, close-up",
-        "solo, simple_background, shirt, black_hair, 1boy, standing, male_focus, pants, grey_background, animal, chair, dog",
-        "simple_background, monochrome, greyscale, cup, no_humans, close-up, reflection",
-        "1girl, solo, short_hair, simple_background, shirt, black_hair, long_sleeves, standing, jacket, white_shirt, pants, grey_background, black_footwear, chair, red_headwear, red_jacket, dog, hand_in_pocket, hands_in_pockets, limited_palette, wide_shot, no_mouth",
-        "1girl, solo, black_hair, standing, pants, chair, dog, hands_in_pockets, afro",
-        "solo, shirt, long_sleeves, 1boy, monochrome, male_focus, pants, arms_up, book, from_above, pen, pencil, falling, surreal, afro",
-        "1girl, solo, short_hair, simple_background, black_hair, hat, standing, pants, chair, hands_on_hips, dog, hands_in_pockets, afro",
-        "simple_background, monochrome, comic, no_humans, food_focus, still_life",
-        "1girl, solo, looking_at_viewer, short_hair, simple_background, shirt, standing, jacket, monochrome, full_body, pants, hands_in_pockets",
-        "1girl, solo, looking_at_viewer, short_hair, simple_background, shirt, standing, jacket, monochrome, full_body, pants, hands_in_pockets",
-        "1girl, solo, simple_background, black_hair, hat, standing, pants, chair, dog, hands_in_pockets, red_pants, afro",
-        "simple_background, monochrome, comic, greyscale, grey_background, no_humans, sex_toy, what",
-        "1girl, monochrome, greyscale, falling, wide_shot, surreal, afro",
-        "1girl, solo, smile, short_hair, shirt, standing, monochrome, shoes, pants, arms_up",
-        "1girl, solo, black_hair, standing, pants, chair, dog, hands_in_pockets",
-        "1girl, solo, black_hair, bow, standing, hair_bow, pants, chair, dog, hands_in_pockets, afro",
-        "solo, simple_background, 1boy, holding, monochrome, male_focus, paper",
-        "1girl, solo, black_hair, hat, standing, pants, chair, dog, hands_in_pockets, red_pants, afro",
-        "1girl, solo, short_hair, simple_background, shirt, monochrome, shoes, pants, high_heels, cup, wide_shot, surreal, afro",
-        "simple_background, no_humans, reflection, spot_color, ripples",
-        "1girl, solo, short_hair, simple_background, shirt, sitting, monochrome, greyscale, pants, knees_up, wide_shot, oversized_animal",
-        "1girl, solo, smile, short_hair, shirt, standing, monochrome, shoes, pants, arms_up",
-        "1girl, solo, black_hair, standing, pants, chair, dog, hands_in_pockets",
-        "1girl, solo, simple_background, black_hair, standing, pants, chair, dog, hands_in_pockets, afro",
-        "solo, shirt, 1boy, male_focus, pants",
-        "1girl, solo, short_hair, simple_background, monochrome, greyscale, pants, wide_shot, surreal",
-        "solo, looking_at_viewer, black_hair, 1boy, male_focus, black_eyes, reflection, upside-down, afro",
-        "1girl, solo, black_hair, standing, pants, chair, dog, hands_in_pockets, afro",
-        "1girl, solo, long_hair, looking_at_viewer, smile, simple_background, black_hair, dress, holding, black_eyes, limited_palette",
-        "solo, simple_background, shirt, black_hair, 1boy, standing, tail, white_shirt, male_focus, pants, profile, chair, black_pants, cat, desk, walking, computer, limited_palette, laptop",
-        "1girl, solo, black_hair, standing, pants, chair, dog, hands_in_pockets, afro",
-        "1girl, solo, simple_background, black_hair, standing, pants, chair, dog, hands_in_pockets, afro",
-        "1girl, solo, long_hair, looking_at_viewer, smile, simple_background, black_hair, dress, holding, black_eyes, limited_palette",
-        "1girl, solo, simple_background, shirt, long_sleeves, 1boy, sitting, standing, male_focus, profile, chair, cat, limited_palette",
-        "1girl, solo, simple_background, black_hair, standing, pants, chair, dog, hands_in_pockets, afro",
-        "monochrome, comic, greyscale, no_humans",
-        "1girl, solo, short_hair, simple_background, black_hair, hat, standing, pants, chair, dog, hands_in_pockets, afro",
-        "1girl, solo, short_hair, shirt, standing, monochrome, pants, halo, hands_in_pockets",
-        "solo, simple_background, monochrome, greyscale, no_humans, cat, animal_focus, whiskers",
-        "simple_background, no_humans, logo, still_life",
-        "1girl, solo, short_hair, simple_background, black_hair, hat, standing, pants, chair, dog, hands_in_pockets, afro",
-        "solo, black_hair, 1boy, male_focus",
-        "1girl, solo, short_hair, simple_background, shirt, black_hair, standing, white_shirt, pants, grey_background, black_footwear, coat, chair, dog, hands_in_pockets, limited_palette, red_pants",
-        "1girl, solo, short_hair, shirt, standing, jacket, monochrome, pants, hands_in_pockets",
-        "1girl, solo, short_hair, simple_background, shirt, black_hair, long_sleeves, hat, standing, white_shirt, pants, grey_background, black_footwear, chair, red_headwear, red_jacket, hands_on_hips, dog, hands_in_pockets, red_pants",
-        "1girl, solo, looking_at_viewer, smile, black_hair, dress, monochrome, hairband, black_eyes, paper, afro",
-        "1girl, solo, simple_background, shirt, long_sleeves, 1boy, monochrome, pants, falling, surreal",
-        "1girl, solo, black_hair, standing, pants, coat, chair, dog, hands_in_pockets, afro",
-        "1girl, solo, looking_at_viewer, short_hair, simple_background, shirt, standing, monochrome, shoes, pants, umbrella, hands_in_pockets, surreal",
-        "solo, shirt, 1boy, male_focus, shoes, pants, arms_up, parody, jumping",
-        "1girl, solo, short_hair, simple_background, shirt, black_hair, long_sleeves, hat, standing, white_shirt, pants, black_footwear, chair, red_headwear, red_jacket, hands_on_hips, dog, hands_in_pockets, red_pants",
-        "1girl, solo, looking_at_viewer, smile, black_hair, dress, monochrome, hairband, black_eyes, paper, afro",
-        "1girl, solo, smile, black_hair, standing, pants, coat, chair, dog, hands_in_pockets, afro",
-        "1girl, solo, black_hair, nude",
-        "1girl, solo, short_hair, shirt, long_sleeves, standing, monochrome, hairband, hand_on_hip, index_finger_raised",
-        "solo, 1boy, monochrome, greyscale, book, blood, pen",
-        "1girl, solo, monochrome, greyscale, water, ripples, surreal",
-        "solo, 1boy, monochrome, greyscale, book, blood, pen",
-        "1girl, solo, short_hair, shirt, long_sleeves, standing, monochrome, pants, signature, arms_up, afro",
-        "1girl, solo, black_hair, standing, pants, coat, chair, dog, hands_in_pockets, red_pants, afro",
-        "solo, simple_background",
-        "1girl, solo, short_hair, simple_background, shirt, standing, jacket, monochrome, pants, hands_in_pockets, surreal",
-        "solo, looking_at_viewer, black_hair, 1boy, wings, black_eyes, afro",
-        "1girl, solo, black_hair, standing, pants, chair, dog, hands_in_pockets, afro",
-        "1girl, solo, simple_background, black_hair, standing, pants, chair, dog, hands_in_pockets, red_pants, afro",
-        "1girl, solo, simple_background, shirt, long_sleeves, 1boy, standing, male_focus, profile, chair, cat, limited_palette",
-        "1girl, solo, simple_background, monochrome, comic, greyscale",
-        "1girl, solo, simple_background, monochrome, comic, greyscale",
-        "1girl, solo, black_hair, holding, from_side, profile, bird, limited_palette, wide_shot",
-        "1girl, solo, black_hair, standing, pants, chair, dog, hands_in_pockets, afro",
-        "1girl, solo, black_hair, standing, pants, chair, dog, hands_in_pockets, red_pants, afro",
-        "solo, simple_background, shirt, black_hair, 1boy, standing, white_shirt, male_focus, pants, profile, chair, black_pants, cat, desk, walking, computer, limited_palette, laptop",
-        "solo, black_hair, 1boy, male_focus, limited_palette, wide_shot, surreal",
-        "1girl, solo, short_hair, simple_background, shirt, black_hair, hat, standing, pants, chair, hands_on_hips, dog, hands_in_pockets, red_pants",
-        "1girl, solo, short_hair, shirt, standing, jacket, monochrome, pants, hands_in_pockets",
-        "solo, simple_background, shirt, black_hair, 1boy, male_focus, shoes, pants, black_pants, surreal",
-        "solo, simple_background, shirt, black_hair, 1boy, male_focus, pants, chair, cat, hands_in_pockets, limited_palette, folding_chair",
-        "1girl, solo, short_hair, shirt, standing, monochrome, pants, halo, hands_in_pockets",
-        "1girl, solo, black_hair, standing, pants, chair, dog, hands_in_pockets, afro",
-        "1girl, solo, smile, black_hair, standing, pants, coat, chair, dog, hands_in_pockets, afro",
-        "simple_background, no_humans, logo, still_life",
-        "1girl, solo, short_hair, simple_background, black_hair, hat, standing, pants, chair, hands_on_hips, dog, hands_in_pockets, red_pants, afro",
-        "1girl, solo, looking_at_viewer, short_hair, shirt, black_hair, monochrome, white_shirt, pants, umbrella, black_pants, floating, hands_in_pockets, surreal",
-        "1girl, solo, short_hair, simple_background, black_hair, long_sleeves, hat, dress, standing, pants, chair, red_dress, cat, red_headwear, dog",
-        "simple_background, monochrome, comic, cup, blood",
-        "solo, short_hair, simple_background, 1boy, monochrome, greyscale, male_focus, pants, water, topless_male, surreal",
-        "open_mouth, monochrome, weapon, greyscale, no_humans, animal, phone, cellphone, rabbit, paper, kunai",
-        "1girl, solo, black_hair, hat, standing, pants, coat, chair, hands_on_hips, dog",
-        "1girl, solo, looking_at_viewer, smile, monochrome, cup, afro",
-        "1girl, solo, looking_at_viewer, short_hair, shirt, black_hair, monochrome, white_shirt, pants, umbrella, black_pants, floating, hands_in_pockets, surreal",
-        "1girl, solo, monochrome, greyscale, water, surreal",
-        "sitting, monochrome, greyscale, no_humans, phone, cellphone, smartphone, dog",
-        "1girl, solo, short_hair, shirt, black_hair, hat, standing, pants, coat, chair, dog, hands_in_pockets, afro",
-        "1girl, solo, smile, black_hair, standing, pants, coat, chair, dog, hands_in_pockets, afro",
-        "solo, simple_background",
-        "1girl, solo, smile, black_hair, standing, pants, coat, chair, dog, hands_in_pockets, afro",
-        "1girl, solo, black_hair, nude",
-        "1girl, solo, short_hair, shirt, long_sleeves, standing, monochrome, hairband, hand_on_hip, index_finger_raised",
-        "monochrome, comic, greyscale, falling, coffee",
-        "solo, simple_background, monochrome",
-        "solo, simple_background, comic, no_humans",
-        "1girl, solo, black_hair, standing, pants, coat, chair, dog, hands_in_pockets, afro",
-        "monochrome, comic, greyscale, penis, sex_toy, close-up, vibrator",
-        "smile, monochrome, animal, phone, cellphone, smartphone, dog, afro",
-        "1girl, solo, shirt, standing, monochrome, pants, arms_up, afro",
-        "1girl, solo, short_hair, simple_background, shirt, black_hair, long_sleeves, standing, white_shirt, shoes, pants, black_footwear, chair, red_jacket, dog, hands_in_pockets, limited_palette, red_pants",
-        "1girl, solo, smile, monochrome, hairband, parody, dog, afro",
-        "1girl, solo, simple_background, shirt, monochrome, pants, bag, afro",
-        "solo, simple_background, comic, no_humans",
-        "1girl, solo, black_hair, standing, pants, chair, dog, hands_in_pockets, afro",
-        "solo, simple_background, monochrome, greyscale, cup, no_humans, close-up, reflection",
-        "1girl, solo, short_hair, simple_background, shirt, black_hair, long_sleeves, standing, jacket, white_shirt, pants, grey_background, black_footwear, chair, red_jacket, dog, hand_in_pocket, hands_in_pockets, limited_palette, wide_shot, no_mouth",
-        "1girl, solo, smile, monochrome, greyscale, cup, afro",
-        "1girl, solo, long_sleeves, dress, monochrome, pantyhose, surreal, afro",
-        "solo, shirt, long_sleeves, 1boy, monochrome, male_focus, pants, arms_up, book, from_above, pen, pencil, falling, surreal, afro",
-        "1girl, solo, shirt, long_sleeves, standing, jacket, monochrome, full_body, pants, signature, arms_up, afro",
-        "monochrome, comic, no_humans, close-up",
-        "solo, simple_background, shirt, black_hair, 1boy, standing, male_focus, pants, grey_background, animal, chair, dog",
-        "1girl, solo, short_hair, simple_background, black_hair, standing, pants, chair, dog, hands_in_pockets",
-        "1girl, solo, looking_at_viewer, short_hair, simple_background, shirt, standing, jacket, monochrome, pants, hands_in_pockets",
-        "1girl, solo, simple_background, black_hair, hat, standing, pants, chair, dog, hands_in_pockets, afro",
-        "simple_background, comic",
-        "1girl, solo, short_hair, simple_background, black_hair, hat, standing, pants, chair, hands_on_hips, dog, hands_in_pockets, afro",
-        "simple_background, comic",
-        "solo, simple_background, 1boy, standing, nude, from_side, umbrella, afro",
-        "simple_background, weapon, comic, no_humans, polearm, reflection, ripples",
-        "solo, short_hair, simple_background, shirt, 1boy, sitting, monochrome, greyscale, pants, knees_up, wide_shot, oversized_animal",
-        "1girl, solo, black_hair, hat, standing, pants, chair, dog, hands_in_pockets, red_pants, afro",
-        "1girl, solo, simple_background, standing, arms_up",
-        "solo, shirt, 1boy, male_focus, pants",
-        "1girl, solo, black_hair, bow, standing, hair_bow, pants, chair, dog, hands_in_pockets, afro",
-        "1girl, solo, simple_background, black_hair, standing, pants, chair, dog, hands_in_pockets",
-        "solo, smile, open_mouth, 1boy, male_focus, shoes, pants, arms_up, parody, jumping",
-        "solo, simple_background, 1boy, holding, monochrome, male_focus, paper, surreal",
-        "1girl, solo, short_hair, shirt, standing, monochrome, pants, hands_in_pockets",
-        "1girl, solo, short_hair, simple_background, shirt, monochrome, shoes, pants, high_heels, cup, wide_shot, surreal, afro",
-        "1girl, solo, smile, black_hair, standing, pants, coat, chair, dog, hands_in_pockets, afro",
-        "1girl, solo, long_hair, monochrome, blood, spot_color",
-        "1girl, solo, simple_background, long_sleeves, dress, monochrome, pantyhose, surreal, afro",
-        "solo, 1boy, monochrome, male_focus, cup, parody, suit, falling, coffee",
-        "simple_background, monochrome, comic, cup",
-        "solo, short_hair, simple_background, 1boy, monochrome, greyscale, male_focus, pants, water, topless_male, surreal",
-        "monochrome, greyscale, book, no_humans, animal, paper",
-        "1girl, solo, short_hair, black_hair, hat, standing, pants, coat, chair, hands_on_hips, dog, hands_in_pockets",
-        "1girl, solo, smile, black_hair, standing, pants, coat, chair, dog, hands_in_pockets, afro",
-        "1girl, solo, long_hair, monochrome, blood, spot_color",
-        "1girl, solo, short_hair, simple_background, monochrome, greyscale, pants, wide_shot, surreal",
-        "sitting, monochrome, greyscale, no_humans, phone, cellphone, smartphone, dog",
-        "1girl, solo, short_hair, simple_background, black_hair, hat, dress, standing, chair, red_dress, hands_on_hips, dog",
-        "solo, looking_at_viewer, smile, 1boy, monochrome, hairband, parody, afro",
-        "1girl, solo, short_hair, simple_background, shirt, black_hair, standing, monochrome, white_shirt, short_sleeves, pants, black_pants, floating, no_nose, wide_shot, surreal, paper_airplane",
-        "1girl, solo, looking_at_viewer, short_hair, simple_background, shirt, black_hair, standing, monochrome, pants, halo, hands_in_pockets, antennae, surreal",
-        "1girl, solo, short_hair, simple_background, black_hair, long_sleeves, hat, dress, standing, pants, chair, red_dress, red_headwear, red_jacket, hands_on_hips, dog, red_pants, no_mouth",
-        "solo, gloves, monochrome, comic, halo, paper, falling, surreal",
-        "1girl, solo, short_hair, simple_background, shirt, standing, jacket, monochrome, pants, hands_in_pockets, surreal",
-        "1girl, solo, black_hair, standing, pants, chair, dog, hands_in_pockets, afro",
-        "1girl, solo, smile, black_hair, standing, pants, coat, chair, dog, hands_in_pockets, afro",
-        "solo, simple_background, white_background, monochrome, no_humans, spot_color",
-        "1girl, solo, short_hair, simple_background, black_hair, hat, standing, pants, chair, hands_on_hips, dog, hands_in_pockets, red_pants, afro",
-        "solo, no_humans, spot_color",
-        "1girl, solo, short_hair, simple_background, black_hair, hat, standing, pants, chair, hands_on_hips, dog, hands_in_pockets, red_pants, afro",
-        "1girl, solo, short_hair, shirt, standing, monochrome, pants, hands_in_pockets",
-        "1girl, solo, black_hair, holding, from_side, profile, bird, limited_palette",
-        "1girl, solo, simple_background, black_hair, 1boy, standing, male_focus, pants, profile, chair, dog, hands_in_pockets, limited_palette",
-        "1girl, solo, monochrome, comic, greyscale",
-        "1girl, solo, smile, simple_background, black_hair, limited_palette, surreal, fine_art_parody",
-        "1girl, solo, black_hair, standing, pants, chair, dog, hands_in_pockets, afro",
-        "1girl, solo, black_hair, standing, pants, chair, dog, hands_in_pockets, red_pants, afro",
-        "solo, simple_background, shirt, black_hair, 1boy, pants, chair, hands_in_pockets, limited_palette, folding_chair",
-        "1girl, solo, looking_at_viewer, short_hair, simple_background, shirt, standing, monochrome, shoes, pants, umbrella, hands_in_pockets, surreal",
-        "solo, looking_at_viewer, smile, simple_background, black_eyes, no_humans, parody, skeleton",
-        "1girl, solo, black_hair, standing, pants, chair, dog, hands_in_pockets, afro",
-        "1girl, solo, simple_background, black_hair, standing, pants, chair, dog, hands_in_pockets, red_pants, afro",
-        "1girl, solo, simple_background, 1boy, standing, nude, from_side, umbrella",
-        "solo, monochrome, greyscale, close-up",
-        "1girl, solo, simple_background, black_hair, standing, pants, chair, dog, hands_in_pockets",
-        "solo, smile, open_mouth, shirt, 1boy, male_focus, shoes, pants, arms_up, parody, jumping",
-        "solo, simple_background, shirt, black_hair, 1boy, male_focus, shoes, pants, black_pants, surreal",
-        "1girl, solo, looking_at_viewer, short_hair, simple_background, shirt, standing, jacket, monochrome, full_body, pants, hands_in_pockets",
-        "1girl, solo, short_hair, simple_background, monochrome, greyscale, surreal",
-        "1girl, solo, short_hair, simple_background, monochrome, greyscale, surreal",
-        "1girl, solo, black_hair, hat, standing, pants, chair, dog, hands_in_pockets, red_pants, afro",
-        "1girl, solo, short_hair, high_heels, stairs",
-        "simple_background, weapon, no_humans, polearm, reflection, ripples",
-        "1girl, solo, simple_background, black_hair, bow, standing, hair_bow, pants, chair, dog, hands_in_pockets, afro",
-        "1girl, solo, short_hair, simple_background, black_hair, hat, standing, pants, chair, hands_on_hips, dog, hands_in_pockets, afro",
-        "monochrome, comic, cup, no_humans, umbrella",
-        "1girl, solo, simple_background, standing, arms_up",
-        "1girl, solo, simple_background, comic",
-        "1girl, solo, looking_at_viewer, short_hair, simple_background, shirt, standing, jacket, monochrome, full_body, pants, hands_in_pockets",
-        "1girl, solo, simple_background, black_hair, standing, pants, chair, dog, hands_in_pockets",
-        "1girl, solo, looking_at_viewer, short_hair, simple_background, shirt, standing, jacket, monochrome, pants, hands_in_pockets",
-        "1girl, solo, simple_background, black_hair, hat, standing, pants, chair, dog, hands_in_pockets, afro",
-        "solo, simple_background, comic, no_humans",
-        "solo, shirt, long_sleeves, 1boy, standing, monochrome, male_focus, pants, arms_up, surreal, afro",
-        "1girl, monochrome, comic, greyscale, penis, sex_toy, close-up",
-        "1girl, solo, simple_background, shirt, black_hair, 1boy, standing, male_focus, pants, profile, chair, dog, hands_in_pockets, limited_palette",
-        "solo, simple_background, monochrome",
-        "1girl, solo, short_hair, simple_background, shirt, black_hair, long_sleeves, standing, white_shirt, pants, black_footwear, chair, red_jacket, dog, hands_in_pockets, limited_palette, red_pants",
-        "1girl, solo, looking_at_viewer, smile, monochrome, cup, afro",
-        "1girl, solo, simple_background, shirt, monochrome, pants, bag, afro",
-        "solo, shirt, long_sleeves, 1boy, standing, monochrome, male_focus, pants, arms_up, surreal, afro",
-        "1girl, solo, short_hair, simple_background, black_hair, long_sleeves, hat, dress, standing, pants, chair, red_dress, cat, red_headwear, dog",
-        "1girl, solo, smile, monochrome, greyscale, cup, falling, afro",
-        "solo, shirt, 1boy, monochrome, male_focus, facial_hair, bubble, pen, afro",
-        "solo, simple_background, no_humans",
-        "1girl, solo, black_hair, standing, pants, chair, dog, hands_in_pockets, afro",
-        "1girl, solo, comic, blood",
-        "1girl, solo, black_hair, standing, pants, coat, chair, dog, hands_in_pockets, afro",
-        "simple_background, monochrome, comic, greyscale, grey_background, no_humans, sex_toy, what, still_life",
-        "open_mouth, monochrome, weapon, greyscale, no_humans, animal, phone, rabbit, paper, kunai",
-        "1girl, solo, shirt, monochrome, pants, arms_up, bubble, afro"
+        ""
       ]
     },
     {
-      "id": 7,
-      "type": "Note",
+      "id": 4,
+      "type": "ShowText|pysssss",
       "pos": [
-        -18,
-        428
+        410,
+        160
       ],
-      "size": [
-        363.1447387695313,
-        244.23390197753906
-      ],
+      "size": {
+        "0": 315,
+        "1": 76
+      },
       "flags": {},
-      "order": 1,
+      "order": 8,
       "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 2,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            25
+          ],
+          "shape": 6,
+          "slot_index": 0
+        }
+      ],
       "properties": {
-        "text": ""
+        "Node name for S&R": "ShowText|pysssss"
       },
       "widgets_values": [
-        "Based on https://youtu.be/gt_E-ye2irQ\n\nInstall the following:\nhttps://github.com/pythongosssss/ComfyUI-WD14-Tagger\nhttps://github.com/LarryJane491/Image-Captioning-in-ComfyUI\n\nAnd follow the steps described in https://www.reddit.com/r/comfyui/comments/18xk72n/custom_node_lora_caption_in_comfyui/ "
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
+        "",
+        "frame_128.png\nframe_070.png\nframe_185.png\nframe_243.png\nframe_292.png\nframe_154.png\nframe_182.png\nframe_244.png\nframe_295.png\nframe_153.png\nframe_238.png\nframe_077.png\nframe_005.png\nframe_236.png\nframe_121.png\nframe_079.png\nframe_231.png\nframe_126.png\nframe_002.png\nframe_113.png\nframe_204.png\nframe_278.png\nframe_037.png\nframe_168.png\nframe_030.png\nframe_114.png\nframe_203.png\nframe_166.png\nframe_271.png\nframe_093.png\nframe_042.png\nframe_094.png\nframe_045.png\nframe_161.png\nframe_276.png\nframe_039.png\nframe_054.png\nframe_085.png\nframe_028.png\nframe_267.png\nframe_170.png\nframe_260.png\nframe_177.png\nframe_053.png\nframe_082.png\nframe_021.png\nframe_179.png\nframe_212.png\nframe_105.png\nframe_215.png\nframe_102.png\nframe_026.png\nframe_269.png\nframe_137.png\nframe_220.png\nframe_013.png\nframe_014.png\nframe_068.png\nframe_130.png\nframe_227.png\nframe_284.png\nframe_142.png\nframe_193.png\nframe_255.png\nframe_066.png\nframe_229.png\nframe_061.png\nframe_139.png\nframe_283.png\nframe_145.png\nframe_194.png\nframe_252.png\nframe_095.png\nframe_044.png\nframe_160.png\nframe_277.png\nframe_038.png\nframe_167.png\nframe_270.png\nframe_092.png\nframe_043.png\nframe_169.png\nframe_031.png\nframe_115.png\nframe_202.png\nframe_112.png\nframe_205.png\nframe_279.png\nframe_036.png\nframe_230.png\nframe_127.png\nframe_003.png\nframe_004.png\nframe_237.png\nframe_120.png\nframe_078.png\nframe_183.png\nframe_245.png\nframe_294.png\nframe_152.png\nframe_239.png\nframe_076.png\nframe_129.png\nframe_071.png\nframe_184.png\nframe_242.png\nframe_293.png\nframe_155.png\nframe_060.png\nframe_138.png\nframe_282.png\nframe_144.png\nframe_195.png\nframe_253.png\nframe_285.png\nframe_143.png\nframe_192.png\nframe_254.png\nframe_067.png\nframe_228.png\nframe_015.png\nframe_069.png\nframe_131.png\nframe_226.png\nframe_136.png\nframe_221.png\nframe_012.png\nframe_214.png\nframe_103.png\nframe_027.png\nframe_268.png\nframe_020.png\nframe_178.png\nframe_213.png\nframe_104.png\nframe_261.png\nframe_176.png\nframe_052.png\nframe_083.png\nframe_055.png\nframe_084.png\nframe_029.png\nframe_266.png\nframe_171.png\nframe_018.png\nframe_140.png\nframe_286.png\nframe_257.png\nframe_191.png\nframe_064.png\nframe_063.png\nframe_147.png\nframe_281.png\nframe_250.png\nframe_196.png\nframe_135.png\nframe_222.png\nframe_011.png\nframe_149.png\nframe_198.png\nframe_016.png\nframe_288.png\nframe_259.png\nframe_132.png\nframe_225.png\nframe_023.png\nframe_210.png\nframe_107.png\nframe_058.png\nframe_089.png\nframe_217.png\nframe_100.png\nframe_024.png\nframe_056.png\nframe_087.png\nframe_219.png\nframe_265.png\nframe_172.png\nframe_262.png\nframe_175.png\nframe_051.png\nframe_080.png\nframe_109.png\nframe_164.png\nframe_273.png\nframe_118.png\nframe_091.png\nframe_040.png\nframe_208.png\nframe_096.png\nframe_047.png\nframe_163.png\nframe_274.png\nframe_111.png\nframe_206.png\nframe_098.png\nframe_049.png\nframe_035.png\nframe_032.png\nframe_116.png\nframe_201.png\nframe_248.png\nframe_007.png\nframe_234.png\nframe_123.png\nframe_233.png\nframe_124.png\nframe_189.png\nframe_158.png\nframe_072.png\nframe_241.png\nframe_187.png\nframe_156.png\nframe_290.png\nframe_246.png\nframe_180.png\nframe_151.png\nframe_009.png\nframe_075.png\nframe_263.png\nframe_174.png\nframe_050.png\nframe_081.png\nframe_108.png\nframe_057.png\nframe_086.png\nframe_218.png\nframe_264.png\nframe_173.png\nframe_059.png\nframe_088.png\nframe_216.png\nframe_101.png\nframe_025.png\nframe_022.png\nframe_211.png\nframe_106.png\nframe_017.png\nframe_289.png\nframe_258.png\nframe_133.png\nframe_224.png\nframe_134.png\nframe_223.png\nframe_010.png\nframe_148.png\nframe_199.png\nframe_062.png\nframe_146.png\nframe_280.png\nframe_251.png\nframe_197.png\nframe_019.png\nframe_141.png\nframe_287.png\nframe_256.png\nframe_190.png\nframe_065.png\nframe_247.png\nframe_181.png\nframe_150.png\nframe_008.png\nframe_074.png\nframe_073.png\nframe_240.png\nframe_186.png\nframe_157.png\nframe_291.png\nframe_232.png\nframe_125.png\nframe_188.png\nframe_159.png\nframe_001.png\nframe_249.png\nframe_006.png\nframe_235.png\nframe_122.png\nframe_033.png\nframe_117.png\nframe_200.png\nframe_110.png\nframe_207.png\nframe_099.png\nframe_048.png\nframe_034.png\nframe_209.png\nframe_097.png\nframe_046.png\nframe_162.png\nframe_275.png\nframe_165.png\nframe_272.png\nframe_119.png\nframe_090.png\nframe_041.png"
+      ]
     }
   ],
   "links": [
@@ -518,14 +482,6 @@
       "STRING"
     ],
     [
-      8,
-      4,
-      0,
-      5,
-      0,
-      "STRING"
-    ],
-    [
       9,
       2,
       1,
@@ -534,23 +490,108 @@
       "STRING"
     ],
     [
-      10,
+      12,
       2,
       2,
-      6,
+      8,
       0,
       "IMAGE"
     ],
     [
-      11,
-      6,
+      17,
+      15,
+      0,
+      10,
+      0,
+      "STRING"
+    ],
+    [
+      18,
+      10,
+      0,
+      2,
+      0,
+      "STRING"
+    ],
+    [
+      20,
+      16,
+      0,
+      17,
+      0,
+      "*"
+    ],
+    [
+      21,
+      17,
+      0,
+      9,
+      1,
+      "STRING"
+    ],
+    [
+      22,
+      15,
+      0,
+      9,
+      0,
+      "STRING"
+    ],
+    [
+      24,
+      8,
       0,
       5,
       2,
       "STRING"
+    ],
+    [
+      25,
+      4,
+      0,
+      5,
+      0,
+      "STRING"
     ]
   ],
-  "groups": [],
+  "groups": [
+    {
+      "title": "Caption",
+      "bounding": [
+        -30,
+        86,
+        1158,
+        598
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "locked": false
+    },
+    {
+      "title": "Folder",
+      "bounding": [
+        -753,
+        89,
+        663,
+        812
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "locked": false
+    },
+    {
+      "title": "Train",
+      "bounding": [
+        1197,
+        87,
+        335,
+        310
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "locked": false
+    }
+  ],
   "config": {},
   "extra": {},
   "version": 0.4
