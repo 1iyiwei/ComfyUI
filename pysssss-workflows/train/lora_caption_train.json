@@ -1,6 +1,6 @@
 {
   "last_node_id": 20,
-  "last_link_id": 25,
+  "last_link_id": 26,
   "nodes": [
     {
       "id": 5,
@@ -15,7 +15,7 @@
       },
       "flags": {},
       "order": 10,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "namelist",
@@ -64,8 +64,8 @@
         "1": 98
       },
       "flags": {},
-      "order": 7,
-      "mode": 0,
+      "order": 5,
+      "mode": 4,
       "inputs": [
         {
           "name": "path",
@@ -124,7 +124,7 @@
         "1": 274
       },
       "flags": {},
-      "order": 5,
+      "order": 3,
       "mode": 0,
       "inputs": [
         {
@@ -161,52 +161,6 @@
       ]
     },
     {
-      "id": 9,
-      "type": "Lora Training in ComfyUI",
-      "pos": [
-        1206.949598333377,
-        160.8747084917037
-      ],
-      "size": {
-        "0": 315,
-        "1": 226
-      },
-      "flags": {},
-      "order": 6,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "data_path",
-          "type": "STRING",
-          "link": 22,
-          "widget": {
-            "name": "data_path"
-          }
-        },
-        {
-          "name": "output_dir",
-          "type": "STRING",
-          "link": 21,
-          "widget": {
-            "name": "output_dir"
-          }
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "Lora Training in ComfyUI"
-      },
-      "widgets_values": [
-        "realisticVisionV20_v20.safetensors",
-        "Insert path of image folders",
-        1,
-        10,
-        10,
-        "02_2D_Line_Drawing_BlackMath_01-ProRes",
-        2,
-        "/sensei-fs/users/lwei/trees/comfyUI/models/loras"
-      ]
-    },
-    {
       "id": 17,
       "type": "Reroute",
       "pos": [
@@ -218,8 +172,8 @@
         26
       ],
       "flags": {},
-      "order": 4,
-      "mode": 0,
+      "order": 6,
+      "mode": 4,
       "inputs": [
         {
           "name": "",
@@ -246,145 +200,6 @@
       }
     },
     {
-      "id": 16,
-      "type": "StringFunction|pysssss",
-      "pos": [
-        -736.4798317912433,
-        490.72166398270394
-      ],
-      "size": {
-        "0": 210,
-        "1": 274
-      },
-      "flags": {},
-      "order": 0,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            20
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "title": "Output folder",
-      "properties": {
-        "Node name for S&R": "StringFunction|pysssss"
-      },
-      "widgets_values": [
-        "append",
-        "no",
-        "/sensei-fs/users/lwei/trees/comfyUI/models/loras",
-        "",
-        "",
-        "/sensei-fs/users/lwei/trees/comfyUI/models/loras"
-      ]
-    },
-    {
-      "id": 7,
-      "type": "Note",
-      "pos": [
-        -486.479831791243,
-        495.7216639827041
-      ],
-      "size": {
-        "0": 363.1447448730469,
-        "1": 244.23390197753906
-      },
-      "flags": {},
-      "order": 1,
-      "mode": 0,
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "Based on https://youtu.be/gt_E-ye2irQ\n\nInstall the following:\n* https://github.com/pythongosssss/ComfyUI-WD14-Tagger\n* https://github.com/LarryJane491/Image-Captioning-in-ComfyUI\n* https://github.com/LarryJane491/Lora-Training-in-Comfy\n\nAnd follow the steps described in https://www.reddit.com/r/comfyui/comments/18xk72n/custom_node_lora_caption_in_comfyui/ \n\nYou might want to turn on only the \"Caption\" group or the \"Train\" group, as the latter depends on the former for captioning."
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 15,
-      "type": "StringFunction|pysssss",
-      "pos": [
-        -743.4798317912433,
-        162.72166398270375
-      ],
-      "size": {
-        "0": 210,
-        "1": 274
-      },
-      "flags": {},
-      "order": 2,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            17,
-            22
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "title": "Image folder",
-      "properties": {
-        "Node name for S&R": "StringFunction|pysssss"
-      },
-      "widgets_values": [
-        "append",
-        "no",
-        "/sensei-fs/users/lwei/projects/animagen/BlackMath/02_2D_Line_Drawing_BlackMath_01-ProRes_half/",
-        "",
-        "",
-        "/sensei-fs/users/lwei/projects/animagen/BlackMath/02_2D_Line_Drawing_BlackMath_01-ProRes_half/"
-      ]
-    },
-    {
-      "id": 20,
-      "type": "Fast Groups Bypasser (rgthree)",
-      "pos": {
-        "0": -475,
-        "1": 785,
-        "2": 0,
-        "3": 0,
-        "4": 0,
-        "5": 0,
-        "6": 0,
-        "7": 0,
-        "8": 0,
-        "9": 0
-      },
-      "size": {
-        "0": 252,
-        "1": 106
-      },
-      "flags": {},
-      "order": 3,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "OPT_CONNECTION",
-          "type": "*",
-          "links": null
-        }
-      ],
-      "properties": {
-        "matchColors": "",
-        "matchTitle": "",
-        "showNav": true,
-        "sort": "position",
-        "customSortAlphabet": "",
-        "toggleRestriction": "default"
-      }
-    },
-    {
       "id": 8,
       "type": "WD14Tagger|pysssss",
       "pos": [
@@ -396,8 +211,8 @@
         "1": 178
       },
       "flags": {},
-      "order": 9,
-      "mode": 0,
+      "order": 8,
+      "mode": 4,
       "inputs": [
         {
           "name": "image",
@@ -440,8 +255,8 @@
         "1": 76
       },
       "flags": {},
-      "order": 8,
-      "mode": 0,
+      "order": 7,
+      "mode": 4,
       "inputs": [
         {
           "name": "text",
@@ -469,6 +284,202 @@
       "widgets_values": [
         "",
         "frame_128.png\nframe_070.png\nframe_185.png\nframe_243.png\nframe_292.png\nframe_154.png\nframe_182.png\nframe_244.png\nframe_295.png\nframe_153.png\nframe_238.png\nframe_077.png\nframe_005.png\nframe_236.png\nframe_121.png\nframe_079.png\nframe_231.png\nframe_126.png\nframe_002.png\nframe_113.png\nframe_204.png\nframe_278.png\nframe_037.png\nframe_168.png\nframe_030.png\nframe_114.png\nframe_203.png\nframe_166.png\nframe_271.png\nframe_093.png\nframe_042.png\nframe_094.png\nframe_045.png\nframe_161.png\nframe_276.png\nframe_039.png\nframe_054.png\nframe_085.png\nframe_028.png\nframe_267.png\nframe_170.png\nframe_260.png\nframe_177.png\nframe_053.png\nframe_082.png\nframe_021.png\nframe_179.png\nframe_212.png\nframe_105.png\nframe_215.png\nframe_102.png\nframe_026.png\nframe_269.png\nframe_137.png\nframe_220.png\nframe_013.png\nframe_014.png\nframe_068.png\nframe_130.png\nframe_227.png\nframe_284.png\nframe_142.png\nframe_193.png\nframe_255.png\nframe_066.png\nframe_229.png\nframe_061.png\nframe_139.png\nframe_283.png\nframe_145.png\nframe_194.png\nframe_252.png\nframe_095.png\nframe_044.png\nframe_160.png\nframe_277.png\nframe_038.png\nframe_167.png\nframe_270.png\nframe_092.png\nframe_043.png\nframe_169.png\nframe_031.png\nframe_115.png\nframe_202.png\nframe_112.png\nframe_205.png\nframe_279.png\nframe_036.png\nframe_230.png\nframe_127.png\nframe_003.png\nframe_004.png\nframe_237.png\nframe_120.png\nframe_078.png\nframe_183.png\nframe_245.png\nframe_294.png\nframe_152.png\nframe_239.png\nframe_076.png\nframe_129.png\nframe_071.png\nframe_184.png\nframe_242.png\nframe_293.png\nframe_155.png\nframe_060.png\nframe_138.png\nframe_282.png\nframe_144.png\nframe_195.png\nframe_253.png\nframe_285.png\nframe_143.png\nframe_192.png\nframe_254.png\nframe_067.png\nframe_228.png\nframe_015.png\nframe_069.png\nframe_131.png\nframe_226.png\nframe_136.png\nframe_221.png\nframe_012.png\nframe_214.png\nframe_103.png\nframe_027.png\nframe_268.png\nframe_020.png\nframe_178.png\nframe_213.png\nframe_104.png\nframe_261.png\nframe_176.png\nframe_052.png\nframe_083.png\nframe_055.png\nframe_084.png\nframe_029.png\nframe_266.png\nframe_171.png\nframe_018.png\nframe_140.png\nframe_286.png\nframe_257.png\nframe_191.png\nframe_064.png\nframe_063.png\nframe_147.png\nframe_281.png\nframe_250.png\nframe_196.png\nframe_135.png\nframe_222.png\nframe_011.png\nframe_149.png\nframe_198.png\nframe_016.png\nframe_288.png\nframe_259.png\nframe_132.png\nframe_225.png\nframe_023.png\nframe_210.png\nframe_107.png\nframe_058.png\nframe_089.png\nframe_217.png\nframe_100.png\nframe_024.png\nframe_056.png\nframe_087.png\nframe_219.png\nframe_265.png\nframe_172.png\nframe_262.png\nframe_175.png\nframe_051.png\nframe_080.png\nframe_109.png\nframe_164.png\nframe_273.png\nframe_118.png\nframe_091.png\nframe_040.png\nframe_208.png\nframe_096.png\nframe_047.png\nframe_163.png\nframe_274.png\nframe_111.png\nframe_206.png\nframe_098.png\nframe_049.png\nframe_035.png\nframe_032.png\nframe_116.png\nframe_201.png\nframe_248.png\nframe_007.png\nframe_234.png\nframe_123.png\nframe_233.png\nframe_124.png\nframe_189.png\nframe_158.png\nframe_072.png\nframe_241.png\nframe_187.png\nframe_156.png\nframe_290.png\nframe_246.png\nframe_180.png\nframe_151.png\nframe_009.png\nframe_075.png\nframe_263.png\nframe_174.png\nframe_050.png\nframe_081.png\nframe_108.png\nframe_057.png\nframe_086.png\nframe_218.png\nframe_264.png\nframe_173.png\nframe_059.png\nframe_088.png\nframe_216.png\nframe_101.png\nframe_025.png\nframe_022.png\nframe_211.png\nframe_106.png\nframe_017.png\nframe_289.png\nframe_258.png\nframe_133.png\nframe_224.png\nframe_134.png\nframe_223.png\nframe_010.png\nframe_148.png\nframe_199.png\nframe_062.png\nframe_146.png\nframe_280.png\nframe_251.png\nframe_197.png\nframe_019.png\nframe_141.png\nframe_287.png\nframe_256.png\nframe_190.png\nframe_065.png\nframe_247.png\nframe_181.png\nframe_150.png\nframe_008.png\nframe_074.png\nframe_073.png\nframe_240.png\nframe_186.png\nframe_157.png\nframe_291.png\nframe_232.png\nframe_125.png\nframe_188.png\nframe_159.png\nframe_001.png\nframe_249.png\nframe_006.png\nframe_235.png\nframe_122.png\nframe_033.png\nframe_117.png\nframe_200.png\nframe_110.png\nframe_207.png\nframe_099.png\nframe_048.png\nframe_034.png\nframe_209.png\nframe_097.png\nframe_046.png\nframe_162.png\nframe_275.png\nframe_165.png\nframe_272.png\nframe_119.png\nframe_090.png\nframe_041.png"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "Fast Groups Bypasser (rgthree)",
+      "pos": {
+        "0": -475,
+        "1": 785,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": {
+        "0": 252,
+        "1": 106
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "matchColors": "",
+        "matchTitle": "",
+        "showNav": true,
+        "sort": "position",
+        "customSortAlphabet": "",
+        "toggleRestriction": "default"
+      }
+    },
+    {
+      "id": 16,
+      "type": "StringFunction|pysssss",
+      "pos": [
+        -736.4798317912433,
+        490.72166398270394
+      ],
+      "size": {
+        "0": 210,
+        "1": 274
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text_a",
+          "type": "STRING",
+          "link": 26,
+          "widget": {
+            "name": "text_a"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            20
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Output folder",
+      "properties": {
+        "Node name for S&R": "StringFunction|pysssss"
+      },
+      "widgets_values": [
+        "append",
+        "no",
+        "",
+        "",
+        "",
+        "/sensei-fs/users/lwei/projects/animagen/BlackMath/02_2D_Line_Drawing_BlackMath_01-ProRes_half/"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "Note",
+      "pos": [
+        -486.479831791243,
+        495.7216639827041
+      ],
+      "size": {
+        "0": 363.1447448730469,
+        "1": 244.23390197753906
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "Based on https://youtu.be/gt_E-ye2irQ\n\nInstall the following:\n* https://github.com/pythongosssss/ComfyUI-WD14-Tagger\n* https://github.com/LarryJane491/Image-Captioning-in-ComfyUI\n* https://github.com/LarryJane491/Lora-Training-in-Comfy\n\nAnd follow the steps described in https://www.reddit.com/r/comfyui/comments/18xk72n/custom_node_lora_caption_in_comfyui/ \n\nYou might want to turn on only the \"Caption\" group or the \"Train\" group, as the latter depends on the former for captioning.\n\nFor run-time error (might visible only on the terminal) about \"Could not load library libcudnn_cnn_train.so.8. Error: /usr/lib/x86_64-linux-gnu/libcudnn_cnn_train.so.8: undefined symbol\", just remove (or de-prioritize) the offending path /usr/lib/x86_64-linux-gnu/ from (towards the end of) LD_LIBRARY_PATH in .bashrc"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 15,
+      "type": "StringFunction|pysssss",
+      "pos": [
+        -743.4798317912433,
+        162.72166398270375
+      ],
+      "size": {
+        "0": 210,
+        "1": 274
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            17,
+            22,
+            26
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Image folder",
+      "properties": {
+        "Node name for S&R": "StringFunction|pysssss"
+      },
+      "widgets_values": [
+        "append",
+        "no",
+        "/sensei-fs/users/lwei/projects/animagen/BlackMath/02_2D_Line_Drawing_BlackMath_01-ProRes_half/",
+        "",
+        "",
+        "/sensei-fs/users/lwei/projects/animagen/BlackMath/02_2D_Line_Drawing_BlackMath_01-ProRes_half/"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "Lora Training in ComfyUI",
+      "pos": [
+        1206.949598333377,
+        160.8747084917037
+      ],
+      "size": {
+        "0": 315,
+        "1": 226
+      },
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "data_path",
+          "type": "STRING",
+          "link": 22,
+          "widget": {
+            "name": "data_path"
+          }
+        },
+        {
+          "name": "output_dir",
+          "type": "STRING",
+          "link": 21,
+          "widget": {
+            "name": "output_dir"
+          }
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Lora Training in ComfyUI"
+      },
+      "widgets_values": [
+        "helloyoung25d_V10f.safetensors",
+        "Insert path of image folders",
+        1,
+        10,
+        10,
+        "02_2D_Line_Drawing_BlackMath_01-ProRes",
+        2,
+        "/sensei-fs/users/lwei/trees/comfyUI/models/loras"
       ]
     }
   ],
@@ -550,6 +561,14 @@
       4,
       0,
       5,
+      0,
+      "STRING"
+    ],
+    [
+      26,
+      15,
+      0,
+      16,
       0,
       "STRING"
     ]

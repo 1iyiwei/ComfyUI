@@ -22,7 +22,7 @@ deepdiff
 numexpr
 panda
 loralib
-cpuinfo
+py-cpuinfo
 pytorch_lightning
 librosa
 spandrel
