@@ -20,3 +20,10 @@ insightface
 diffusers
 deepdiff
 numexpr
+panda
+loralib
+cpuinfo
+pytorch_lightning
+librosa
+spandrel
+evalidate
