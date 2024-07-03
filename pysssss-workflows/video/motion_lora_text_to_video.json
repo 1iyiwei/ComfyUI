@@ -1,96 +1,7 @@
 {
-  "last_node_id": 18,
-  "last_link_id": 23,
+  "last_node_id": 25,
+  "last_link_id": 35,
   "nodes": [
-    {
-      "id": 17,
-      "type": "ADE_LoopedUniformContextOptions",
-      "pos": [
-        -392,
-        232
-      ],
-      "size": {
-        "0": 317.4000244140625,
-        "1": 246
-      },
-      "flags": {},
-      "order": 0,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "prev_context",
-          "type": "CONTEXT_OPTIONS",
-          "link": null
-        },
-        {
-          "name": "view_opts",
-          "type": "VIEW_OPTS",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONTEXT_OPTS",
-          "type": "CONTEXT_OPTIONS",
-          "links": [
-            20
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "ADE_LoopedUniformContextOptions"
-      },
-      "widgets_values": [
-        16,
-        1,
-        4,
-        false,
-        "pyramid",
-        false,
-        0,
-        1
-      ]
-    },
-    {
-      "id": 7,
-      "type": "CLIPTextEncode",
-      "pos": [
-        418,
-        410
-      ],
-      "size": {
-        "0": 425.27801513671875,
-        "1": 180.6060791015625
-      },
-      "flags": {},
-      "order": 6,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 5
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            6
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "CLIPTextEncode"
-      },
-      "widgets_values": [
-        "text, watermark"
-      ]
-    },
     {
       "id": 8,
       "type": "VAEDecode",
@@ -103,7 +14,7 @@
         "1": 46
       },
       "flags": {},
-      "order": 8,
+      "order": 11,
       "mode": 0,
       "inputs": [
         {
@@ -114,7 +25,7 @@
         {
           "name": "vae",
           "type": "VAE",
-          "link": 8
+          "link": 30
         }
       ],
       "outputs": [
@@ -143,7 +54,7 @@
         599
       ],
       "flags": {},
-      "order": 9,
+      "order": 12,
       "mode": 0,
       "inputs": [
         {
@@ -187,101 +98,13 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "AnimateDiff_00236.mp4",
+            "filename": "AnimateDiff_00253.mp4",
             "subfolder": "",
             "type": "output",
             "format": "video/h264-mp4"
           }
         }
       }
-    },
-    {
-      "id": 10,
-      "type": "ADE_AnimateDiffLoRALoader",
-      "pos": [
-        -392,
-        532
-      ],
-      "size": {
-        "0": 355.20001220703125,
-        "1": 82
-      },
-      "flags": {},
-      "order": 1,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "prev_motion_lora",
-          "type": "MOTION_LORA",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MOTION_LORA",
-          "type": "MOTION_LORA",
-          "links": [
-            18
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "ADE_AnimateDiffLoRALoader"
-      },
-      "widgets_values": [
-        "BlackMath/2D_BlackMath_Detailed_Layered_08_1p5s_rotating_fluid/300_2D_BlackMath_Detailed_Layered_08_1p5s_rotating_fluid_r64_temporal_unet.safetensors",
-        1
-      ]
-    },
-    {
-      "id": 4,
-      "type": "CheckpointLoaderSimple",
-      "pos": [
-        -14,
-        680
-      ],
-      "size": {
-        "0": 315,
-        "1": 98
-      },
-      "flags": {},
-      "order": 2,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            19
-          ],
-          "slot_index": 0
-        },
-        {
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": [
-            3,
-            5
-          ],
-          "slot_index": 1
-        },
-        {
-          "name": "VAE",
-          "type": "VAE",
-          "links": [
-            8
-          ],
-          "slot_index": 2
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "CheckpointLoaderSimple"
-      },
-      "widgets_values": [
-        "photonLCM_v10.safetensors"
-      ]
     },
     {
       "id": 3,
@@ -295,7 +118,7 @@
         "1": 262
       },
       "flags": {},
-      "order": 7,
+      "order": 10,
       "mode": 0,
       "inputs": [
         {
@@ -343,24 +166,144 @@
       ]
     },
     {
-      "id": 6,
-      "type": "CLIPTextEncode",
+      "id": 5,
+      "type": "EmptyLatentImage",
       "pos": [
-        419,
-        176
+        533,
+        651
       ],
       "size": {
-        "0": 422.84503173828125,
-        "1": 164.31304931640625
+        "0": 315,
+        "1": 106
       },
       "flags": {},
-      "order": 5,
+      "order": 0,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            23
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "EmptyLatentImage"
+      },
+      "widgets_values": [
+        512,
+        512,
+        36
+      ]
+    },
+    {
+      "id": 20,
+      "type": "Reroute",
+      "pos": [
+        1142,
+        709
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 29
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "VAE",
+          "links": [
+            30
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 17,
+      "type": "ADE_LoopedUniformContextOptions",
+      "pos": [
+        -391,
+        251
+      ],
+      "size": {
+        "0": 317.4000244140625,
+        "1": 246
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "prev_context",
+          "type": "CONTEXT_OPTIONS",
+          "link": null
+        },
+        {
+          "name": "view_opts",
+          "type": "VIEW_OPTS",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONTEXT_OPTS",
+          "type": "CONTEXT_OPTIONS",
+          "links": [
+            20
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ADE_LoopedUniformContextOptions"
+      },
+      "widgets_values": [
+        16,
+        1,
+        4,
+        false,
+        "pyramid",
+        false,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 7,
+      "type": "CLIPTextEncode",
+      "pos": [
+        410,
+        409
+      ],
+      "size": {
+        "0": 425.27801513671875,
+        "1": 180.6060791015625
+      },
+      "flags": {},
+      "order": 8,
       "mode": 0,
       "inputs": [
         {
           "name": "clip",
           "type": "CLIP",
-          "link": 3
+          "link": 28
         }
       ],
       "outputs": [
@@ -368,7 +311,7 @@
           "name": "CONDITIONING",
           "type": "CONDITIONING",
           "links": [
-            4
+            6
           ],
           "slot_index": 0
         }
@@ -377,7 +320,7 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "beautiful scenery nature glass bottle landscape, purple galaxy bottle,\n"
+        "text, watermark"
       ]
     },
     {
@@ -392,13 +335,13 @@
         "1": 230
       },
       "flags": {},
-      "order": 4,
+      "order": 9,
       "mode": 0,
       "inputs": [
         {
           "name": "model",
           "type": "MODEL",
-          "link": 19
+          "link": 34
         },
         {
           "name": "context_options",
@@ -413,7 +356,8 @@
         {
           "name": "ad_settings",
           "type": "AD_SETTINGS",
-          "link": null
+          "link": null,
+          "slot_index": 3
         },
         {
           "name": "sample_settings",
@@ -442,54 +386,228 @@
       },
       "widgets_values": [
         "AnimateLCM_sd15_t2v.ckpt",
-        "lcm >> sqrt_linear",
+        "autoselect",
         1,
         true
       ]
     },
     {
-      "id": 5,
-      "type": "EmptyLatentImage",
+      "id": 19,
+      "type": "Reroute",
       "pos": [
-        514,
-        649
+        342,
+        731
       ],
-      "size": {
-        "0": 315,
-        "1": 106
-      },
+      "size": [
+        75,
+        26
+      ],
       "flags": {},
-      "order": 3,
+      "order": 4,
       "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 33
+        }
+      ],
       "outputs": [
         {
-          "name": "LATENT",
-          "type": "LATENT",
+          "name": "",
+          "type": "CLIP",
           "links": [
-            23
+            27,
+            28
           ],
           "slot_index": 0
         }
       ],
       "properties": {
-        "Node name for S&R": "EmptyLatentImage"
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 4,
+      "type": "CheckpointLoaderSimple",
+      "pos": [
+        -408.83447265625,
+        721.95263671875
+      ],
+      "size": {
+        "0": 315,
+        "1": 98
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            32
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            33,
+            35
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            29
+          ],
+          "slot_index": 2
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CheckpointLoaderSimple"
       },
       "widgets_values": [
-        512,
-        512,
-        36
+        "photonLCM_v10.safetensors"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "CLIPTextEncode",
+      "pos": [
+        416,
+        196
+      ],
+      "size": {
+        "0": 422.84503173828125,
+        "1": 164.31304931640625
+      },
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 27
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            4
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "2D rotating fluid animation in cartoon anime style"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "ADE_AnimateDiffLoRALoader",
+      "pos": [
+        -394,
+        538
+      ],
+      "size": {
+        "0": 355.20001220703125,
+        "1": 82
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "prev_motion_lora",
+          "type": "MOTION_LORA",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MOTION_LORA",
+          "type": "MOTION_LORA",
+          "links": [
+            18
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ADE_AnimateDiffLoRALoader"
+      },
+      "widgets_values": [
+        "BlackMath/2D_BlackMath_Detailed_Layered_08_1p5s_rotating_fluid/AnimateLCM_photonLCM/100_r64_temporal_unet.safetensors",
+        1
+      ]
+    },
+    {
+      "id": 25,
+      "type": "LoraLoader",
+      "pos": [
+        -21,
+        721
+      ],
+      "size": {
+        "0": 315,
+        "1": 126
+      },
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 32
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 35
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            34
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoraLoader"
+      },
+      "widgets_values": [
+        "AnimateLCM_sd15_t2v_lora.safetensors",
+        1,
+        1
       ]
     }
   ],
   "links": [
-    [
-      3,
-      4,
-      1,
-      6,
-      0,
-      "CLIP"
-    ],
     [
       4,
       6,
@@ -497,14 +615,6 @@
       3,
       1,
       "CONDITIONING"
-    ],
-    [
-      5,
-      4,
-      1,
-      7,
-      0,
-      "CLIP"
     ],
     [
       6,
@@ -523,14 +633,6 @@
       "LATENT"
     ],
     [
-      8,
-      4,
-      2,
-      8,
-      1,
-      "VAE"
-    ],
-    [
       15,
       8,
       0,
@@ -545,14 +647,6 @@
       16,
       2,
       "MOTION_LORA"
-    ],
-    [
-      19,
-      4,
-      0,
-      16,
-      0,
-      "MODEL"
     ],
     [
       20,
@@ -577,16 +671,92 @@
       3,
       3,
       "LATENT"
+    ],
+    [
+      27,
+      19,
+      0,
+      6,
+      0,
+      "CLIP"
+    ],
+    [
+      28,
+      19,
+      0,
+      7,
+      0,
+      "CLIP"
+    ],
+    [
+      29,
+      4,
+      2,
+      20,
+      0,
+      "*"
+    ],
+    [
+      30,
+      20,
+      0,
+      8,
+      1,
+      "VAE"
+    ],
+    [
+      32,
+      4,
+      0,
+      25,
+      0,
+      "MODEL"
+    ],
+    [
+      33,
+      4,
+      1,
+      19,
+      0,
+      "*"
+    ],
+    [
+      34,
+      25,
+      0,
+      16,
+      0,
+      "MODEL"
+    ],
+    [
+      35,
+      4,
+      1,
+      25,
+      1,
+      "CLIP"
     ]
   ],
   "groups": [
     {
       "title": "AnimateDiff",
       "bounding": [
-        -402,
+        -404,
         157,
-        715,
-        467
+        717,
+        473
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "locked": false
+    },
+    {
+      "title": "Spatial",
+      "bounding": [
+        -419,
+        647,
+        723,
+        210
       ],
       "color": "#3f789e",
       "font_size": 24,
