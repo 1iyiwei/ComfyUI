@@ -20,7 +20,7 @@ insightface
 diffusers
 deepdiff
 numexpr
-panda
+pandas
 loralib
 py-cpuinfo
 pytorch_lightning
