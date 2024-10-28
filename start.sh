@@ -2,7 +2,8 @@
 
 prefix="$1" #e.g., /kineto-demo/lwei-comfy/igocsxlepson
 
-apt-get update
+export LD_LIBRARY_PATH=/opt/conda/envs/comfyui/lib/python3.11/site-packages/nvidia/nvjitlink/lib:$LD_LIBRARY_PATH
+sudo apt-get update
 sudo apt install -y tmux
 sudo apt install ffmpeg
 conda create -n comfyui python=3.11 -c conda-forge
