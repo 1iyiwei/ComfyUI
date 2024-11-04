@@ -4,7 +4,7 @@ prefix="$1" #e.g., /kineto-demo/lwei-comfy/igocsxlepson
 
 sudo apt-get update
 sudo apt install -y tmux
-sudo apt install ffmpeg
+sudo apt install -y ffmpeg
 session_name=comfyUI
 tmux kill-session -t ${session_name}
 conda create -n comfyui python=3.11 -c conda-forge
