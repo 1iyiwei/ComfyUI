@@ -1,6 +1,6 @@
 {
-  "last_node_id": 25,
-  "last_link_id": 35,
+  "last_node_id": 26,
+  "last_link_id": 44,
   "nodes": [
     {
       "id": 8,
@@ -14,7 +14,7 @@
         "1": 46
       },
       "flags": {},
-      "order": 11,
+      "order": 12,
       "mode": 0,
       "inputs": [
         {
@@ -54,7 +54,7 @@
         599
       ],
       "flags": {},
-      "order": 12,
+      "order": 13,
       "mode": 0,
       "inputs": [
         {
@@ -98,7 +98,7 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "AnimateDiff_00253.mp4",
+            "filename": "AnimateDiff_00285.mp4",
             "subfolder": "",
             "type": "output",
             "format": "video/h264-mp4"
@@ -118,7 +118,7 @@
         "1": 262
       },
       "flags": {},
-      "order": 10,
+      "order": 11,
       "mode": 0,
       "inputs": [
         {
@@ -210,7 +210,7 @@
         26
       ],
       "flags": {},
-      "order": 6,
+      "order": 5,
       "mode": 0,
       "inputs": [
         {
@@ -286,41 +286,43 @@
       ]
     },
     {
-      "id": 7,
-      "type": "CLIPTextEncode",
+      "id": 10,
+      "type": "ADE_AnimateDiffLoRALoader",
       "pos": [
-        410,
-        409
+        -394,
+        538
       ],
       "size": {
-        "0": 425.27801513671875,
-        "1": 180.6060791015625
+        "0": 355.20001220703125,
+        "1": 82
       },
       "flags": {},
-      "order": 8,
-      "mode": 0,
+      "order": 2,
+      "mode": 4,
       "inputs": [
         {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 28
+          "name": "prev_motion_lora",
+          "type": "MOTION_LORA",
+          "link": null
         }
       ],
       "outputs": [
         {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
+          "name": "MOTION_LORA",
+          "type": "MOTION_LORA",
           "links": [
-            6
+            18
           ],
+          "shape": 3,
           "slot_index": 0
         }
       ],
       "properties": {
-        "Node name for S&R": "CLIPTextEncode"
+        "Node name for S&R": "ADE_AnimateDiffLoRALoader"
       },
       "widgets_values": [
-        "text, watermark"
+        "BlackMath/2D_BlackMath_Detailed_Layered_08_1p5s_rotating_fluid/AnimateLCM_photonLCM/200_r64_temporal_unet.safetensors",
+        1
       ]
     },
     {
@@ -335,7 +337,7 @@
         "1": 230
       },
       "flags": {},
-      "order": 9,
+      "order": 7,
       "mode": 0,
       "inputs": [
         {
@@ -392,43 +394,6 @@
       ]
     },
     {
-      "id": 19,
-      "type": "Reroute",
-      "pos": [
-        342,
-        731
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 4,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 33
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "CLIP",
-          "links": [
-            27,
-            28
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
       "id": 4,
       "type": "CheckpointLoaderSimple",
       "pos": [
@@ -440,7 +405,7 @@
         "1": 98
       },
       "flags": {},
-      "order": 2,
+      "order": 3,
       "mode": 0,
       "outputs": [
         {
@@ -455,8 +420,7 @@
           "name": "CLIP",
           "type": "CLIP",
           "links": [
-            33,
-            35
+            36
           ],
           "slot_index": 1
         },
@@ -488,13 +452,13 @@
         "1": 164.31304931640625
       },
       "flags": {},
-      "order": 7,
+      "order": 9,
       "mode": 0,
       "inputs": [
         {
           "name": "clip",
           "type": "CLIP",
-          "link": 27
+          "link": 41
         }
       ],
       "outputs": [
@@ -515,59 +479,57 @@
       ]
     },
     {
-      "id": 10,
-      "type": "ADE_AnimateDiffLoRALoader",
+      "id": 7,
+      "type": "CLIPTextEncode",
       "pos": [
-        -394,
-        538
+        410,
+        409
       ],
       "size": {
-        "0": 355.20001220703125,
-        "1": 82
+        "0": 425.27801513671875,
+        "1": 180.6060791015625
       },
       "flags": {},
-      "order": 3,
+      "order": 10,
       "mode": 0,
       "inputs": [
         {
-          "name": "prev_motion_lora",
-          "type": "MOTION_LORA",
-          "link": null
+          "name": "clip",
+          "type": "CLIP",
+          "link": 42
         }
       ],
       "outputs": [
         {
-          "name": "MOTION_LORA",
-          "type": "MOTION_LORA",
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
           "links": [
-            18
+            6
           ],
-          "shape": 3,
           "slot_index": 0
         }
       ],
       "properties": {
-        "Node name for S&R": "ADE_AnimateDiffLoRALoader"
+        "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "BlackMath/2D_BlackMath_Detailed_Layered_08_1p5s_rotating_fluid/AnimateLCM_photonLCM/100_r64_temporal_unet.safetensors",
-        1
+        "text, watermark"
       ]
     },
     {
       "id": 25,
       "type": "LoraLoader",
       "pos": [
-        -21,
-        721
+        -34,
+        715
       ],
       "size": {
         "0": 315,
         "1": 126
       },
       "flags": {},
-      "order": 5,
-      "mode": 0,
+      "order": 6,
+      "mode": 4,
       "inputs": [
         {
           "name": "model",
@@ -577,7 +539,7 @@
         {
           "name": "clip",
           "type": "CLIP",
-          "link": 35
+          "link": 43
         }
       ],
       "outputs": [
@@ -593,18 +555,97 @@
         {
           "name": "CLIP",
           "type": "CLIP",
-          "links": null,
-          "shape": 3
+          "links": [
+            44
+          ],
+          "shape": 3,
+          "slot_index": 1
         }
       ],
       "properties": {
         "Node name for S&R": "LoraLoader"
       },
       "widgets_values": [
-        "AnimateLCM_sd15_t2v_lora.safetensors",
+        "BlackMath/2D_BlackMath_Detailed_Layered_08_1p5s_rotating_fluid/AnimateLCM_photonLCM/100_r64_spatial_unet.safetensors",
         1,
         1
       ]
+    },
+    {
+      "id": 26,
+      "type": "CLIPSetLastLayer",
+      "pos": [
+        -397,
+        873
+      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 36
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            43
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPSetLastLayer"
+      },
+      "widgets_values": [
+        -1
+      ]
+    },
+    {
+      "id": 19,
+      "type": "Reroute",
+      "pos": [
+        335,
+        735
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 44
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "CLIP",
+          "links": [
+            41,
+            42
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
     }
   ],
   "links": [
@@ -673,22 +714,6 @@
       "LATENT"
     ],
     [
-      27,
-      19,
-      0,
-      6,
-      0,
-      "CLIP"
-    ],
-    [
-      28,
-      19,
-      0,
-      7,
-      0,
-      "CLIP"
-    ],
-    [
       29,
       4,
       2,
@@ -713,14 +738,6 @@
       "MODEL"
     ],
     [
-      33,
-      4,
-      1,
-      19,
-      0,
-      "*"
-    ],
-    [
       34,
       25,
       0,
@@ -729,12 +746,44 @@
       "MODEL"
     ],
     [
-      35,
+      36,
       4,
       1,
+      26,
+      0,
+      "CLIP"
+    ],
+    [
+      41,
+      19,
+      0,
+      6,
+      0,
+      "CLIP"
+    ],
+    [
+      42,
+      19,
+      0,
+      7,
+      0,
+      "CLIP"
+    ],
+    [
+      43,
+      26,
+      0,
       25,
       1,
       "CLIP"
+    ],
+    [
+      44,
+      25,
+      1,
+      19,
+      0,
+      "*"
     ]
   ],
   "groups": [
@@ -754,9 +803,9 @@
       "title": "Spatial",
       "bounding": [
         -419,
-        647,
-        723,
-        210
+        641,
+        710,
+        300
       ],
       "color": "#3f789e",
       "font_size": 24,
