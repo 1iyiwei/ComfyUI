@@ -27,3 +27,5 @@ pytorch_lightning
 librosa
 spandrel
 evalidate
+pydantic
+imageio
