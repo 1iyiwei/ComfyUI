@@ -2,6 +2,11 @@
 
 prefix="$1" #e.g., /kineto-demo/lwei-comfy/igocsxlepson
 
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
+cd ${SCRIPT_DIR}
+unset SCRIPT_DIR
+
 sudo apt-get update
 sudo apt install -y tmux
 sudo apt install -y ffmpeg
