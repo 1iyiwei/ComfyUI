@@ -1,6 +1,7 @@
 #!/bin/bash
 
 prefix="$1" #e.g., /kineto-demo/lwei-comfy/igocsxlepson
+sleep_amount=$2
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
@@ -19,3 +20,8 @@ conda create -n comfyui python=3.11 -c conda-forge
 conda activate comfyui
 pip install -r requirements.txt
 tmux new-session -d -s ${session_name} "python main.py --listen --port 8188 --prefix ${prefix} 2>&1 | tee ${session_name}.log"
+
+if [ -n "$sleep_amount" ]; then
+    sleep $sleep_amount
+fi
+
