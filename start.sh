@@ -13,6 +13,7 @@ sudo apt install -y tmux
 sudo apt install -y ffmpeg
 conda create -n comfyui python=3.11 -c conda-forge
 conda activate comfyui
+pip install --upgrade pip
 pip install -r requirements.txt
 session_name=comfyUI
 tmux kill-session -t ${session_name}
